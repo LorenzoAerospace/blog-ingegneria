@@ -1,37 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HTML</title>
-  
-
-  
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroBlog | Ingegneria Aerospaziale</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <h1 class="title">BLOG</h1>
-  <p>Bevenuti, sono uno studente di ingegneria aerospaziale, e in questo blog, parlerò di matematica e fisica.</p>
-  
-  <script src="main.js"></script>
-  <main>
-    <section class="index-section">
-        <h2>Indice degli Articoli</h2>
-        <ul class="article-list">
-            <li><a href="Articles/Sali_poco_solubili.html">Sali poco solubili</a></li>
-            <li><a href="Articles/Corpo_rigido.html">Meccanica del Corpo Rigido</a></li>
-            <li><a href="Articles/Momenti_inerzia.html">Tabella dei Momenti d'Inerzia</a></li>
-            <li><a href="Articles/Equivalenza_riduzione_forze.html">Equivalenza e Riduzione Forze</a></li>
-            <li><a href="Articles/Meccanica_celeste.html">Meccanica celeste</a></li>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            
+            <div class="nav-content">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Cerca appunti...">
+                    <span class="search-icon">🔍</span>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#articoli">Appunti</a></li>
+                    <li><a href="#Progetti">Progetti</a></li>
+                    
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
 
-        </ul>
-    </section>
-</main>
 
+
+
+
+    <header>
+        <div class="logo">AERO<span>BLOG</span></div>
+        <p class="subtitle">Appunti di Fisica, Matematica e Meccanica Orbitale</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>Benvenuto. Sono uno studente di <strong>Ingegneria Aerospaziale</strong>. In questo spazio raccolgo analisi tecniche e studi approfonditi sul volo e l'universo.</p>
+        </section>
+
+        <section class="index-section">
+            <h2><span class="icon">🚀</span> Indice degli Articoli</h2>
+            
+            <div class="article-grid">
+                <a href="Articles/Meccanica_celeste.html" class="card">
+                    <h3>Meccanica Celeste</h3>
+                    <p>Orbite, leggi di Keplero e dinamica dei sistemi planetari.</p>
+                </a>
+
+                <a href="Articles/Moto_centrali.html" class="card">
+                    <h3>Moto Centrali</h3>
+                    <p>Studio dei campi di forza centrali e conservazione del momento.</p>
+                </a>
+
+                <a href="Articles/Ali_3D.html" class="card">
+                    <h3>Ali 3D</h3>
+                    <p>Aerodinamica avanzata e portanza nelle ali a apertura finita.</p>
+                </a>
+
+                <a href="Articles/Corpo_rigido.html" class="card">
+                    <h3>Corpo Rigido</h3>
+                    <p>Cinematica e dinamica dei sistemi rigidi complessi.</p>
+                </a>
+
+                <a href="Articles/Equivalenza_riduzione_forze.html" class="card">
+                    <h3>Riduzione Forze</h3>
+                    <p>Semplificazione dei sistemi di forze e momenti risultanti.</p>
+                </a>
+
+                <a href="Articles/Sali_poco_solubili.html" class="card">
+                    <h3>Sali poco solubili</h3>
+                    <p>Approfondimenti di chimica e termodinamica delle soluzioni.</p>
+                </a>
+
+                <a href="Articles/Momenti_inerzia.html" class="card">
+                    <h3>Momenti d'Inerzia</h3>
+                    <p>Tabella riassuntiva e calcoli per geometrie aerospaziali.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Progetto Studente Ingegneria Aerospaziale</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

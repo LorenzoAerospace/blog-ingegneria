@@ -1,75 +1,312 @@
-body {
-    font-size: 15pt;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
+/* --- VARIABILI E BASE (TEMA DARK) --- */
+:root {
+    --bg-dark: #0a0b10;
+    --card-bg: #161b22;
+    --accent: #00d4ff;
+    --text-primary: #e6edf3;
+    --text-secondary: #8b949e;
+    --transition: all 0.3s ease;
 }
 
-.title
-{
-    font-size: 30pt;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: red;
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 15pt;
+}
+
+/* --- HEADER E LOGO INDEX --- */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: radial-gradient(circle at center, #1a1f2e 0%, var(--bg-dark) 100%);
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.logo span {
+    color: var(--accent);
+    text-shadow: 0 0 15px var(--accent);
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-top: 10px;
     text-align: center;
 }
 
-.subtitles
-{
- font-weight:bold;
- text-align: center;
- color:black;
- font-family: Arial, Helvetica, sans-serif;
- font-size:16pt;
+/* --- STRUTTURA INDEX --- */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.formula-container {
-    background-color: #f9f9f9; /* Grigio chiarissimo */
-    border-left: 5px solid #007bff; /* Una linea blu a sinistra */
-    padding: 15px;
-    margin: 20px 0;
-    border-radius: 4px;
-    
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+    color: var(--text-primary);
 }
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+/* --- GRIGLIA CARD INDEX --- */
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--card-bg);
+    border: 1px solid #30363d;
+    padding: 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: var(--accent);
+    box-shadow: 0 10px 25px rgba(0, 212, 255, 0.15);
+}
+
+.card h3 {
+    margin: 0 0 10px 0;
+    color: var(--accent);
+    font-size: 1.3rem;
+}
+
+.card p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+}
+
+/* --- STILI PER LE PAGINE ARTICOLO (Mantenendo le tue classi) --- */
+
+/* Titolo Articolo (es. Moti Centrali) */
+.title {
+    font-size: 30pt;
+    font-family: 'Orbitron', sans-serif; /* Cambiato per coerenza con index */
+    color: #ff4b2b; /* Rosso energetico come nel tuo screenshot */
+    text-align: center;
+    margin: 20px 0;
+}
+
+.subtitles {
+    font-weight: bold;
+    text-align: center;
+    color: var(--accent); /* Cambiato da nero a azzurro per visibilità */
+    font-family: 'Inter', sans-serif;
+    font-size: 16pt;
+    margin-top: 25px;
+}
+
+/* Fix Formula Container (Sostituito bianco con dark) */
+.formula-container {
+    background-color: rgba(255, 255, 255, 0.05); /* Dark trasparente */
+    border-left: 5px solid var(--accent);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+/* Se le formule sono immagini bianche su bianco, questo le inverte */
+.formula-container img {
+    filter: brightness(0) invert(1);
+}
+
+/* Link Torna all'indice (Fix colore viola) */
+a[href*="index.html"] {
+    color: var(--accent);
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin: 20px;
+    padding: 5px 10px;
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+a[href*="index.html"]:hover {
+    background: var(--accent);
+    color: var(--bg-dark);
+}
+
+/* --- TABELLA INERZIA (Aggiornata per Dark Mode) --- */
 .inerzia-table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    font-family: sans-serif;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: var(--card-bg);
+    border: 1px solid #30363d;
 }
 
 .inerzia-table th, .inerzia-table td {
     padding: 12px 15px;
-    border: 1px solid #eee;
+    border: 1px solid #30363d;
     text-align: left;
 }
 
 .inerzia-table th {
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #1c2128;
+    color: var(--accent);
     font-weight: bold;
 }
 
 .inerzia-table tr:nth-child(even) {
-    background-color: #fafafa; /* Colore alternato per leggere meglio le righe */
+    background-color: #0d1117;
 }
 
-.article-list {
-    list-style: none; /* Rimuove i pallini brutti */
+/* --- FOOTER --- */
+footer {
+    text-align: center;
+    padding: 40px;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    border-top: 1px solid #30363d;
+    margin-top: 50px;
+}
+
+/* --- NAVBAR RE-DESIGN --- */
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(10, 11, 16, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 212, 255, 0.1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Spazio tra menu e pulsante contatti */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
     padding: 0;
 }
 
-.article-list li {
-    margin: 10px 0;
-    padding: 15px;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Effetto profondità */
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-family: 'Inter', sans-serif; /* Font più leggibile per i link */
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: var(--transition);
 }
 
-.article-list a {
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+/* Il pulsante Contatti ora è un link discreto ma elegante */
+.nav-btn {
     text-decoration: none;
-    color: #007bff; /* Stesso blu della linea laterale delle formule */
-    font-weight: bold;
+    color: var(--bg-dark);
+    background: var(--accent);
+    padding: 7px 16px;
+    border-radius: 20px; /* Arrotondato moderno */
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    transition: var(--transition);
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+}
+
+.nav-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+}
+
+/* Fix per evitare sovrapposizioni */
+header {
+    padding-top: 80px !important;
+}
+/* --- SEARCH BOX DESIGN --- */
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 5px 15px;
+    transition: var(--transition);
+}
+
+.search-box:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    outline: none;
+    width: 150px; /* Si allungherà se necessario */
+    transition: width 0.3s ease;
+}
+
+.search-box input:focus {
+    width: 200px;
+}
+
+.search-icon {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    cursor: default;
+    opacity: 0.6;
+}
+
+/* Nascondi la ricerca su schermi molto piccoli per non affollare */
+@media (max-width: 768px) {
+    .search-box { display: none; }
 }
