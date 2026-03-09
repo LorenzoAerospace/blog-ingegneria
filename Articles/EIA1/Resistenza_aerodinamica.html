@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistenza Aerodinamica - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+             
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="#articoli">Appunti</a></li>
+                    <li><a href="mailto:tua@mail.com" class="nav-btn">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">AERODINAMICA</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Resistenza Aerodinamica</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Dallo strato limite di Prandtl alla scomposizione delle forze dissipative</p>
+        </header>
+
+        <section>
+            <p>Dopo aver introdotto le forze sostentatrici, è fondamentale analizzare la <strong>resistenza aerodinamica</strong> ($D$), ovvero la componente della forza aerodinamica parallela alla velocità asintotica del fluido.</p>
+            
+            <h2 class="subtitles">Lo Strato Limite e il Paradosso d'Alembert</h2>
+            <p>Storicamente, il <em>Paradosso d'Alembert</em> suggeriva che in un fluido ideale (non viscoso) un corpo non subisse alcuna resistenza. La soluzione arrivò nel 1904 con <strong>Ludwig Prandtl</strong>, il quale intuì l'esistenza dello <strong>strato limite</strong>.</p>
+            
+            <div class="insight-box">
+                <strong>Definizione:</strong> Lo strato limite è una regione molto sottile a ridosso della superficie del corpo dove gli effetti viscosi sono dominanti. Qui la velocità passa da zero (aderenza alla parete) al valore del flusso esterno.
+            </div>
+
+            
+
+            <p>La resistenza totale può essere scomposta in due contributi principali:</p>
+            <div class="formula-container">
+                $$ D_{tot} = D_p + D_f $$
+            </div>
+            <ul>
+                <li><strong>$D_p$ (Resistenza di Pressione/Forma):</strong> Legata alla distribuzione delle pressioni e alla scia prodotta dalla separazione del flusso.</li>
+                <li><strong>$D_f$ (Resistenza d'Attrito):</strong> Legata alla viscosità del fluido e agli sforzi tangenziali sulla superficie.</li>
+            </ul>
+        </section>
+
+        <section style="margin: 40px 0;">
+            <h3 class="subtitles">Ottimizzazione e Ala Ellittica</h3>
+            <p>Per minimizzare la resistenza indotta (tipica delle ali di apertura finita), la distribuzione di portanza ideale è quella ellittica. In questo caso, il <strong>numero di Oswald ($e$)</strong> è pari a 1.</p>
+            
+            
+
+            <table class="inerzia-table">
+                <thead>
+                    <tr>
+                        <th>Configurazione</th>
+                        <th>Fattore di Oswald ($e$)</th>
+                        <th>Vantaggi/Svantaggi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ala Ellittica</td>
+                        <td>$1.0$</td>
+                        <td>Massima efficienza, produzione complessa.</td>
+                    </tr>
+                    <tr>
+                        <td>Ala Trapezoidale</td>
+                        <td>$0.85 - 0.95$</td>
+                        <td>Ottimo compromesso aero-strutturale.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Fonti Consultate</h2>
+            <ul>
+                <li>
+                    <strong>Anderson, J. D.</strong> (2021). <em>Introduction to Flight</em>. 
+                    <span class="note">Testo cardine per comprendere i fondamenti della resistenza e delle prestazioni dei velivoli.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="#">Lo stallo e la separazione del flusso</a></li>
+                <li><a href="#">Analisi del Numero di Reynolds</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

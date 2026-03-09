@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincoli Meccanici - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="#articoli">Appunti</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna all'indice</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">MECCANICA RAZIONALE</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">I Vincoli</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Limitazioni al moto e condizioni cinematiche nei sistemi rigidi</p>
+        </header>
+
+        <section>
+            <p>I <strong>vincoli</strong> sono condizioni fisiche che limitano i movimenti del sistema che stiamo considerando. Essi riducono i gradi di libertà del corpo, imponendo restrizioni sulle posizioni (vincoli olonomi) o sulle velocità (vincoli anolonomi).</p>
+            
+            <div class="insight-box">
+                <strong>Reazione Vincolare:</strong> Ogni vincolo agisce sul sistema attraverso una forza (o un momento) detta reazione vincolare, che si oppone al movimento proibito.
+            </div>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Tipologie di Vincoli nel Piano</h2>
+            
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: var(--accent);">1. Cerniera (Appoggio Fisso)</h3>
+                <p>Questo vincolo impedisce ogni traslazione del punto in cui è applicato, ma permette la rotazione attorno ad esso. Elimina 2 gradi di libertà.</p>
+                <div class="formula-container">
+                    \[ \vec{v}_P = \vec{0} \implies \dot{x}_P = 0, \dot{y}_P = 0 \]
+                </div>
+                
+            </div>
+
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: var(--accent);">2. Carrello (Appoggio Mobile)</h3>
+                <p>Il carrello impedisce la traslazione solo lungo la direzione normale (\(\hat{n}\)) al piano di appoggio, permettendo il movimento tangente e la rotazione.</p>
+                <div class="formula-container">
+                    \[ \vec{v}_P \cdot \hat{n} = 0 \]
+                </div>
+                
+            </div>
+
+            <div style="margin-bottom: 30px;">
+                <h3 style="color: var(--accent);">3. Incastro</h3>
+                <p>È il vincolo più restrittivo: impedisce sia le traslazioni che la rotazione. Elimina tutti i 3 gradi di libertà nel piano.</p>
+                <div class="formula-container">
+                    \[ \vec{v}_P = \vec{0}, \quad \omega = 0 \]
+                </div>
+                [attachment_0](attachment)
+            </div>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Biscari, P., Ruggeri, T., Saccomandi, G., & Vianello, M.</strong> (2016). <em>Meccanica Razionale per l'Ingegneria</em>. Monduzzi Editoriale.
+                    <span class="note">Testo di riferimento per la formalizzazione matematica dei vincoli e dei sistemi meccanici.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Argomenti correlati</h3>
+            <ul>
+                <li><a href="Cinematica_2D.html">Cinematica nel piano</a></li>
+                <li><a href="Equazioni_cardinali.html">Equazioni Cardinali e Reazioni Vincolari</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Corpo Rigido - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">MECCANICA RAZIONALE</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Il Corpo Rigido</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Definizione, proprietà e il vincolo di rigidità</p>
+        </header>
+
+        <section>
+            <p>In questo articolo analizzeremo il concetto di <strong>corpo rigido</strong>. Possiamo immaginarlo come un qualsiasi oggetto della nostra quotidianità — un tavolo, una sedia o una ruota — ma analizzato sotto la lente della meccanica classica attraverso un vincolo specifico.</p>
+            
+            <h2 class="subtitles">Definizione di Corpo Rigido</h2>
+            <p>Un corpo rigido è un sistema di punti materiali in cui la distanza tra due qualsiasi punti del sistema non varia nel tempo, indipendentemente dalle forze applicate ad esso.</p>
+
+            <div class="insight-box">
+                <strong>Nota:</strong> Nella realtà, ogni oggetto subisce micro-deformazioni. Il "corpo rigido" è un modello ideale che semplifica enormemente lo studio del moto (cinematica) e delle forze (dinamica).
+            </div>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Il Vincolo di Rigidità</h2>
+            <p>Matematicamente, per due punti generici \(P_i\) e \(P_j\) appartenenti al corpo, il vincolo si esprime come:</p>
+            
+            <div class="formula-container">
+                $$ |P_i - P_j| = \text{costante} $$
+            </div>
+
+            
+
+            <p>Derivando questa espressione rispetto al tempo, otteniamo la <strong>condizione cinematica di rigidità</strong>, che stabilisce che le proiezioni delle velocità dei due punti sulla retta che li unisce devono essere uguali:</p>
+            
+            <div class="formula-container">
+                $$ (\vec{v}_i - \vec{v}_j) \cdot (P_i - P_j) = 0 $$
+            </div>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Biscari, P., Ruggeri, T., Saccomandi, G., & Vianello, M.</strong> (2016). <em>Meccanica Razionale per l'Ingegneria</em>. Monduzzi Editoriale.
+                    <span class="note">Testo di riferimento per la definizione formale dei vincoli e dei sistemi rigidi.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="Cinematica_2D.html">Cinematica 2D e Atto di Moto Rigido</a></li>
+                <li><a href="#">Gradi di libertà nel piano e nello spazio</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

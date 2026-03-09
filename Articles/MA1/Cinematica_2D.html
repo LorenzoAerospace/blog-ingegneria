@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematica 2D - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">MECCANICA RAZIONALE</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Cinematica del Corpo Rigido</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido</p>
+        </header>
+
+        <section>
+            <p>La <strong>cinematica</strong> si occupa di studiare il movimento di un corpo da un punto di vista puramente geometrico, prescindendo dalle cause (forze) che lo generano.</p>
+            
+            <h2 class="subtitles">Traiettoria e Velocità</h2>
+            <p>La <strong>traiettoria</strong> è il luogo geometrico delle posizioni occupate dal corpo nel tempo. Se immaginiamo un velivolo in volo, la scia lasciata rappresenta il percorso spaziale. La <strong>velocità</strong> è la derivata della posizione rispetto al tempo ed è sempre <strong>tangente</strong> alla traiettoria in ogni istante.</p>
+
+            <div class="insight-box">
+                <strong>Classificazione dei Vincoli:</strong>
+                <ul>
+                    <li><strong>Olonomi:</strong> Vincoli che dipendono solo dalle coordinate (ed eventualmente dal tempo).</li>
+                    <li><strong>Anolonomi:</strong> Vincoli espressi da relazioni non integrabili tra le velocità (es. rotolamento puro).</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="subtitles">L'Atto di Moto Rigido</h2>
+            <p>Per un corpo rigido (un sistema di punti la cui distanza mutua rimane costante), la velocità di un punto \(B\) può essere determinata conoscendo la velocità di un punto \(A\) e la velocità angolare $\vec{\omega}$.</p>
+            
+            
+
+            <div class="formula-container">
+                $$ \vec{v}_B = \vec{v}_A + \vec{\omega} \times (B - A) $$
+            </div>
+
+            <p>Questa equazione ci dice che l'atto di moto di un corpo rigido può essere sempre scomposto in una <strong>traslazione</strong> (uguale per tutti i punti) e una <strong>rotazione</strong> attorno a un asse.</p>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Biscari, P., Ruggeri, T., Saccomandi, G., & Vianello, M.</strong> (2016). <em>Meccanica Razionale per l'Ingegneria</em>. Monduzzi Editoriale.
+                    <span class="note">Testo fondamentale per la formalizzazione matematica degli atti di moto.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="#">Centro Istantaneo di Rotazione (CIR)</a></li>
+                <li><a href="#">Cinematica Relativa: Accelerazione di Coriolis</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

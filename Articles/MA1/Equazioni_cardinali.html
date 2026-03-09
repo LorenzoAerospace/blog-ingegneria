@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equazioni Cardinali della Dinamica - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                  
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">DINAMICA DEI SISTEMI</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Equazioni Cardinali</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Le leggi fondamentali del moto per sistemi materiali complessi</p>
+        </header>
+
+        <section>
+            <p>Le <strong>equazioni cardinali</strong> sono le relazioni fondamentali che descrivono la dinamica di un sistema materiale. Esse stabiliscono come le risultanti delle forze e dei momenti esterni influenzino le grandezze cinematiche globali del sistema.</p>
+
+            <div class="formula-container">
+                $$
+                \begin{cases}
+                \dot{\mathbf{Q}} = \mathbf{R}^{est} \\
+                \dot{\boldsymbol{\Gamma}}_O + \mathbf{v}_O \times \mathbf{Q} = \mathbf{M}_O^{est}
+                \end{cases}
+                $$
+            </div>
+
+            <p>La prima equazione descrive la variazione della <strong>quantità di moto</strong> totale \(\mathbf{Q}\), mentre la seconda governa l'evoluzione del <strong>momento della quantità di moto</strong> \(\boldsymbol{\Gamma}_O\) rispetto a un polo \(O\).</p>
+
+            <div class="insight-box">
+                <strong>Nota sul Polo:</strong> Se il polo \(O\) è fisso o coincide con il baricentro \(G\), il termine \(\mathbf{v}_O \times \mathbf{Q}\) svanisce, semplificando la seconda equazione in \(\dot{\boldsymbol{\Gamma}}_O = \mathbf{M}_O^{est}\).
+            </div>
+            
+            
+        </section>
+
+        <section>
+            <h2 class="subtitles">L'Equazione Pura del Moto</h2>
+            <p>Dalle equazioni cardinali, proiettando sulle direzioni consentite dai vincoli, si ottiene l'<strong>equazione pura del moto</strong>. Si tratta di un'equazione differenziale del secondo ordine (solitamente nella variabile $q$ che rappresenta la coordinata lagrangiana) del tipo:</p>
+            <div class="formula-container">
+                $$ a(q) \ddot{q} + b(q, \dot{q}) = Q(q, \dot{q}, t) $$
+            </div>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Il Problema di Cauchy</h2>
+            <p>Determinare l'equazione del moto non basta per sapere dove si troverà il sistema in un dato istante. Per ottenere una soluzione univoca, è necessario formulare un <strong>Problema di Cauchy</strong>.</p>
+            
+            <p>Esso consiste nell'accoppiare l'equazione differenziale del moto con le <strong>condizioni iniziali</strong>, ovvero lo stato del sistema all'istante \(t_0\):</p>
+            
+            <div class="formula-container">
+                $$
+                \begin{cases}
+                \ddot{q} = f(q, \dot{q}, t) & \text{(Equazione del moto)} \\
+                q(t_0) = q_0 & \text{(Posizione iniziale)} \\
+                \dot{q}(t_0) = \dot{q}_0 & \text{(Velocità iniziale)}
+                \end{cases}
+                $$
+            </div>
+
+            <p>Senza queste condizioni, l'integrazione fornirebbe infinite traiettorie possibili. Assegnandole, "fissiamo" l'unica evoluzione temporale del sistema coerente con lo stato di partenza.</p>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Biscari, P., Ruggeri, T., Saccomandi, G., & Vianello, M.</strong> (2016). <em>Meccanica Razionale per l'Ingegneria</em>. Monduzzi Editoriale.
+                    <span class="note">Testo essenziale per l'approccio analitico alla dinamica dei sistemi vincolati.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="#">Dinamica del Punto Materiale</a></li>
+                <li><a href="#">Il Principio di d'Alembert</a></li>
+                <li><a href="#">Sistemi Conservativi e Integrali Primi</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

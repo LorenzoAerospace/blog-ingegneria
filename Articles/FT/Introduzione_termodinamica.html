@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduzione alla Termodinamica - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="#articoli">Appunti</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">FISICA TECNICA</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Introduzione alla Termodinamica</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Definizioni fondamentali, sistemi e variabili di stato</p>
+        </header>
+
+        <section>
+            <p>La termodinamica è una branca della scienza nata per bisogni pratici nel corso del XIX secolo, focalizzata sullo studio delle conversioni tra calore e lavoro.</p>
+            
+            <h2 class="subtitles">Definizioni Fondamentali</h2>
+            <div class="insight-box">
+                <ul>
+                    <li><strong>Sistema termodinamico:</strong> Porzione di materia o regione di spazio oggetto dello studio.</li>
+                    <li><strong>Contorno (Boundary):</strong> Confine reale o immaginario, fisso o mobile, che separa il sistema dall'ambiente.</li>
+                    <li><strong>Ambiente (Mondo esterno):</strong> Tutto ciò che si trova al di fuori del contorno. Può essere una <em>sorgente</em> (massa infinita) o un <em>sottosistema</em>.</li>
+                </ul>
+            </div>
+            
+        </section>
+
+        <section>
+            <h2 class="subtitles">Variabili e Regole di Stato</h2>
+            <p>Le proprietà di un sistema si dividono in:</p>
+            <ul>
+                <li><strong>Intensive:</strong> Indipendenti dall'estensione del sistema (es. Temperatura \(T\), Pressione \(P\)).</li>
+                <li><strong>Estensive:</strong> Dipendenti dalla massa o dimensione (es. Volume \(V\), Energia interna \(U\).</li>
+            </ul>
+
+            <h3 class="subtitles">Leggi di Gibbs e Duhem</h3>
+            <p>Per determinare quante variabili siano necessarie a descrivere lo stato di equilibrio di un sistema:</p>
+            
+            <div class="formula-container">
+                <p><strong>Regola delle fasi di Gibbs:</strong> $$N = C + 2 - F$$</p>
+                <p><small>Dove \(N\) è la varianza, \(C\) il numero di componenti e \(F\) il numero di fasi.</small></p>
+            </div>
+
+            <div class="formula-container">
+                <p><strong>Teorema di Duhem:</strong> $$V = C + 1$$</p>
+                <p><small>Indica il numero di variabili indipendenti necessarie per fissare lo stato di un sistema chiuso.</small></p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Classificazione dei Sistemi</h2>
+            <table class="inerzia-table">
+                <thead>
+                    <tr>
+                        <th>Tipo di Sistema</th>
+                        <th>Scambio di Massa</th>
+                        <th>Scambio di Energia</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Aperto</strong></td>
+                        <td>Sì</td>
+                        <td>Sì</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Chiuso</strong></td>
+                        <td>No</td>
+                        <td>Sì</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Isolato</strong></td>
+                        <td>No</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Trasformazioni Termodinamiche</h2>
+            <p>Una trasformazione è un processo che porta il sistema da uno stato di equilibrio iniziale a uno finale. Sul piano \(P-V\) (Clapeyron) vengono rappresentate come segue:</p>
+            
+            [attachment_1](attachment)
+
+            <ul>
+                <li><strong>Reversibile:</strong> Processo ideale che può essere percorso a ritroso riportando sistema e ambiente nelle condizioni iniziali.</li>
+                <li><strong>Quasi-statica:</strong> Successione di stati di equilibrio infinitesimi.</li>
+                <li><strong>Irreversibile:</strong> Trasformazione reale caratterizzata da attriti o gradienti finiti.</li>
+                <li><strong>Ciclica:</strong> Trasformazione in cui lo stato finale coincide con quello iniziale.</li>
+                <li><strong>Elementare:</strong> Avviene mantenendo costante una variabile (Isocora, Isobara, Isoterma, Adiabatica).</li>
+            </ul>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Inzoli, F., Dassù, G.</strong> (2020). <em>Lezioni di fisica tecnica termodinamica</em>. CUSL. 
+                    <span class="note">Testo di riferimento per la formalizzazione dei sistemi e delle trasformazioni.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="#">Il Primo Principio della Termodinamica</a></li>
+                <li><a href="#">Analisi dei Sistemi Aperti (Volume di Controllo)</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

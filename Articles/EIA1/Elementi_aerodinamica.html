@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementi di Aerodinamica - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Cerca appunti...">
+                <span class="search-icon">🔍</span>
+            </div>
+            
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../index.html#articoli">Appunti</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna all'indice</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">AERODINAMICA</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Elementi di Aerodinamica</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Fondamenti, equazioni di base e applicazioni nel settore aerospaziale</p>
+        </header>
+
+        <section>
+            <p>In questo paragrafo vedremo i fondamenti di aerodinamica. Partendo dalla definizione della disciplina, analizzeremo alcune delle equazioni base per finire con alcune applicazioni pratiche nel mondo del volo.</p>
+            
+            <div class="insight-box">
+                L'aerodinamica studia la dinamica dei gas, in particolare l'interazione tra l'aria e i corpi solidi che si muovono al suo interno.
+            </div>
+
+            
+
+            <h2 class="subtitles">Le Equazioni Fondamentali</h2>
+            <p>Per descrivere il moto di un fluido, ricorriamo a tre principi di conservazione fondamentali:</p>
+            <ul>
+                <li><strong>Conservazione della massa:</strong> Equazione di continuità.</li>
+                <li><strong>Conservazione della quantità di moto:</strong> Equazioni di Navier-Stokes (o di Eulero per fluidi non viscosi).</li>
+                <li><strong>Conservazione dell'energia:</strong> Primo principio della termodinamica applicato ai fluidi.</li>
+            </ul>
+
+            <div class="formula-container">
+                $$ \rho_1 A_1 v_1 = \rho_2 A_2 v_2 $$
+            </div>
+            <p style="text-align: center; font-size: 0.9rem; color: var(--text-secondary);">Esempio: Equazione di continuità per un flusso stazionario e unidimensionale.</p>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Anderson, J. D.</strong> (2021). 
+                    <em>Introduction to Flight</em> (9th ed.). McGraw-Hill Education. 
+                    <span class="note">Capitolo 4: "Basic Aerodynamics". Questo capitolo è fondamentale per comprendere le equazioni di conservazione e il teorema di Bernoulli applicato ai flussi.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Approfondimenti consigliati</h3>
+            <ul>
+                <li><a href="#">Il Teorema di Bernoulli e le sue limitazioni</a></li>
+                <li><a href="#">Tubi di Venturi e misura della velocità</a></li>
+                <li><a href="#">Equazione di stato dei gas perfetti</a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+
+    <script src="../../main.js"></script>
+</body>
+</html>

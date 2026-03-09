@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equivalenza e Riduzione dei Sistemi di Forze - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">MECCANICA RAZIONALE</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Equivalenza e Riduzione</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Semplificazione dei sistemi di forze agenti sui corpi rigidi</p>
+        </header>
+
+        <section>
+            <h2 class="subtitles">Sistemi Equivalenti</h2>
+            <p>In questo articolo, andremo ad analizzare quando un sistema si dice equivalente. Dati due sistemi di forze che generano le risultanti \(\vec{R}^{est}_1\) e \(\vec{R}^{est}_2\), e i momenti risultanti \(\vec{M}^{est}_{O1}\) e \(\vec{M}^{est}_{O2}\), essi sono meccanicamente equivalenti se producono lo stesso effetto dinamico.</p>
+            
+            <div class="formula-container">
+                $$ \begin{cases} \vec{R}_1 = \vec{R}_2 \\ \vec{M}_{O1} = \vec{M}_{O2} \end{cases} $$
+            </div>
+
+            <div class="insight-box">
+                <strong>Nota:</strong> Se le forze e i momenti sono gli stessi, allora il moto generato sarà lo stesso. Questa proprietà ci permette di sostituire carichi complessi con modelli più semplici.
+            </div>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Riduzione di un Sistema di Forze</h2>
+            <p>Per quanto riguarda la riduzione del sistema, ovvero scriverlo con il minor numero possibile di vettori, possiamo vedere il momento \(\vec{M}^{est}_O\) come una coppia formata da \(-\vec{F}\) e \(\vec{F}\). In aggiunta, bisogna considerare la risultante generale \(\vec{R}^{est}\).</p>
+
+            
+
+            <h3 class="subtitles">L'Invariante Scalare</h3>
+            <p>Per il caso generale, definiamo l'<strong>invariante scalare</strong> \(I\), che rappresenta il prodotto scalare tra la risultante e il momento:</p>
+            <div class="formula-container">
+                $$ I = \vec{R} \cdot \vec{M}_O $$
+            </div>
+            
+            <table class="inerzia-table">
+                <thead>
+                    <tr>
+                        <th>Condizione</th>
+                        <th>Riduzione Finale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>\(\vec{R} = 0, \vec{M}_O = 0\)</td>
+                        <td>Sistema Equilibrato</td>
+                    </tr>
+                    <tr>
+                        <td>\(\vec{R} = 0, \vec{M}_O \neq 0\)</td>
+                        <td>Una Coppia pura</td>
+                    </tr>
+                    <tr>
+                        <td>\(\vec{R} \neq 0, I = 0\)</td>
+                        <td>Un'unica forza applicata</td>
+                    </tr>
+                    <tr>
+                        <td>\(\vec{R} \neq 0, I \neq 0\)</td>
+                        <td>Un "Dinamo" (Vite)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Biscari, P., Ruggeri, T., Saccomandi, G., & Vianello, M.</strong> (2016). <em>Meccanica Razionale per l'Ingegneria</em>. Monduzzi Editoriale.
+                    <span class="note">Riferimento per la teoria dei vettori applicati e la riduzione dei sistemi di forze.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="Equazioni_cardinali.html">Equazioni Cardinali della Dinamica</a></li>
+                <li><a href="#">Il Centro delle Forze Parallele</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

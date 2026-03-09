@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moti Centrali - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="#articoli">Appunti</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna all'indice</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">MECCANICA RAZIONALE</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Moti Centrali</h1>
+            
+            <p style="color: var(--text-secondary); font-style: italic;">Studio del moto sotto l'azione di forze dirette verso un polo fisso</p>
+        </header>
+
+        <section>
+            <p>In questo articolo parleremo dei <strong>moti centrali</strong>. Un moto si definisce centrale quando la forza agente sul punto materiale \(P\) è sempre diretta verso (o proviene da) un punto fisso \(O\), detto centro della forza. Matematicamente, questo significa che la forza è parallela al vettore posizione \(\vec{r} = (P-O)\):</p>
+            
+            <div class="formula-container">
+                $$(P-O) \times \vec{F} = \vec{0}$$
+            </div>
+
+            <p>Poiché dalla seconda legge di Newton sappiamo che \(\vec{a} = \frac{\vec{F}}{m}\), ne consegue che anche l'accelerazione è sempre parallela al raggio vettore. Questa configurazione conferisce al moto delle proprietà straordinarie.</p>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Proprietà Fondamentali</h2>
+            
+            <ol style="line-height: 1.8;">
+                <li><strong>Planalità:</strong> Il moto avviene sempre su un piano fisso individuato dalla posizione e dalla velocità iniziale. Questo accade perché il momento della quantità di moto \(\vec{L}_O\) si conserva.</li>
+                <li><strong>Conservazione della velocità areolare:</strong> Il raggio vettore spazza aree uguali in tempi uguali (Seconda Legge di Keplero). La costante delle aree è definita come \(C = r^2 \dot{\theta}\).</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2 class="subtitles">La Formula di Binet</h2>
+            <p>La formula di Binet è uno strumento potentissimo che permette di ricavare l'accelerazione radiale conoscendo l'equazione della traiettoria in coordinate polari \(r(\theta)\). Utilizzando la variabile ausiliaria \(u = \frac{1}{r}\), la formula esprime l'accelerazione \(a_r\) come:</p>
+            
+            <div class="formula-container">
+                $$a_r = -C^2 u^2 \left( \frac{d^2 u}{d\theta^2} + u \right)$$
+            </div>
+
+            <p>Questa relazione è fondamentale in astrodinamica per dimostrare che, se la forza segue la legge dell'inverso del quadrato (come la gravità), la traiettoria deve essere necessariamente una conica (ellisse, parabola o iperbole).</p>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Biscari, P., Ruggeri, T., Saccomandi, G., & Vianello, M.</strong> (2016). <em>Meccanica Razionale per l'Ingegneria</em>. Monduzzi Editoriale.
+                    <span class="note">Riferimento per la derivazione analitica delle leggi di Keplero e della formula di Binet.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Argomenti correlati</h3>
+            <ul>
+                <li><a href="#">Leggi di Keplero e Gravitazione</a></li>
+                <li><a href="#">Conservazione del Momento Angolare</a></li>
+                <li><a href="#">Orbite ed Energia Orbitale</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

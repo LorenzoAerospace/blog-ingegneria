@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduzione all'Automatica - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+             
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">CONTROLLI AUTOMATICI</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Introduzione all'Automatica</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">I fondamenti della teoria dei sistemi e il concetto di controllo</p>
+        </header>
+
+        <section>
+            <p>L'<strong>automatica</strong> (o teoria dei controlli) è la disciplina che studia le modalità e le tecnologie atte a far funzionare un sistema in modo autonomo, ovvero senza l'intervento diretto dell'uomo per ogni singola operazione.</p>
+            
+            <h2 class="subtitles">Concetti Chiave</h2>
+            <p>Per approcciare la materia, è necessario definire i componenti fondamentali di quello che chiamiamo "problema di controllo":</p>
+            
+            <ul style="line-height: 1.8; margin-bottom: 20px;">
+                <li><strong>Sistema (o Processo):</strong> Rappresenta l'oggetto dell'analisi (la nostra "scatola"). È una porzione di realtà che interagisce con l'esterno tramite variabili specifiche.</li>
+                <li><strong>Ingressi ($u$):</strong> Variabili indipendenti che influenzano il comportamento del sistema. Si dividono in ingressi di controllo (manipolabili) e disturbi (non manipolabili).</li>
+                <li><strong>Uscite ($y$):</strong> Variabili che descrivono il comportamento osservabile del sistema e che vogliamo monitorare o regolare.</li>
+                <li><strong>Controllore:</strong> Il dispositivo (o l'algoritmo) responsabile di elaborare gli ingressi per far sì che le uscite seguano un andamento desiderato.</li>
+            </ul>
+
+            <h2 class="subtitles">Lo Schema a Blocchi</h2>
+            <p>La rappresentazione standard di un sistema di controllo prevede l'interazione tra questi elementi. Di seguito lo schema semplificato di un sistema ad anello aperto (open loop):</p>
+            
+            
+
+            <div class="insight-box">
+                <strong>Curiosità:</strong> Molti sistemi moderni utilizzano la <i>retroazione</i> (feedback), dove l'uscita viene misurata e riportata all'ingresso per correggere l'errore in tempo reale.
+            </div>
+        </section>
+
+        <section style="margin: 40px 0;">
+            <p>L'importanza dell'automatica risiede nella sua ubiquità: dal termostato di casa ai complessi sistemi di guida dei velivoli (fly-by-wire), la capacità di gestire sistemi dinamici è il pilastro della tecnologia moderna.</p>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Fonti Consultate</h2>
+            <ul>
+                <li>
+                    <strong>Bolzern, P., Scattolini, R., & Schiavoni, N.</strong> (2015). <em>Fondamenti di controlli automatici</em>. McGraw-Hill Education.
+                    <span class="note">Il testo di riferimento per lo studio dei sistemi dinamici LTI.</span>
+                </li
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="#">Sistemi ad anello chiuso e retroazione</a></li>
+                <li><a href="#">La Trasformata di Laplace nei controlli</a></li>
+                <li><a href="#">Stabilità dei sistemi dinamici</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandezze Termodinamiche - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+             
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+
+                    <li><a href="mailto:tua@mail.com" class="nav-btn">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">TERMODINAMICA</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Grandezze Termodinamiche</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Definizione di variabili di stato e funzioni di stato per sistemi aerospaziali</p>
+        </header>
+
+        <section>
+            <p>In questo paragrafo andremo a introdurre le principali grandezze analizzate nel corso di termodinamica. Mentre il <strong>lavoro</strong> ($W$) e il <strong>calore</strong> ($Q$) sono energie in transito, esistono proprietà intrinseche del sistema definite funzioni di stato.</p>
+            
+            <h2 class="subtitles">Il Primo Principio e l'Energia Interna</h2>
+            <p>L'energia interna ($U$) rappresenta la somma delle energie microscopiche (cinetica e potenziale) delle molecole del sistema. Per un sistema chiuso, la variazione di energia interna è data da:</p>
+            
+            <div class="formula-container">
+                $$ \Delta U = Q - L $$
+            </div>
+
+            <div class="insight-box">
+                <strong>Nota Tecnica:</strong> Per i gas perfetti, l'energia interna dipende esclusivamente dalla temperatura, secondo la relazione $dU = m c_v dT$.
+            </div>
+        </section>
+
+        <section style="margin: 40px 0;">
+            <h2 class="subtitles">Entalpia ed Entropia</h2>
+            <p>Nello studio dei flussi e delle macchine a fluido, l'<strong>Entalpia</strong> ($H$) è la grandezza più rilevante, poiché combina l'energia interna con il lavoro di pulsione ($p V$).</p>
+
+            
+
+            <div class="formula-container">
+                $$ H = U + pV $$
+            </div>
+
+            <p>L'<strong>Entropia</strong> ($S$), invece, definisce il grado di irreversibilità di una trasformazione e la direzione spontanea dei processi termodinamici.</p>
+
+            <table class="inerzia-table">
+                <thead>
+                    <tr>
+                        <th>Grandezza</th>
+                        <th>Simbolo</th>
+                        <th>Unità di Misura (SI)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Energia Interna</td>
+                        <td>$U$</td>
+                        <td>$J$ (Joule)</td>
+                    </tr>
+                    <tr>
+                        <td>Entalpia</td>
+                        <td>$H$</td>
+                        <td>$J$ (Joule)</td>
+                    </tr>
+                    <tr>
+                        <td>Entropia</td>
+                        <td>$S$</td>
+                        <td>$J/K$</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Fabio Inzoli, Grazia Dassù</strong>(2020). <em>Lezioni di fisica tecnica termodinamica</em>. CUSL.
+                    <span class="note">(il testo fa riferimento per tutto quello scritto).</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Argomenti correlati</h3>
+            <ul>
+                <li><a href="#">Trasformazioni Isentropiche</a></li>
+                <li><a href="#">Ciclo di Brayton-Joule per Turbine a Gas</a></li>
+                <li><a href="#">Equazione di stato dei gas perfetti</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali 3D e Resistenza Indotta - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+        <script src="../../main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+            
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna all'indice</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">AERODINAMICA</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Ali 3D</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Analisi della resistenza indotta, vortici d'estremità e winglets</p>
+        </header>
+
+        <section>
+            <p>Le ali sono l'elemento essenziale del veicolo per la generazione della portanza. Per definire correttamente la geometria di un'ala, dobbiamo considerare i suoi parametri fondamentali:</p>
+            
+            <div style="background: rgba(255,255,255,0.03); padding: 20px; border-radius: 8px; margin: 20px 0;">
+                <ol style="line-height: 2;">
+                    <li><strong>Corda:</strong> La linea retta che unisce il bordo d'attacco a quello d'uscita.</li>
+                    <li><strong>Linea media:</strong> Il luogo dei punti medi tra dorso e ventre.</li>
+                    <li><strong>Bordo d'attacco e d'uscita:</strong> I punti estremi anteriore e posteriore del profilo.</li>
+                    <li><strong>Raggio di curvatura:</strong> Parametro critico per il comportamento del flusso al bordo d'attacco.</li>
+                </ol>
+            </div>
+
+            <h2 class="subtitles">Dalla Geometria 2D al Solido 3D</h2>
+            <p>Quando si passa da un profilo bidimensionale a un'ala finita (3D), nascono nuove componenti di forza. La più rilevante è la <strong>resistenza indotta</strong> che, sommandosi alla resistenza parassita, definisce la resistenza totale del velivolo.</p>
+            
+            <div class="insight-box">
+                La resistenza indotta è strettamente legata ai fenomeni di <strong>upwash</strong> e <strong>downwash</strong>, responsabili della creazione dei vortici d'estremità alare.
+            </div>
+
+            
+
+            <p>Per mitigare questi effetti e ridurre il consumo di carburante, l'ingegneria moderna utilizza le <strong>winglets</strong>. Esse aumentano l'allungamento alare "apparente", riducendo la dimensione dei vortici e, di conseguenza, la resistenza indotta.</p>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Analisi del Coefficiente di Portanza</h2>
+            <p>È fondamentale osservare che il grafico  \(C_L\) vs \(\alpha\) per un'ala 3D presenta una <strong>pendenza minore</strong> rispetto al profilo 2D. All'aumentare dell'angolo d'incidenza, l'influenza della resistenza indotta diventa sempre più marcata, "sdraiando" la curva di portanza.</p>
+
+            <div class="formula-container">
+                $$ C_{D_i} = \frac{C_L^2}{\pi e \lambda} $$
+            </div>
+        </section>
+
+        <section style="margin: 40px 0;">
+            <h3 class="subtitles">Ottimizzazione: Come ridurre la \(D_i\)?</h3>
+            <p>Esistono tre vie principali per diminuire la componente di resistenza indotta, agendo sui parametri della formula precedente:</p>
+            
+            <table class="inerzia-table">
+                <thead>
+                    <tr>
+                        <th>Parametro</th>
+                        <th>Azione</th>
+                        <th>Effetto Fisico</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Angolo d'incidenza \(\alpha\)</td>
+                        <td>Diminuire</td>
+                        <td>Comporta una riduzione diretta del \(C_L\).</td>
+                    </tr>
+                    <tr>
+                        <td>Fattore di Oswald \(e\)</td>
+                        <td>Aumentare</td>
+                        <td>Dipende dalla forma in pianta dell'ala (l'ala ellittica ha \(e=1\).</td>
+                    </tr>
+                    <tr>
+                        <td>Allungamento alare \(\lambda\)</td>
+                        <td>Aumentare</td>
+                        <td>Tipico degli alianti: ali lunghe e strette riducono le perdite d'estremità.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="bibliography">
+            <hr>
+            <h2>Fonti Consultate</h2>
+            <ul>
+                <li>
+                    <strong>Anderson, J. D.</strong> (2021). <em>Introduction to Flight</em>. (9th ed.). McGraw-Hill Education. 
+                    <span class="note">Capitolo 7. per comprednere ali 3D.</span>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="further-reading">
+            <h3>Argomenti correlati</h3>
+            <ul>
+                <li><a href="#">Teoria della linea portante di Prandtl</a></li>
+                <li><a href="#">Distribuzione di portanza ellittica</a></li>
+                <li><a href="#">Effetto suolo e resistenza indotta</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - Progetto Studente Ingegneria Aerospaziale</p>
+    </footer>
+</body>
+</html>

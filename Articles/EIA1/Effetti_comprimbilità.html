@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effetti di Comprimibilità - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna all'indice</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">AERODINAMICA</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Effetti di Comprimibilità</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Analisi dei regimi di moto, velocità del suono e numero di Mach</p>
+        </header>
+
+        <section>
+            <p>Nello studio dell'aerodinamica ad alte velocità, non è più possibile considerare l'aria come un fluido a densità costante. Per analizzare gli effetti di comprimibilità, dobbiamo introdurre la <strong>velocità del suono</strong> ($a$), definita come la velocità di propagazione di piccole perturbazioni di pressione in un mezzo elastico.</p>
+            
+            <div class="formula-container">
+                $$ a = \sqrt{\gamma R T} $$
+            </div>
+            
+            <p>Dalla relazione tra la velocità del fluido ($v$) e la velocità del suono locale nasce la necessità di definire un numero adimensionale fondamentale: il <strong>Numero di Mach</strong>.</p>
+
+            <div class="formula-container">
+                $$ Ma = \frac{v}{a} $$
+            </div>
+
+            <div class="insight-box">
+                Sotto la soglia di \(Ma < 0.3\), le variazioni di densità sono trascurabili e il fluido può essere considerato <strong>incomprimibile</strong>. Oltre questo valore, gli effetti termodinamici diventano significativi.
+            </div>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Variazioni dei Coefficienti Aerodinamici</h2>
+            <p>L'aumento del numero di Mach influenza drasticamente le prestazioni di un profilo alare, in particolare agendo sui coefficienti adimensionali di portanza e resistenza:</p>
+            
+            <ul>
+                <li><strong>Coefficiente di Portanza \(C_L\):</strong> In regime subsonico elevato, si osserva inizialmente un aumento dovuto alla correzione di Prandtl-Glauert, seguito da un brusco calo una volta superato il Mach critico.</li>
+                <li><strong>Coefficiente di Resistenza \(C_D\):</strong> Al raggiungimento di velocità elevate, la resistenza aumenta in modo esponenziale. Questo fenomeno è causato dalla formazione di onde d'urto che generano la cosiddetta <em>resistenza d'onda</em>.</li>
+            </ul>
+
+            
+        </section>
+
+        <section style="margin: 40px 0;">
+            <h3 class="subtitles">Il Mach Critico \(Ma_{cr}\)</h3>
+            <p>Un parametro progettuale essenziale è il <strong>Mach critico</strong>. Esso rappresenta la velocità di volo (corrente indisturbata) tale per cui in almeno un punto locale del profilo il fluido raggiunge la velocità del suono \(Ma_{locale} = 1\).</p>
+
+            <div class="insight-box" style="border-color: #ffaa00; background: rgba(255, 170, 0, 0.05);">
+                💡 <strong>Analisi Tecnica:</strong> Il raggiungimento del \(Ma_{cr}\) preannuncia l'insorgenza del regime transonico, dove iniziano a comparire le prime onde d'urto sul dorso del profilo, causando distacchi di vena e instabilità.
+            </div>
+
+            
+        </section>
+                <section class="bibliography">
+            <hr>
+            <h2>Fonti Consultate</h2>
+            <ul>
+                <li>
+                    <strong>Anderson, J. D.</strong> (2021). <em>Introduction to Flight</em>.(9th ed.). McGraw-Hill Education.  
+                    <span class="note">Testo cardine per comprendere i fenomeni di comprimbilità.</span>
+                </li>
+            </ul>
+        </section>
+        <section class="further-reading">
+            <h3>Argomenti correlati</h3>
+            <ul>
+                <li><a href="#">Regimi di moto: subsonico, transonico e supersonico</a></li>
+                <li><a href="#">Relazioni di salto attraverso le onde d'urto</a></li>
+                <li><a href="#">Regola delle aree per velivoli supersonici</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog | Appunti di Ingegneria Aerospaziale</p>
+    </footer>
+</body>
+</html>

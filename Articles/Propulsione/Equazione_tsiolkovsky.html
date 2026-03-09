@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titolo Articolo Template - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+             
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">CATEGORIA ESEMPIO</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Titolo dell'Articolo</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Sottotitolo descrittivo per spiegare brevemente l'argomento trattato</p>
+        </header>
+
+        <section>
+            <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <h2 class="subtitles">Sviluppo Teorico</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="insight-box">
+                Qui inserisci un'osservazione importante, un caso limite o un
+                errore comune da evitare durante l'esame.
+            </div>
+            <div class="formula-container">
+                $$ \oint_{\partial \Sigma} \mathbf{E} \cdot d\mathbf{l} = - \frac{d}{dt} \iint_{\Sigma} \mathbf{B} \cdot d\mathbf{S} $$
+            </div>
+        </section>
+
+        <section style="margin: 40px 0;">
+            <h3 class="subtitles">Specifiche Tecniche</h3>
+            <table class="inerzia-table">
+                <thead>
+                    <tr>
+                        <th>Parametro</th>
+                        <th>Simbolo</th>
+                        <th>Valore Unità</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Costante di Test</td>
+                        <td>$\alpha_{rev}$</td>
+                        <td>$9.81 \, m/s^2$</td>
+                    </tr>
+                    <tr>
+                        <td>Coefficiente Beta</td>
+                        <td>$\beta_{\infty}$</td>
+                        <td>$0.42$</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        
+
+        <section class="bibliography">
+            <hr>
+            <h2>Fonti Consultate</h2>
+            <ul>
+                <li>
+                    <strong>Autore, A.</strong> (2026). <em>Titolo del manuale tecnico</em>. Editore Scientifico. 
+                    <span class="note">Nota a margine per spiegare l'importanza della fonte.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="#">Link ad articolo correlato #1</a></li>
+                <li><a href="#">Approfondimento matematico #2</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

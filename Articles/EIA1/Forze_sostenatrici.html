@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forze Sostentatrici - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="#articoli">Appunti</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna all'indice</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">AERODINAMICA</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Forze Sostentatrici</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">L'origine della portanza: dal vento asintotico alla circolazione</p>
+        </header>
+
+        <section>
+            <p>In questo articolo analizzo le forze principali che agiscono su un veicolo e come lo aiutano a restare in cielo.</p>
+            
+            <h2 class="subtitles">Scomposizione delle Forze</h2>
+            <p>Tutto parte dalla <strong>velocità del vento asintotico</strong> \(V_{\infty}\). L'aria, investendo il profilo, interagisce con la superficie creando una forza normale \(\vec{N}\) e una assiale \(\vec{A}\). Scomponendo queste reazioni rispetto alla direzione del vento otteniamo:</p>
+            
+            <ul>
+                <li><strong>Portanza (Lift - \(L\)):</strong> Perpendicolare alla velocità asintotica.</li>
+                <li><strong>Resistenza (Drag - \(D\)):</strong> Parallela alla velocità asintotica.</li>
+            </ul>
+
+            
+
+            <p>Una variabile fondamentale è \(\alpha\), l'<strong>angolo di attacco</strong> (angolo tra corda e \(V_{\infty}\)). Se cambiamo questo dato, cambia la distribuzione di pressione e, di conseguenza, l'intensità delle forze generate.</p>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Circolazione ed Effetto Magnus</h2>
+            <p>Per capire come si genera la portanza, è utile analizzare una sezione circolare in un flusso:</p>
+            <ol>
+                <li><strong>Cilindro fermo:</strong> Il flusso è simmetrico e non si genera portanza.</li>
+                <li><strong>Cilindro rotante:</strong> La rotazione trascina il fluido, creando una asimmetria nelle velocità (e quindi nelle pressioni).</li>
+            </ol>
+
+            <div class="insight-box">
+                <strong>Teorema di Kutta-Žukovskij:</strong> La portanza per unità di apertura è proporzionale alla densità del fluido \(\rho\), alla velocità \(V_{\infty}\) e alla <strong>circolazione</strong> \(\Gamma\):
+                \[ L' = \rho V_{\infty} \Gamma \]
+            </div>
+
+            
+        </section>
+
+        <section>
+            <h2 class="subtitles">Viscosità e Numero di Reynolds</h2>
+            <p>La forza viscosa rappresenta la resistenza allo scorrimento tra gli strati di fluido. Il rapporto tra forze d'inerzia e forze viscose è definito dal <strong>Numero di Reynolds (\(Re\))</strong>:</p>
+            
+            <div class="formula-container">
+                \[ Re = \frac{\rho v L}{\mu} \]
+            </div>
+            
+            <p>Questo numero è cruciale per determinare se il flusso attorno al profilo sarà <strong>laminare</strong> (ordinato) o <strong>turbolento</strong> (caotico).</p>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Anderson, J. D.</strong> (2021). <em>Introduction to Flight</em>.
+                    <span class="note">Testo cardine per comprendere i concetti di portanza e delle relative forze.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="#">Il paradosso di D'Alembert</a></li>
+                <li><a href="#">Teoria del profilo sottile</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>

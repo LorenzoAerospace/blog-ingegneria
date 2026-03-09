@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia Cinetica - AeroBlog</title>
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AERO<span>BLOG</span></a>
+            <div class="nav-content">
+                <ul class="nav-links">
+                    <li><a href="../../index.html">Home</a></li>
+                </ul>
+                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="article-content" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+        <nav class="breadcrumb">
+            <a href="../../index.html" style="color: var(--accent); text-decoration: none; font-size: 0.9rem;">← Torna alla Dashboard</a>
+        </nav>
+
+        <header style="margin: 40px 0; text-align: center;">
+            <span class="card-category" style="color: var(--accent); letter-spacing: 2px; font-weight: bold;">DINAMICA</span>
+            <h1 class="title" style="font-size: 3rem; margin: 10px 0;">Energia Cinetica</h1>
+            <p style="color: var(--text-secondary); font-style: italic;">Definizione, sistemi di punti e il Teorema di Koenig</p>
+        </header>
+
+        <section>
+            <p>In questo paragrafo analizzeremo l'<strong>energia cinetica</strong> \(T\), una grandezza scalare che rappresenta l'energia posseduta da un corpo a causa del suo movimento. Questo argomento è essenziale per comprendere il <strong>Teorema delle Forze Vive</strong> e per analizzare gli scambi energetici nei sistemi meccanici complessi.</p>
+            
+            <h2 class="subtitles">Definizioni Base</h2>
+            <p>L'espressione dell'energia cinetica varia a seconda della complessità del sistema considerato:</p>
+            
+            <ol style="line-height: 1.8;">
+                <li><strong>Punto materiale:</strong> L'energia dipende solo dalla massa e dal modulo della velocità:
+                    <div class="formula-container">
+                        $$T = \frac{1}{2} m v^2$$
+                    </div>
+                </li>
+                <li><strong>Sistemi di punti materiali:</strong> È definita come la somma delle energie cinetiche di ogni singolo punto:
+                    <div class="formula-container">
+                        $$T = \frac{1}{2} \sum_{i} m_i v_i^2$$
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h2 class="subtitles">Il Teorema di Koenig</h2>
+            <p>Per un sistema di punti (o un corpo rigido), il calcolo può essere semplificato separando il moto del <strong>Centro di Massa</strong> \(G\) dal moto relativo ad esso.</p>
+            
+            
+
+            <div class="formula-container">
+                $$T = \frac{1}{2} M v_G^2 + T_G$$
+            </div>
+            
+            <p>Dove:</p>
+            <ul>
+                <li>\(\frac{1}{2} M v_G^2\) è l'energia cinetica del centro di massa (traslazione).</li>
+                <li>\(T_G\) è l'energia cinetica relativa al centro di massa (rotazione).</li>
+            </ul>
+
+            <div class="insight-box">
+                <strong>Caso del Corpo Rigido:</strong> Per un corpo rigido rotante attorno a un asse fisso con velocità angolare \(\omega\), l'energia cinetica rotazionale si esprime tramite il momento d'inerzia \(I\): \(T_{rot} = \frac{1}{2} I \omega^2\).
+            </div>
+        </section>
+
+        <section class="bibliography">
+            <hr>
+            <h2>Bibliografia</h2>
+            <ul>
+                <li>
+                    <strong>Biscari, P., Ruggeri, T., Saccomandi, G., & Vianello, M.</strong> (2016). <em>Meccanica Razionale per l'Ingegneria</em>. Monduzzi Editoriale.
+                    <span class="note">Testo fondamentale per la scomposizione energetica nei sistemi rigidi.</span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="further-reading">
+            <h3>Continua a leggere</h3>
+            <ul>
+                <li><a href="#">Teorema delle Forze Vive (Lavoro ed Energia)</a></li>
+                <li><a href="#">Momenti d'Inerzia nei Corpi Solidi</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #30363d;">
+        <p>&copy; 2026 - AeroBlog</p>
+    </footer>
+</body>
+</html>
