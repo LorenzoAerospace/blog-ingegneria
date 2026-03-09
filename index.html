@@ -10,28 +10,23 @@
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <a href="../index.html" class="nav-logo">AERO<span>BLOG</span></a>
-            
+            <a href="index.html" class="nav-logo">AERO<span>BLOG</span></a>
             <div class="nav-content">
                 <div class="search-box">
                     <input type="text" id="searchInput" placeholder="Cerca appunti...">
                     <span class="search-icon">🔍</span>
                 </div>
+
                 
                 <ul class="nav-links">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="#articoli">Appunti</a></li>
-                    <li><a href="#Progetti">Progetti</a></li>
-                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#articoli" onclick="filtraCategoria('Tutti')">Appunti</a></li>
+                    <li><a href="#articoli" onclick="filtraCategoria('Progetti')">Progetti</a></li>
                 </ul>
                 <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
             </div>
         </div>
     </nav>
-
-
-
-
 
     <header>
         <div class="logo">AERO<span>BLOG</span></div>
@@ -43,49 +38,33 @@
             <p>Benvenuto. Sono uno studente di <strong>Ingegneria Aerospaziale</strong>. In questo spazio raccolgo analisi tecniche e studi approfonditi sul volo e l'universo.</p>
         </section>
 
-        <section class="index-section">
+        <section class="recent-section">
+            <h2><span class="icon">✨</span> Ultimi Articoli</h2>
+            <div id="latest-container" class="article-grid"></div>
+        </section>
+
+        <div class="filter-bar">
+            <button class="filter-btn active" data-cat="Tutti" onclick="filtraCategoria('Tutti')">Tutti</button>
+            <button class="filter-btn" data-cat="Aerodinamica" onclick="filtraCategoria('Aerodinamica')">Aerodinamica</button>
+            <button class="filter-btn" data-cat="Meccanica" onclick="filtraCategoria('Meccanica')">Meccanica</button>
+            <button class="filter-btn" data-cat="Spazio" onclick="filtraCategoria('Spazio')">Spazio</button>
+            <button class="filter-btn" data-cat="Chimica" onclick="filtraCategoria('Chimica')">Chimica</button>
+            <button class="filter-btn" data-cat="Fondamenti di automatica" onclick="filtraCategoria('Fondamenti di automatica')">Fondamenti di automatica</button>
+            <button class="filter-btn" data-cat="Progetti" onclick="filtraCategoria('Progetti')">🛠️ Progetti</button>
+        </div>
+
+        <section class="index-section" id="articoli">
             <h2><span class="icon">🚀</span> Indice degli Articoli</h2>
-            
-            <div class="article-grid">
-                <a href="Articles/Meccanica_celeste.html" class="card">
-                    <h3>Meccanica Celeste</h3>
-                    <p>Orbite, leggi di Keplero e dinamica dei sistemi planetari.</p>
-                </a>
+            <div id="article-grid" class="article-grid">
+                </div>
+        </section>
 
-                <a href="Articles/Moto_centrali.html" class="card">
-                    <h3>Moto Centrali</h3>
-                    <p>Studio dei campi di forza centrali e conservazione del momento.</p>
-                </a>
-
-                <a href="Articles/Ali_3D.html" class="card">
-                    <h3>Ali 3D</h3>
-                    <p>Aerodinamica avanzata e portanza nelle ali a apertura finita.</p>
-                </a>
-
-                <a href="Articles/Corpo_rigido.html" class="card">
-                    <h3>Corpo Rigido</h3>
-                    <p>Cinematica e dinamica dei sistemi rigidi complessi.</p>
-                </a>
-
-                <a href="Articles/Equivalenza_riduzione_forze.html" class="card">
-                    <h3>Riduzione Forze</h3>
-                    <p>Semplificazione dei sistemi di forze e momenti risultanti.</p>
-                </a>
-
-                <a href="Articles/Sali_poco_solubili.html" class="card">
-                    <h3>Sali poco solubili</h3>
-                    <p>Approfondimenti di chimica e termodinamica delle soluzioni.</p>
-                </a>
-
-                <a href="Articles/Momenti_inerzia.html" class="card">
-                    <h3>Momenti d'Inerzia</h3>
-                    <p>Tabella riassuntiva e calcoli per geometrie aerospaziali.</p>
-                </a>
-                <a href="Articles/Forze_sostenatrici.html" class="card">
-                    <h3>Forze sostenatrici</h3>
-                    <p>Aerodinamica concetti di base portanza e reistenza</p>
-                </a>
-            </div>
+        <section class="blogroll">
+            <h3>🔗 Radar Aerospaziale (Blog Consigliati)</h3>
+            <ul class="blog-links">
+                <li><a href="https://www.esa.int/" target="_blank">ESA - European Space Agency</a></li>
+                <li><a href="https://www.nasa.gov/" target="_blank">NASA Official</a></li>
+            </ul>
         </section>
     </main>
 
