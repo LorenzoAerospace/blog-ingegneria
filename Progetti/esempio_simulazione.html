@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulazione Traiettoria Proiettile</title>
+    <link rel="stylesheet" href="../style.css"> <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .sim-container {
+            background-color: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 800px;
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
+        }
+        canvas {
+            background-color: #0d1117; /* Sfondo scuro per il canvas */
+            border: 1px solid var(--accent);
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+        .controls {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .controls label {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--text-secondary);
+        }
+        .controls input[type="range"],
+        .controls input[type="number"] {
+            width: 100%;
+            background: #21262d;
+            border: 1px solid #30363d;
+            border-radius: 4px;
+            color: var(--text-primary);
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .controls input[type="range"]::-webkit-slider-thumb {
+            background: var(--accent);
+        }
+        .reset-btn {
+            grid-column: 1 / -1;
+            background: var(--accent);
+            color: var(--bg-dark);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .reset-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="sim-container">
+        <h2 style="text-align: center; color: var(--accent);">Simulazione Traiettoria Proiettile</h2>
+        <canvas id="projectileCanvas" width="700" height="400"></canvas>
+
+        <div class="controls">
+            <div>
+                <label for="angleSlider">Angolo di lancio (gradi): <span id="angleValue">45</span>°</label>
+                <input type="range" id="angleSlider" min="0" max="90" value="45">
+            </div>
+            <div>
+                <label for="velocitySlider">Velocità iniziale (m/s): <span id="velocityValue">50</span> m/s</label>
+                <input type="range" id="velocitySlider" min="10" max="100" value="50">
+            </div>
+            <button class="reset-btn" onclick="resetSimulation()">Ricalcola Traiettoria</button>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('projectileCanvas');
+        const ctx = canvas.getContext('2d');
+        const g = 9.81; // Accelerazione di gravità (m/s^2)
+        const scale = 5; // Scala per visualizzare meglio (1m = 5px)
+
+        let angle = 45; // Gradi
+        let initialVelocity = 50; // m/s
+
+        // Elementi UI
+        const angleSlider = document.getElementById('angleSlider');
+        const angleValueSpan = document.getElementById('angleValue');
+        const velocitySlider = document.getElementById('velocitySlider');
+        const velocityValueSpan = document.getElementById('velocityValue');
+
+        angleSlider.addEventListener('input', (e) => {
+            angle = parseFloat(e.target.value);
+            angleValueSpan.textContent = angle;
+            drawTrajectory();
+        });
+
+        velocitySlider.addEventListener('input', (e) => {
+            initialVelocity = parseFloat(e.target.value);
+            velocityValueSpan.textContent = initialVelocity;
+            drawTrajectory();
+        });
+
+        function resetSimulation() {
+            drawTrajectory();
+        }
+
+        function drawTrajectory() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Pulisce il canvas
+
+            // Disegna l'asse x (terra)
+            ctx.strokeStyle = '#5e72e4'; // Colore terra (blu scuro)
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(0, canvas.height);
+            ctx.lineTo(canvas.width, canvas.height);
+            ctx.stroke();
+
+            // Calcola la traiettoria punto per punto
+            ctx.strokeStyle = var_accent_color; // Usa il colore accent del tuo tema
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            
+            let maxDistance = 0;
+
+            for (let t = 0; t < 10; t += 0.05) { // Incrementi temporali
+                const radians = angle * Math.PI / 180;
+                
+                const x = initialVelocity * Math.cos(radians) * t;
+                const y = initialVelocity * Math.sin(radians) * t - 0.5 * g * t * t;
+
+                // Converte le coordinate fisiche in coordinate del canvas
+                // L'asse Y del canvas è invertito (0 in alto)
+                const drawX = x * scale;
+                const drawY = canvas.height - (y * scale); // Inverti Y e scala
+
+                if (y < 0) break; // Il proiettile è tornato a terra
+
+                if (t === 0) {
+                    ctx.moveTo(drawX, drawY);
+                } else {
+                    ctx.lineTo(drawX, drawY);
+                }
+                maxDistance = x;
+            }
+            ctx.stroke();
+
+            // Disegna il punto di arrivo
+            const radiansAtEnd = angle * Math.PI / 180;
+            const flightTime = (2 * initialVelocity * Math.sin(radiansAtEnd)) / g;
+            const finalX = initialVelocity * Math.cos(radiansAtEnd) * flightTime * scale;
+
+            if (finalX > 0) {
+                ctx.fillStyle = var_accent_color;
+                ctx.beginPath();
+                ctx.arc(finalX, canvas.height, 6, 0, Math.PI * 2); // Punto rosso a terra
+                ctx.fill();
+            }
+        }
+        
+        // Determina il colore dell'accento dal CSS in runtime
+        const style = getComputedStyle(document.body);
+        const var_accent_color = style.getPropertyValue('--accent').trim();
+
+        drawTrajectory(); // Disegna la traiettoria iniziale al caricamento
+    </script>
+</body>
+</html>

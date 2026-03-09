@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulazione equazione di tsiolkovsky</title>
+    <link rel="stylesheet" href="../../style.css"> <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .sim-container {
+            background-color: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 800px;
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.1);
+        }
+        canvas {
+            background-color: #0d1117; /* Sfondo scuro per il canvas */
+            border: 1px solid var(--accent);
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+        .controls {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .controls label {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--text-secondary);
+        }
+        .controls input[type="range"],
+        .controls input[type="number"] {
+            width: 100%;
+            background: #21262d;
+            border: 1px solid #30363d;
+            border-radius: 4px;
+            color: var(--text-primary);
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .controls input[type="range"]::-webkit-slider-thumb {
+            background: var(--accent);
+        }
+        .reset-btn {
+            grid-column: 1 / -1;
+            background: var(--accent);
+            color: var(--bg-dark);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .reset-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
+        }
+    </style>
+  </head>
+  <body>
+    <div class="sim-container">
+        <h2 style="text-align: center; color: var(--accent);">Simulazione: equazione di tsiolkovsky</h2>
+        <canvas id="projectileCanvas" width="700" height="400"></canvas>
+        <div class = "controls">
+            <div>
+                <label for = "massSlider">Massa finale</label> <span id="massValue">700</span></label>
+                    <input type="range" id="massSlider" min="1" max="2000" value="700">
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const canvas = document.getElementById('projectileCanvas');
+        const ctx = canvas.getContext('2d');
+        const m0 = 1000 // massa iniziale del razzo
+        
+        //aggiornare valore dello slider
+        
+        //pensare a come disegnare grafico ecc...
+        
+        //molto da migliorare.......(non hai fretta l'impotante è imparare e non imbrogliare fa paura imparare, ma è essenziale eccc.........) (chi vuoi essere domani??)
+        
+    </script>
+    
+  </body>
+  </html>
+  
