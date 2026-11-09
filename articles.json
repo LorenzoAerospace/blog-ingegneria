@@ -2,12 +2,12 @@
   {
     "titolo": "Teorema di Thévenin",
     "descrizione": "AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard Equivalenza / Semplificazione Teorema di Théven…",
-    "categoria": "Altro",
+    "categoria": "ELETTROTECNICA",
     "tags": [],
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Teorema_di_Thevenin.md",
     "path": "Articles/Altro/Teorema_di_Thevenin.md",
-    "bozza": false
+    "bozza": true
   },
   {
     "titolo": "Il Corpo Rigido",
