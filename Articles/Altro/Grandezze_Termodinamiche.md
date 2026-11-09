@@ -1,6 +1,6 @@
 ---
 titolo: Grandezze Termodinamiche
-descrizione: Grandezze Termodinamiche: dalle variabili alle funzioni di stato
+descrizione: Definizione di variabili di stato e funzioni di stato.
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
@@ -9,7 +9,7 @@ bozza: si
 
 ## Grandezze Termodinamiche
 
-Definizione di variabili di stato e funzioni di stato.
+
 
 In questo paragrafo andremo a introdurre le principali grandezze analizzate nel corso di termodinamica. Mentre il **lavoro** ($W$) e il **calore** ($Q$) sono energie in transito, esistono proprietà intrinseche del sistema definite funzioni di stato.
 
