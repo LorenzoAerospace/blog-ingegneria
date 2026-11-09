@@ -1,6 +1,6 @@
 ---
 titolo: Effetti di Comprimibilità
-descrizione: Effetti di Comprimibilità Analisi dei regimi di moto, v…
+descrizione: Analisi dei regimi di moto, velocità del suono e numero di Mach
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
@@ -9,7 +9,7 @@ bozza: si
 
 ## Effetti di Comprimibilità
 
-Analisi dei regimi di moto, velocità del suono e numero di Mach
+
 
 Nello studio dell'aerodinamica ad alte velocità, non è più possibile considerare l'aria come un fluido a densità costante. Per analizzare gli effetti di comprimibilità, dobbiamo introdurre la **velocità del suono** ($a$), definita come la velocità di propagazione di piccole perturbazioni di pressione in un mezzo elastico.
 
