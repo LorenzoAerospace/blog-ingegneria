@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Cinematica del Corpo Rigido",
+    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Cinematica_del_Corpo_Rigido.md",
+    "path": "Articles/Altro/Cinematica_del_Corpo_Rigido.md",
+    "bozza": true
+  },
+  {
     "titolo": "Diagramma del corpo libero",
     "descrizione": "Diagramma di corpo libero: approccio all'utilizzo",
     "categoria": "MECCANICA",
@@ -157,16 +167,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
     "path": "Articles/Altro/Ali_3D.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Cinematica del Corpo Rigido",
-    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Cinematica del Corpo Rigido Studio del moto:…",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Cinematica_del_Corpo_Rigido.md",
-    "path": "Articles/Altro/Cinematica_del_Corpo_Rigido.md",
     "bozza": true
   },
   {
