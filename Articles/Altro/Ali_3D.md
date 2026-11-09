@@ -4,19 +4,13 @@ descrizione: AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Ali 3D Ana
 categoria: Altro
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
 
-*   [Home](../../index.html)
 
-[Contatti](mailto:tua@mail.com)
 
-[← Torna all'indice](../../index.html)
-
-AERODINAMICA
-
-# Ali 3D
+## Ali 3D
 
 Analisi della resistenza indotta, vortici d'estremità e winglets
 
@@ -63,4 +57,4 @@ Esistono tre vie principali per diminuire la componente di resistenza indotta, a
 *   [Distribuzione di portanza ellittica](#)
 *   [Effetto suolo e resistenza indotta](#)
 
-© 2026 - Progetto Studente Ingegneria Aerospaziale
+
