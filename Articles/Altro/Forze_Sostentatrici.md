@@ -1,6 +1,6 @@
 ---
 titolo: Forze Sostentatrici
-descrizione: AEROBLOG Home Appunti Contatti ← Torna all'indice AERODINAMICA Forze Sostentatrici L'origine della portanza: d…
+descrizione: Forze Sostentatrici: come nascono e cosa sono
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
