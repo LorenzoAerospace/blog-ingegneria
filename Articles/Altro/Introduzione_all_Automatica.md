@@ -7,7 +7,7 @@ data: 2026-11-09
 bozza: si
 ---
 
-# Introduzione all'Automatica
+## Introduzione all'Automatica
 
 I fondamenti della teoria dei sistemi e il concetto di controllo
 
@@ -42,4 +42,4 @@ L'importanza dell'automatica risiede nella sua ubiquità: dal termostato di casa
 *   [La Trasformata di Laplace nei controlli](#)
 *   [Stabilità dei sistemi dinamici](#)
 
-
+© 2026 - AeroBlog
