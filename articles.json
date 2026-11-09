@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Introduzione all'Automatica",
+    "descrizione": "Introduzione all'Automatica : concetti preliminari",
+    "categoria": "AUTOMATICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Introduzione_all_Automatica.md",
+    "path": "Articles/Altro/Introduzione_all_Automatica.md",
+    "bozza": true
+  },
+  {
     "titolo": "Resistenza Aerodinamica",
     "descrizione": "Resistenza Aerodinamica: cosa rappresenta e come si manifesta",
     "categoria": "AERODINAMICA",
@@ -137,16 +147,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/I_Vincoli.md",
     "path": "Articles/Altro/I_Vincoli.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Introduzione all'Automatica",
-    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard CONTROLLI AUTOMATICI Introduzione all'Automatica I fondamenti de…",
-    "categoria": "AUTOMATICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Introduzione_all_Automatica.md",
-    "path": "Articles/Altro/Introduzione_all_Automatica.md",
     "bozza": true
   },
   {
