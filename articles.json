@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Il Corpo Rigido",
+    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Il Corpo Rigido Definizione, proprietà e il …",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Il_Corpo_Rigido.md",
+    "path": "Articles/Altro/Il_Corpo_Rigido.md",
+    "bozza": true
+  },
+  {
     "titolo": "Equazioni Cardinali",
     "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA DEI SISTEMI Equazioni Cardinali Le leggi fondamentali d…",
     "categoria": "MECCANICA",
@@ -108,16 +118,6 @@
     "link": "articolo.html?p=Articles/Altro/I_Vincoli.md",
     "path": "Articles/Altro/I_Vincoli.md",
     "bozza": true
-  },
-  {
-    "titolo": "Il Corpo Rigido",
-    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Il Corpo Rigido Definizione, proprietà e il …",
-    "categoria": "Altro",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Il_Corpo_Rigido.md",
-    "path": "Articles/Altro/Il_Corpo_Rigido.md",
-    "bozza": false
   },
   {
     "titolo": "Introduzione all'Automatica",
