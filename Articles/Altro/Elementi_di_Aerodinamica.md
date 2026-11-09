@@ -1,6 +1,6 @@
 ---
 titolo: Elementi di Aerodinamica
-descrizione: AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice AERODINAMICA Elementi di Aerodinamica Fondamenti, equazio…
+descrizione: Elementi di Aerodinamica Fondamenti ed equazioni fondamentali
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
