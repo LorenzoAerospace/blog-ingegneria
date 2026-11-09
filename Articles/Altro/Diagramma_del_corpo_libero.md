@@ -1,9 +1,10 @@
 ---
 titolo: Diagramma del corpo libero
 descrizione: AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard Meccanica Diagramma del corpo libero In questo …
-categoria: Altro
+categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
 [AEROBLOG](../../index.html)
