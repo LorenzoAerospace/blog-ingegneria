@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Macchine_termodinamiche.md",
+    "path": "Articles/Altro/Macchine_termodinamiche.md",
+    "bozza": true
+  },
+  {
     "titolo": "Principi di Conservazione",
     "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
     "categoria": "FISICA TECNICA",
@@ -137,16 +147,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Il_Corpo_Rigido.md",
     "path": "Articles/Altro/Il_Corpo_Rigido.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "Macchine termodinamiche: cosa sono e come funzionano",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Macchine_termodinamiche.md",
-    "path": "Articles/Altro/Macchine_termodinamiche.md",
     "bozza": true
   },
   {
