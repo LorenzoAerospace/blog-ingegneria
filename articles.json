@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Teorema di Thévenin",
+    "descrizione": "Equivalenza / Semplificazione sfruttando il Teorema di Thévenin e il suo funzionamento",
+    "categoria": "ELETTROTECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Teorema_di_Thevenin.md",
+    "path": "Articles/Altro/Teorema_di_Thevenin.md",
+    "bozza": true
+  },
+  {
     "titolo": "Sali poco solubili",
     "descrizione": "La solubilità: cosa rappresenta e come si calcola",
     "categoria": "CHIMICA",
@@ -67,16 +77,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
     "path": "Articles/Altro/Ali_3D.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Teorema di Thévenin",
-    "descrizione": "AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard Equivalenza / Semplificazione Teorema di Théven…",
-    "categoria": "ELETTROTECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Teorema_di_Thevenin.md",
-    "path": "Articles/Altro/Teorema_di_Thevenin.md",
     "bozza": true
   },
   {
