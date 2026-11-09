@@ -1,6 +1,6 @@
 ---
 titolo: Principi di Conservazione
-descrizione: Principi di Conservazione : i principi basi della termodinamica
+descrizione: Analisi del Primo e Secondo Principio della Termodinamica
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
@@ -8,8 +8,6 @@ bozza: si
 ---
 
 ## Principi di Conservazione
-
-Analisi del Primo e Secondo Principio della Termodinamica
 
 I principi di conservazione e di bilancio rappresentano le fondamenta della termodinamica. Essi permettono di quantificare gli scambi tra sistema e ambiente attraverso tre pilastri:
 
