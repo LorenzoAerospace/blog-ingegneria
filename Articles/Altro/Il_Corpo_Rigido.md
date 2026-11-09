@@ -1,22 +1,13 @@
 ---
 titolo: Il Corpo Rigido
 descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Il Corpo Rigido Definizione, proprietà e il …
-categoria: Altro
+categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-MECCANICA RAZIONALE
-
-# Il Corpo Rigido
+## Il Corpo Rigido
 
 Definizione, proprietà e il vincolo di rigidità
 
@@ -28,7 +19,7 @@ Un corpo rigido è un sistema di punti materiali in cui la distanza tra due qual
 
 **Nota:** Nella realtà, ogni oggetto subisce micro-deformazioni. Il "corpo rigido" è un modello ideale che semplifica enormemente lo studio del moto (cinematica) e delle forze (dinamica).
 
-## Il Vincolo di Rigidità
+##Il Vincolo di Rigidità
 
 Matematicamente, per due punti generici \(P_i\) e \(P_j\) appartenenti al corpo, il vincolo si esprime come:
 
@@ -49,4 +40,3 @@ $$ (\vec{v}_i - \vec{v}_j) \cdot (P_i - P_j) = 0 $$
 *   [Cinematica 2D e Atto di Moto Rigido](Cinematica_2D.html)
 *   [Gradi di libertà nel piano e nello spazio](#)
 
-© 2026 - AeroBlog
