@@ -7,7 +7,7 @@ data: 2026-11-09
 bozza: si
 ---
 
-# I Vincoli
+## I Vincoli
 
 Limitazioni al moto e condizioni cinematiche nei sistemi rigidi
 
@@ -47,4 +47,3 @@ Il carrello impedisce la traslazione solo lungo la direzione normale (\(\hat{n}\
 
 *   [Cinematica nel piano](Cinematica_2D.html)
 *   [Equazioni Cardinali e Reazioni Vincolari](Equazioni_cardinali.html)
-
