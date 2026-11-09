@@ -1,7 +1,7 @@
 ---
 titolo: Forze Sostentatrici
 descrizione: AEROBLOG Home Appunti Contatti ← Torna all'indice AERODINAMICA Forze Sostentatrici L'origine della portanza: d…
-categoria: Altro
+categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
 bozza: si
@@ -49,5 +49,3 @@ Questo numero è cruciale per determinare se il flusso attorno al profilo sarà 
 
 *   [Il paradosso di D'Alembert](#)
 *   [Teoria del profilo sottile](#)
-
-
