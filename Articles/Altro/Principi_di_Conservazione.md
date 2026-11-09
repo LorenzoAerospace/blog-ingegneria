@@ -1,6 +1,6 @@
 ---
 titolo: Principi di Conservazione
-descrizione: AEROBLOG Home Appunti Contatti ← Torna alla Dashboard FISICA TECNICA Principi di Conservazione Analisi del Pri…
+descrizione: Principi di Conservazione : i principi basi della termodinamica
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
@@ -58,5 +58,3 @@ $$ \Delta S = \int \frac{\delta Q}{T} + S_{gen} \quad (S_{gen} \ge 0) $$
 *   [Introduzione alla Termodinamica](Introduzione_termodinamica.html)
 *   [Grandezze Termodinamiche](Grandezze_termodinamiche.html)
 *   [Il Lavoro di variazione di volume](#)
-
-
