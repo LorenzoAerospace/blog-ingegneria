@@ -1,6 +1,6 @@
 ---
 titolo: Introduzione alla Termodinamica
-descrizione: AEROBLOG Home Appunti Contatti ← Torna alla Dashboard FISICA TECNICA Introduzione alla Termodinamica Definizio…
+descrizione: Introduzione alla Termodinamica: concetti di base
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
