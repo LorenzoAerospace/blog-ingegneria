@@ -1,6 +1,6 @@
 ---
 titolo: Teorema di Thévenin
-descrizione: Equivalenza / Semplificazione sfruttando il Teorema di Thévenin e il suo funzionamento
+descrizione: Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.
 categoria: ELETTROTECNICA
 tags: 
 data: 2026-11-09
@@ -9,7 +9,6 @@ bozza: si
 
 ## Teorema di Thévenin
 
-Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.
 
 Il **teorema di Thévenin** è uno dei principali strumenti usati nell'elettrotecnica per semplificare una rete elettrica complessa, trasformandola in un circuito equivalente più semplice visto da due morsetti.
 
