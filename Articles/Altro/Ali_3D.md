@@ -1,8 +1,8 @@
 ---
 titolo: Ali 3D
-descrizione: AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Ali 3D Analisi della resistenza indotta, vortici d'estr…
-categoria: Aerodinamica
-tags: #aerodinamica
+descrizione: Tratta della ali 3D e delle loro caratteristiche
+categoria: Altro
+tags: 
 data: 2026-11-09
 bozza: si
 ---
@@ -53,3 +53,5 @@ Esistono tre vie principali per diminuire la componente di resistenza indotta, a
 *   [Teoria della linea portante di Prandtl](#)
 *   [Distribuzione di portanza ellittica](#)
 *   [Effetto suolo e resistenza indotta](#)
+
+© 2026 - Progetto Studente Ingegneria Aerospaziale
