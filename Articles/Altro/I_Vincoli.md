@@ -1,21 +1,11 @@
 ---
 titolo: I Vincoli
 descrizione: AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…
-categoria: Altro
+categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
-
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-*   [Appunti](#articoli)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna all'indice](../../index.html)
-
-MECCANICA RAZIONALE
 
 # I Vincoli
 
@@ -58,4 +48,3 @@ Il carrello impedisce la traslazione solo lungo la direzione normale (\(\hat{n}\
 *   [Cinematica nel piano](Cinematica_2D.html)
 *   [Equazioni Cardinali e Reazioni Vincolari](Equazioni_cardinali.html)
 
-© 2026 - AeroBlog
