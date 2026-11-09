@@ -1,7 +1,7 @@
 ---
 titolo: Resistenza Aerodinamica
 descrizione: AEROBLOG Home Appunti Contatti ← Torna alla Dashboard AERODINAMICA Resistenza Aerodinamica Dallo strato limite…
-categoria: Altro
+categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
 bozza: si
@@ -45,4 +45,3 @@ Per minimizzare la resistenza indotta (tipica delle ali di apertura finita), la 
 
 *   [Lo stallo e la separazione del flusso](#)
 *   [Analisi del Numero di Reynolds](#)
-
