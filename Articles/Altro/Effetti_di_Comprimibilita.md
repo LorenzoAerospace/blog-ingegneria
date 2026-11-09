@@ -1,6 +1,6 @@
 ---
 titolo: Effetti di Comprimibilità
-descrizione: AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Effetti di Comprimibilità Analisi dei regimi di moto, v…
+descrizione: Effetti di Comprimibilità Analisi dei regimi di moto, v…
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
