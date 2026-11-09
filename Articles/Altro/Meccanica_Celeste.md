@@ -4,20 +4,11 @@ descrizione: AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica 
 categoria: Altro
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
 
- 🔍
-
-*   [Home](../../index.html)
-*   [Appunti](#articoli)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna all'indice](../../index.html)
-
-# Meccanica Celeste
+## Meccanica Celeste
 
 In questo articolo, si andrà ad analizzare, la meccanica celeste (che cos'è?, di cosa si occupa?).  
 Andiamo per prima cosa a definire, le 3 leggi di keplero:
