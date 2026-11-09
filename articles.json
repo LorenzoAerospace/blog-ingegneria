@@ -1,5 +1,95 @@
 [
   {
+    "titolo": "I Vincoli",
+    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/I_Vincoli.md",
+    "path": "Articles/Altro/I_Vincoli.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Moti Centrali",
+    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE Moti Centrali Studio del moto sotto l'az…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Moti_Centrali.md",
+    "path": "Articles/Altro/Moti_Centrali.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Momenti d'Inerzia",
+    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Momenti d'Inerzia La resistenza alla rotazio…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Momenti_d_Inerzia.md",
+    "path": "Articles/Altro/Momenti_d_Inerzia.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Equivalenza e Riduzione",
+    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Equivalenza e Riduzione Semplificazione dei …",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Equivalenza_e_Riduzione.md",
+    "path": "Articles/Altro/Equivalenza_e_Riduzione.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Equazioni Cardinali",
+    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA DEI SISTEMI Equazioni Cardinali Le leggi fondamentali d…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Equazioni_Cardinali.md",
+    "path": "Articles/Altro/Equazioni_Cardinali.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Energia Cinetica",
+    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA Energia Cinetica Definizione, sistemi di punti e il Teo…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Energia_Cinetica.md",
+    "path": "Articles/Altro/Energia_Cinetica.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Diagramma del corpo libero",
+    "descrizione": "AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard Meccanica Diagramma del corpo libero In questo …",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Diagramma_del_corpo_libero.md",
+    "path": "Articles/Altro/Diagramma_del_corpo_libero.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Il Corpo Rigido",
+    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Il Corpo Rigido Definizione, proprietà e il …",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Il_Corpo_Rigido.md",
+    "path": "Articles/Altro/Il_Corpo_Rigido.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Cinematica del Corpo Rigido",
+    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Cinematica del Corpo Rigido Studio del moto:…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Cinematica_del_Corpo_Rigido.md",
+    "path": "Articles/Altro/Cinematica_del_Corpo_Rigido.md",
+    "bozza": false
+  },
+  {
     "titolo": "Grandezze Termodinamiche",
     "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard TERMODINAMICA Grandezze Termodinamiche Definizione di variabili …",
     "categoria": "FISICA TECNICA",
