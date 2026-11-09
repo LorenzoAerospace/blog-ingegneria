@@ -1,23 +1,13 @@
 ---
 titolo: Introduzione alla Termodinamica
 descrizione: AEROBLOG Home Appunti Contatti ← Torna alla Dashboard FISICA TECNICA Introduzione alla Termodinamica Definizio…
-categoria: Altro
+categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-*   [Appunti](#articoli)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-FISICA TECNICA
-
-# Introduzione alla Termodinamica
+## Introduzione alla Termodinamica
 
 Definizioni fondamentali, sistemi e variabili di stato
 
@@ -78,5 +68,3 @@ Una trasformazione è un processo che porta il sistema da uno stato di equilibri
 
 *   [Il Primo Principio della Termodinamica](#)
 *   [Analisi dei Sistemi Aperti (Volume di Controllo)](#)
-
-© 2026 - AeroBlog
