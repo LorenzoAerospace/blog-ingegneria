@@ -1,6 +1,6 @@
 ---
 titolo: Forze Sostentatrici
-descrizione: Forze Sostentatrici: come nascono e cosa sono
+descrizione: L'origine della portanza: dal vento asintotico alla circolazione
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
@@ -8,8 +8,6 @@ bozza: si
 ---
 
 ## Forze Sostentatrici
-
-L'origine della portanza: dal vento asintotico alla circolazione
 
 In questo articolo analizzo le forze principali che agiscono su un veicolo e come lo aiutano a restare in cielo.
 
