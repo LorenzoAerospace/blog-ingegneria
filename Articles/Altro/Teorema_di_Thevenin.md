@@ -1,6 +1,6 @@
 ---
 titolo: Teorema di Thévenin
-descrizione: AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard Equivalenza / Semplificazione Teorema di Théven…
+descrizione: Equivalenza / Semplificazione sfruttando il Teorema di Thévenin e il suo funzionamento
 categoria: ELETTROTECNICA
 tags: 
 data: 2026-11-09
@@ -43,4 +43,3 @@ $$ V = V_{th} - R_{th} \cdot I $$
 ### Continua a leggere
 
 *   [Teorema di Norton](#)
-
