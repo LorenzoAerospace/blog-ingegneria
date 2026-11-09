@@ -4,22 +4,10 @@ descrizione: AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice AERODINAMI
 categoria: Altro
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
- 🔍
-
-*   [Home](../../index.html)
-*   [Appunti](../../index.html#articoli)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna all'indice](../../index.html)
-
-AERODINAMICA
-
-# Elementi di Aerodinamica
+## Elementi di Aerodinamica
 
 Fondamenti, equazioni di base e applicazioni nel settore aerospaziale
 
@@ -50,5 +38,3 @@ Esempio: Equazione di continuità per un flusso stazionario e unidimensionale.
 *   [Il Teorema di Bernoulli e le sue limitazioni](#)
 *   [Tubi di Venturi e misura della velocità](#)
 *   [Equazione di stato dei gas perfetti](#)
-
-© 2026 - AeroBlog
