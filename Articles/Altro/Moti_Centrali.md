@@ -1,23 +1,13 @@
 ---
 titolo: Moti Centrali
 descrizione: AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE Moti Centrali Studio del moto sotto l'az…
-categoria: Altro
+categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-*   [Appunti](#articoli)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna all'indice](../../index.html)
-
-MECCANICA RAZIONALE
-
-# Moti Centrali
+## Moti Centrali
 
 Studio del moto sotto l'azione di forze dirette verso un polo fisso
 
@@ -51,5 +41,3 @@ Questa relazione è fondamentale in astrodinamica per dimostrare che, se la forz
 *   [Leggi di Keplero e Gravitazione](#)
 *   [Conservazione del Momento Angolare](#)
 *   [Orbite ed Energia Orbitale](#)
-
-© 2026 - AeroBlog
