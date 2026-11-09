@@ -1,23 +1,13 @@
 ---
 titolo: Principi di Conservazione
 descrizione: AEROBLOG Home Appunti Contatti ← Torna alla Dashboard FISICA TECNICA Principi di Conservazione Analisi del Pri…
-categoria: Altro
+categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-*   [Appunti](#articoli)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-FISICA TECNICA
-
-# Principi di Conservazione
+## Principi di Conservazione
 
 Analisi del Primo e Secondo Principio della Termodinamica
 
@@ -69,4 +59,4 @@ $$ \Delta S = \int \frac{\delta Q}{T} + S_{gen} \quad (S_{gen} \ge 0) $$
 *   [Grandezze Termodinamiche](Grandezze_termodinamiche.html)
 *   [Il Lavoro di variazione di volume](#)
 
-© 2026 - AeroBlog
+
