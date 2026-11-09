@@ -1,6 +1,6 @@
 ---
 titolo: Macchine termodinamiche
-descrizione: AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard FISICA TECNICA Macchine termodinamiche Introduz…
+descrizione: Macchine termodinamiche: cosa sono e come funzionano
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
