@@ -7,19 +7,7 @@ data: 2026-11-09
 bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../index.html)
-*   [Appunti](#articoli)
-*   [Progetti](#articoli)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-Meccanica
-
-# Diagramma del corpo libero
+## Diagramma del corpo libero
 
 In questo articolo andremo a vedere come funziona il diagramma di corpo libero e degli esempi su vincoli semplici.
 
@@ -53,4 +41,3 @@ $$ \oint_{\partial \Sigma} \mathbf{E} \cdot d\mathbf{l} = - \frac{d}{dt} \iint_{
 *   [Link ad articolo correlato #1](#)
 *   [Approfondimento matematico #2](#)
 
-© 2026 - AeroBlog
