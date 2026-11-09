@@ -1,6 +1,6 @@
 ---
 titolo: Resistenza Aerodinamica
-descrizione: AEROBLOG Home Appunti Contatti ← Torna alla Dashboard AERODINAMICA Resistenza Aerodinamica Dallo strato limite…
+descrizione: Resistenza Aerodinamica: cosa rappresenta e come si manifesta
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
