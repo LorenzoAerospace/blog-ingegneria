@@ -1,6 +1,6 @@
 ---
 titolo: Macchine termodinamiche
-descrizione: Macchine termodinamiche: cosa sono e come funzionano
+descrizione: Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
@@ -8,8 +8,6 @@ bozza: si
 ---
 
 ## Macchine termodinamiche
-
-Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni
 
 Le **macchine termodinamiche** sono state inizate a sviluppare durante le rivoluzioni industriali e nel corso di questo articolo andremo a definirle meglio
 
