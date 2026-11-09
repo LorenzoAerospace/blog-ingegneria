@@ -1,6 +1,6 @@
 ---
 titolo: Equivalenza e Riduzione
-descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Equivalenza e Riduzione Semplificazione dei …
+descrizione: Semplificazione dei sistemi di forze agenti sui corpi rigidi
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
@@ -9,7 +9,7 @@ bozza: si
 
 ## Equivalenza e Riduzione
 
-Semplificazione dei sistemi di forze agenti sui corpi rigidi
+
 
 ## Sistemi Equivalenti
 
@@ -46,4 +46,3 @@ $$ I = \vec{R} \cdot \vec{M}_O $$
 
 *   [Equazioni Cardinali della Dinamica](Equazioni_cardinali.html)
 *   [Il Centro delle Forze Parallele](#)
-
