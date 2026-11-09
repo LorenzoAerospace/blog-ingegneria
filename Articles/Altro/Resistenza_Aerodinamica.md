@@ -1,6 +1,6 @@
 ---
 titolo: Resistenza Aerodinamica
-descrizione: Resistenza Aerodinamica: cosa rappresenta e come si manifesta
+descrizione: Dallo strato limite di Prandtl alla scomposizione delle forze dissipative
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
@@ -8,8 +8,6 @@ bozza: si
 ---
 
 ## Resistenza Aerodinamica
-
-Dallo strato limite di Prandtl alla scomposizione delle forze dissipative
 
 Dopo aver introdotto le forze sostentatrici, è fondamentale analizzare la **resistenza aerodinamica** \(D\), ovvero la componente della forza aerodinamica parallela alla velocità asintotica del fluido.
 
