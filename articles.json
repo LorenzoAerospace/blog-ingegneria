@@ -1,0 +1,32 @@
+[
+  {
+    "titolo": "Meccanica Celeste",
+    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Meccanica_Celeste.md",
+    "path": "Articles/Altro/Meccanica_Celeste.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Ali 3D",
+    "descrizione": "AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Ali 3D Analisi della resistenza indotta, vortici d'estr…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
+    "path": "Articles/Altro/Ali_3D.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Effetti di Comprimibilità",
+    "descrizione": "AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Effetti di Comprimibilità Analisi dei regimi di moto, v…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Effetti_di_Comprimibilita.md",
+    "path": "Articles/Altro/Effetti_di_Comprimibilita.md",
+    "bozza": true
+  }
+]
