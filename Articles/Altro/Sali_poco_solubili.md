@@ -1,6 +1,6 @@
 ---
 titolo: Sali poco solubili
-descrizione: AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Sali poco solubili La solubilità, indica la massima quant…
+descrizione: La solubilità: cosa rappresenta e come si calcola
 categoria: CHIMICA
 tags: 
 data: 2026-11-09
