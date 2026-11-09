@@ -1,6 +1,6 @@
 ---
 titolo: Ali 3D
-descrizione: Ali 3D Analisi della resistenza indotta, vortici d'estr…
+descrizione: Analisi della resistenza indotta, vortici d'estremità e winglets
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
@@ -8,8 +8,6 @@ bozza: si
 ---
 
 ## Ali 3D
-
-Analisi della resistenza indotta, vortici d'estremità e winglets
 
 Le ali sono l'elemento essenziale del veicolo per la generazione della portanza. Per definire correttamente la geometria di un'ala, dobbiamo considerare i suoi parametri fondamentali:
 
