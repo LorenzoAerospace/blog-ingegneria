@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Resistenza Aerodinamica",
+    "descrizione": "Dallo strato limite di Prandtl alla scomposizione delle forze dissipative",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Resistenza_Aerodinamica.md",
+    "path": "Articles/Altro/Resistenza_Aerodinamica.md",
+    "bozza": true
+  },
+  {
     "titolo": "Equivalenza e Riduzione",
     "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
     "categoria": "MECCANICA",
@@ -127,16 +137,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Introduzione_all_Automatica.md",
     "path": "Articles/Altro/Introduzione_all_Automatica.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Resistenza Aerodinamica",
-    "descrizione": "Resistenza Aerodinamica: cosa rappresenta e come si manifesta",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Resistenza_Aerodinamica.md",
-    "path": "Articles/Altro/Resistenza_Aerodinamica.md",
     "bozza": true
   },
   {
