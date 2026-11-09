@@ -1,6 +1,6 @@
 ---
 titolo: Il Corpo Rigido
-descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Il Corpo Rigido Definizione, proprietà e il …
+descrizione: Definizione, proprietà e il vincolo di rigidità
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
@@ -8,8 +8,6 @@ bozza: si
 ---
 
 ## Il Corpo Rigido
-
-Definizione, proprietà e il vincolo di rigidità
 
 In questo articolo analizzeremo il concetto di **corpo rigido**. Possiamo immaginarlo come un qualsiasi oggetto della nostra quotidianità — un tavolo, una sedia o una ruota — ma analizzato sotto la lente della meccanica classica attraverso un vincolo specifico.
 
@@ -39,4 +37,3 @@ $$ (\vec{v}_i - \vec{v}_j) \cdot (P_i - P_j) = 0 $$
 
 *   [Cinematica 2D e Atto di Moto Rigido](Cinematica_2D.html)
 *   [Gradi di libertà nel piano e nello spazio](#)
-
