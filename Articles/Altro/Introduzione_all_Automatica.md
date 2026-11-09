@@ -1,6 +1,6 @@
 ---
 titolo: Introduzione all'Automatica
-descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard CONTROLLI AUTOMATICI Introduzione all'Automatica I fondamenti de…
+descrizione: Introduzione all'Automatica : concetti preliminari
 categoria: AUTOMATICA
 tags: 
 data: 2026-11-09
@@ -28,7 +28,7 @@ La rappresentazione standard di un sistema di controllo prevede l'interazione tr
 
 **Curiosità:** Molti sistemi moderni utilizzano la _retroazione_ (feedback), dove l'uscita viene misurata e riportata all'ingresso per correggere l'errore in tempo reale.
 
-L'importanza dell'automatica risiede nella sua ubiquità: dal termostato di casa ai complessi sistemi di guida dei velivoli (fly-by-wire), la capacità di gestire sistemi dinamici è il pilastro della tecnologia moderna.
+L'importanza dell'automatica risiede nella sua unicità: dal termostato di casa ai complessi sistemi di guida dei velivoli (fly-by-wire), la capacità di gestire sistemi dinamici è il pilastro della tecnologia moderna.
 
 * * *
 
@@ -41,4 +41,3 @@ L'importanza dell'automatica risiede nella sua ubiquità: dal termostato di casa
 *   [Sistemi ad anello chiuso e retroazione](#)
 *   [La Trasformata di Laplace nei controlli](#)
 *   [Stabilità dei sistemi dinamici](#)
-
