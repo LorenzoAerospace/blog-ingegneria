@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Elementi di Aerodinamica",
+    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Elementi_di_Aerodinamica.md",
+    "path": "Articles/Altro/Elementi_di_Aerodinamica.md",
+    "bozza": true
+  },
+  {
     "titolo": "Forze Sostentatrici",
     "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
     "categoria": "AERODINAMICA",
@@ -147,16 +157,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Introduzione_all_Automatica.md",
     "path": "Articles/Altro/Introduzione_all_Automatica.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Elementi di Aerodinamica",
-    "descrizione": "Elementi di Aerodinamica Fondamenti ed equazioni fondamentali",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Elementi_di_Aerodinamica.md",
-    "path": "Articles/Altro/Elementi_di_Aerodinamica.md",
     "bozza": true
   },
   {
