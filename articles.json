@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Equivalenza e Riduzione",
+    "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Equivalenza_e_Riduzione.md",
+    "path": "Articles/Altro/Equivalenza_e_Riduzione.md",
+    "bozza": true
+  },
+  {
     "titolo": "Cinematica del Corpo Rigido",
     "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
     "categoria": "MECCANICA",
@@ -167,16 +177,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
     "path": "Articles/Altro/Ali_3D.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Equivalenza e Riduzione",
-    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Equivalenza e Riduzione Semplificazione dei …",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Equivalenza_e_Riduzione.md",
-    "path": "Articles/Altro/Equivalenza_e_Riduzione.md",
     "bozza": true
   },
   {
