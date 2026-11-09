@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Sali poco solubili",
+    "descrizione": "La solubilità: cosa rappresenta e come si calcola",
+    "categoria": "CHIMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Sali_poco_solubili.md",
+    "path": "Articles/Altro/Sali_poco_solubili.md",
+    "bozza": true
+  },
+  {
     "titolo": "Introduzione all'Automatica",
     "descrizione": "Introduzione all'Automatica : concetti preliminari",
     "categoria": "AUTOMATICA",
@@ -207,16 +217,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Principi_di_Conservazione.md",
     "path": "Articles/Altro/Principi_di_Conservazione.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Sali poco solubili",
-    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Sali poco solubili La solubilità, indica la massima quant…",
-    "categoria": "CHIMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Sali_poco_solubili.md",
-    "path": "Articles/Altro/Sali_poco_solubili.md",
     "bozza": true
   }
 ]
