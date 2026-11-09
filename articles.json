@@ -1,5 +1,35 @@
 [
   {
+    "titolo": "Resistenza Aerodinamica",
+    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna alla Dashboard AERODINAMICA Resistenza Aerodinamica Dallo strato limite…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Resistenza_Aerodinamica.md",
+    "path": "Articles/Altro/Resistenza_Aerodinamica.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Forze Sostentatrici",
+    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice AERODINAMICA Forze Sostentatrici L'origine della portanza: d…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Forze_Sostentatrici.md",
+    "path": "Articles/Altro/Forze_Sostentatrici.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Elementi di Aerodinamica",
+    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice AERODINAMICA Elementi di Aerodinamica Fondamenti, equazio…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Elementi_di_Aerodinamica.md",
+    "path": "Articles/Altro/Elementi_di_Aerodinamica.md",
+    "bozza": false
+  },
+  {
     "titolo": "Meccanica Celeste",
     "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…",
     "categoria": "Altro",
