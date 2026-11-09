@@ -1,12 +1,11 @@
 ---
 titolo: Effetti di Comprimibilità
 descrizione: AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Effetti di Comprimibilità Analisi dei regimi di moto, v…
-categoria: Altro
+categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
 bozza: si
 ---
-
 
 ## Effetti di Comprimibilità
 
@@ -46,4 +45,3 @@ Un parametro progettuale essenziale è il **Mach critico**. Esso rappresenta la 
 *   [Regimi di moto: subsonico, transonico e supersonico](#)
 *   [Relazioni di salto attraverso le onde d'urto](#)
 *   [Regola delle aree per velivoli supersonici](#)
-
