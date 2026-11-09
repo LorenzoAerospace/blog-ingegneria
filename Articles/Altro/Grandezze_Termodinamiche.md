@@ -1,21 +1,13 @@
 ---
 titolo: Grandezze Termodinamiche
 descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard TERMODINAMICA Grandezze Termodinamiche Definizione di variabili …
-categoria: Altro
+categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-*   [Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-TERMODINAMICA
-
-# Grandezze Termodinamiche
+## Grandezze Termodinamiche
 
 Definizione di variabili di stato e funzioni di stato per sistemi aerospaziali
 
@@ -55,4 +47,4 @@ L'**Entropia** ($S$), invece, definisce il grado di irreversibilità di una tras
 *   [Ciclo di Brayton-Joule per Turbine a Gas](#)
 *   [Equazione di stato dei gas perfetti](#)
 
-© 2026 - AeroBlog
+
