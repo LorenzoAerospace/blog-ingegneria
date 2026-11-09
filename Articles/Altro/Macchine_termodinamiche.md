@@ -4,21 +4,10 @@ descrizione: AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard FI
 categoria: Altro
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../index.html)
-*   [Appunti](#articoli)
-*   [Progetti](#articoli)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-FISICA TECNICA
-
-# Macchine termodinamiche
+## Macchine termodinamiche
 
 Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni
 
@@ -50,4 +39,4 @@ $$ \oint_{\partial \Sigma} \mathbf{E} \cdot d\mathbf{l} = - \frac{d}{dt} \iint_{
 *   [Cicli termodinamici #1](#)
 *   [Trasformazioni termodinamiche](#)
 
-© 2026 - AeroBlog
+
