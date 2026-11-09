@@ -1,6 +1,6 @@
 ---
 titolo: Equazioni Cardinali
-descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA DEI SISTEMI Equazioni Cardinali Le leggi fondamentali d…
+descrizione: Le leggi fondamentali del moto per sistemi materiali complessi
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
@@ -8,8 +8,6 @@ bozza: si
 ---
 
 ## Equazioni Cardinali
-
-Le leggi fondamentali del moto per sistemi materiali complessi
 
 Le **equazioni cardinali** sono le relazioni fondamentali che descrivono la dinamica di un sistema materiale. Esse stabiliscono come le risultanti delle forze e dei momenti esterni influenzino le grandezze cinematiche globali del sistema.
 
@@ -46,4 +44,3 @@ Senza queste condizioni, l'integrazione fornirebbe infinite traiettorie possibil
 *   [Dinamica del Punto Materiale](#)
 *   [Il Principio di d'Alembert](#)
 *   [Sistemi Conservativi e Integrali Primi](#)
-
