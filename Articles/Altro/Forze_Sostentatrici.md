@@ -4,20 +4,10 @@ descrizione: AEROBLOG Home Appunti Contatti ← Torna all'indice AERODINAMICA Fo
 categoria: Altro
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-*   [Appunti](#articoli)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna all'indice](../../index.html)
-
-AERODINAMICA
-
-# Forze Sostentatrici
+## Forze Sostentatrici
 
 L'origine della portanza: dal vento asintotico alla circolazione
 
@@ -60,4 +50,4 @@ Questo numero è cruciale per determinare se il flusso attorno al profilo sarà 
 *   [Il paradosso di D'Alembert](#)
 *   [Teoria del profilo sottile](#)
 
-© 2026 - AeroBlog
+
