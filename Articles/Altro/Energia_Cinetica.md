@@ -1,22 +1,13 @@
 ---
 titolo: Energia Cinetica
 descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA Energia Cinetica Definizione, sistemi di punti e il Teo…
-categoria: Altro
+categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-DINAMICA
-
-# Energia Cinetica
+## Energia Cinetica
 
 Definizione, sistemi di punti e il Teorema di Koenig
 
@@ -59,4 +50,4 @@ Dove:
 *   [Teorema delle Forze Vive (Lavoro ed Energia)](#)
 *   [Momenti d'Inerzia nei Corpi Solidi](#)
 
-© 2026 - AeroBlog
+
