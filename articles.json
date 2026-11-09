@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "Macchine termodinamiche: cosa sono e come funzionano",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Macchine_termodinamiche.md",
+    "path": "Articles/Altro/Macchine_termodinamiche.md",
+    "bozza": true
+  },
+  {
     "titolo": "Introduzione alla Termodinamica",
     "descrizione": "Introduzione alla Termodinamica: concetti di base",
     "categoria": "FISICA TECNICA",
@@ -167,16 +177,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/I_Vincoli.md",
     "path": "Articles/Altro/I_Vincoli.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard FISICA TECNICA Macchine termodinamiche Introduz…",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Macchine_termodinamiche.md",
-    "path": "Articles/Altro/Macchine_termodinamiche.md",
     "bozza": true
   },
   {
