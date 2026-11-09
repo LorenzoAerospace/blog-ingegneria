@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Meccanica Celeste",
+    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…",
+    "categoria": "MECCANICA CELESTE",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Meccanica_Celeste.md",
+    "path": "Articles/Altro/Meccanica_Celeste.md",
+    "bozza": true
+  },
+  {
     "titolo": "Effetti di Comprimibilità",
     "descrizione": "AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Effetti di Comprimibilità Analisi dei regimi di moto, v…",
     "categoria": "AERODINAMICA",
@@ -17,16 +27,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
     "path": "Articles/Altro/Ali_3D.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Meccanica Celeste",
-    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…",
-    "categoria": "Altro",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Meccanica_Celeste.md",
-    "path": "Articles/Altro/Meccanica_Celeste.md",
     "bozza": true
   },
   {
