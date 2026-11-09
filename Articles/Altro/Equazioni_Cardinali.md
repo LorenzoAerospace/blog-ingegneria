@@ -1,22 +1,13 @@
 ---
 titolo: Equazioni Cardinali
 descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA DEI SISTEMI Equazioni Cardinali Le leggi fondamentali d…
-categoria: Altro
+categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-DINAMICA DEI SISTEMI
-
-# Equazioni Cardinali
+## Equazioni Cardinali
 
 Le leggi fondamentali del moto per sistemi materiali complessi
 
@@ -56,4 +47,3 @@ Senza queste condizioni, l'integrazione fornirebbe infinite traiettorie possibil
 *   [Il Principio di d'Alembert](#)
 *   [Sistemi Conservativi e Integrali Primi](#)
 
-© 2026 - AeroBlog
