@@ -4,19 +4,11 @@ descrizione: AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Effetti di
 categoria: Altro
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
 
-*   [Home](../../index.html)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna all'indice](../../index.html)
-
-AERODINAMICA
-
-# Effetti di Comprimibilità
+## Effetti di Comprimibilità
 
 Analisi dei regimi di moto, velocità del suono e numero di Mach
 
@@ -55,4 +47,3 @@ Un parametro progettuale essenziale è il **Mach critico**. Esso rappresenta la 
 *   [Relazioni di salto attraverso le onde d'urto](#)
 *   [Regola delle aree per velivoli supersonici](#)
 
-© 2026 - AeroBlog | Appunti di Ingegneria Aerospaziale
