@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Introduzione all'Automatica",
+    "descrizione": "I fondamenti della teoria dei sistemi e il concetto di controllo",
+    "categoria": "AUTOMATICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Introduzione_all_Automatica.md",
+    "path": "Articles/Altro/Introduzione_all_Automatica.md",
+    "bozza": true
+  },
+  {
     "titolo": "Ali 3D",
     "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
     "categoria": "AERODINAMICA",
@@ -167,16 +177,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Sali_poco_solubili.md",
     "path": "Articles/Altro/Sali_poco_solubili.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Introduzione all'Automatica",
-    "descrizione": "Introduzione all'Automatica : concetti preliminari",
-    "categoria": "AUTOMATICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Introduzione_all_Automatica.md",
-    "path": "Articles/Altro/Introduzione_all_Automatica.md",
     "bozza": true
   },
   {
