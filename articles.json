@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Equazioni Cardinali",
+    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA DEI SISTEMI Equazioni Cardinali Le leggi fondamentali d…",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Equazioni_Cardinali.md",
+    "path": "Articles/Altro/Equazioni_Cardinali.md",
+    "bozza": true
+  },
+  {
     "titolo": "Energia Cinetica",
     "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA Energia Cinetica Definizione, sistemi di punti e il Teo…",
     "categoria": "MECCANICA",
@@ -58,16 +68,6 @@
     "link": "articolo.html?p=Articles/Altro/Elementi_di_Aerodinamica.md",
     "path": "Articles/Altro/Elementi_di_Aerodinamica.md",
     "bozza": true
-  },
-  {
-    "titolo": "Equazioni Cardinali",
-    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA DEI SISTEMI Equazioni Cardinali Le leggi fondamentali d…",
-    "categoria": "Altro",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Equazioni_Cardinali.md",
-    "path": "Articles/Altro/Equazioni_Cardinali.md",
-    "bozza": false
   },
   {
     "titolo": "Equivalenza e Riduzione",
