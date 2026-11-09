@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard FISICA TECNICA Macchine termodinamiche Introduz…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Macchine_termodinamiche.md",
+    "path": "Articles/Altro/Macchine_termodinamiche.md",
+    "bozza": true
+  },
+  {
     "titolo": "Principi di Conservazione",
     "descrizione": "AEROBLOG Home Appunti Contatti ← Torna alla Dashboard FISICA TECNICA Principi di Conservazione Analisi del Pri…",
     "categoria": "FISICA TECNICA",
@@ -8,16 +18,6 @@
     "link": "articolo.html?p=Articles/Altro/Principi_di_Conservazione.md",
     "path": "Articles/Altro/Principi_di_Conservazione.md",
     "bozza": true
-  },
-  {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard FISICA TECNICA Macchine termodinamiche Introduz…",
-    "categoria": "Altro",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Macchine_termodinamiche.md",
-    "path": "Articles/Altro/Macchine_termodinamiche.md",
-    "bozza": false
   },
   {
     "titolo": "Introduzione alla Termodinamica",
