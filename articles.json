@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Ali 3D",
+    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
+    "path": "Articles/Altro/Ali_3D.md",
+    "bozza": true
+  },
+  {
     "titolo": "Effetti di Comprimibilità",
     "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
     "categoria": "AERODINAMICA",
@@ -167,16 +177,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Introduzione_all_Automatica.md",
     "path": "Articles/Altro/Introduzione_all_Automatica.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Ali 3D",
-    "descrizione": "Ali 3D Analisi della resistenza indotta, vortici d'estr…",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
-    "path": "Articles/Altro/Ali_3D.md",
     "bozza": true
   },
   {
