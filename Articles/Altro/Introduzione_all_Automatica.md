@@ -1,20 +1,11 @@
 ---
 titolo: Introduzione all'Automatica
 descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard CONTROLLI AUTOMATICI Introduzione all'Automatica I fondamenti de…
-categoria: Altro
+categoria: AUTOMATICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
-
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-CONTROLLI AUTOMATICI
 
 # Introduzione all'Automatica
 
@@ -51,4 +42,4 @@ L'importanza dell'automatica risiede nella sua ubiquità: dal termostato di casa
 *   [La Trasformata di Laplace nei controlli](#)
 *   [Stabilità dei sistemi dinamici](#)
 
-© 2026 - AeroBlog
+
