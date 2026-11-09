@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Equazioni Cardinali",
+    "descrizione": "Le leggi fondamentali del moto per sistemi materiali complessi",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Equazioni_Cardinali.md",
+    "path": "Articles/Altro/Equazioni_Cardinali.md",
+    "bozza": true
+  },
+  {
     "titolo": "Il Corpo Rigido",
     "descrizione": "Definizione, proprietà e il vincolo di rigidità",
     "categoria": "MECCANICA",
@@ -127,16 +137,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
     "path": "Articles/Altro/Ali_3D.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Equazioni Cardinali",
-    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA DEI SISTEMI Equazioni Cardinali Le leggi fondamentali d…",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Equazioni_Cardinali.md",
-    "path": "Articles/Altro/Equazioni_Cardinali.md",
     "bozza": true
   },
   {
