@@ -1,22 +1,31 @@
 ---
 titolo: Ali 3D
-descrizione: Ali 3d e le loro caratteristiche
-categoria: AERODINAMICA
-tags: #ali, #aerodinamica
+descrizione: AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Ali 3D Analisi della resistenza indotta, vortici d'estr…
+categoria: Altro
+tags: 
 data: 2026-11-09
-bozza: si
 ---
 
-## Ali 3D
+[AEROBLOG](../../index.html)
+
+*   [Home](../../index.html)
+
+[Contatti](mailto:tua@mail.com)
+
+[← Torna all'indice](../../index.html)
+
+AERODINAMICA
+
+# Ali 3D
 
 Analisi della resistenza indotta, vortici d'estremità e winglets
 
 Le ali sono l'elemento essenziale del veicolo per la generazione della portanza. Per definire correttamente la geometria di un'ala, dobbiamo considerare i suoi parametri fondamentali:
 
-1. **Corda:** La linea retta che unisce il bordo d'attacco a quello d'uscita.
-2. **Linea media:** Il luogo dei punti medi tra dorso e ventre.
-3. **Bordo d'attacco e d'uscita:** I punti estremi anteriore e posteriore del profilo.
-4. **Raggio di curvatura:** Parametro critico per il comportamento del flusso al bordo d'attacco.
+1.  **Corda:** La linea retta che unisce il bordo d'attacco a quello d'uscita.
+2.  **Linea media:** Il luogo dei punti medi tra dorso e ventre.
+3.  **Bordo d'attacco e d'uscita:** I punti estremi anteriore e posteriore del profilo.
+4.  **Raggio di curvatura:** Parametro critico per il comportamento del flusso al bordo d'attacco.
 
 ## Dalla Geometria 2D al Solido 3D
 
@@ -39,17 +48,19 @@ Esistono tre vie principali per diminuire la componente di resistenza indotta, a
 | Parametro | Azione | Effetto Fisico |
 | --- | --- | --- |
 | Angolo d'incidenza \(\alpha\) | Diminuire | Comporta una riduzione diretta del \(C_L\). |
-| Fattore di Oswald \(e\) | Aumentare | Dipende dalla forma in pianta dell'ala (l'ala ellittica ha \(e=1\)). |
+| Fattore di Oswald \(e\) | Aumentare | Dipende dalla forma in pianta dell'ala (l'ala ellittica ha \(e=1\). |
 | Allungamento alare \(\lambda\) | Aumentare | Tipico degli alianti: ali lunghe e strette riducono le perdite d'estremità. |
 
----
+* * *
 
 ## Fonti Consultate
 
-* **Anderson, J. D.** (2021). _Introduction to Flight_. (9th ed.). McGraw-Hill Education. Capitolo 7, per comprendere le ali 3D.
+*   **Anderson, J. D.** (2021). _Introduction to Flight_. (9th ed.). McGraw-Hill Education. Capitolo 7. per comprednere ali 3D.
 
 ### Argomenti correlati
 
-* Teoria della linea portante di Prandtl
-* Distribuzione di portanza ellittica
-* Effetto suolo e resistenza indotta
+*   [Teoria della linea portante di Prandtl](#)
+*   [Distribuzione di portanza ellittica](#)
+*   [Effetto suolo e resistenza indotta](#)
+
+© 2026 - Progetto Studente Ingegneria Aerospaziale
