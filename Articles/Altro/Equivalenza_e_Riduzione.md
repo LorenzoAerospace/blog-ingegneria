@@ -1,7 +1,7 @@
 ---
 titolo: Equivalenza e Riduzione
 descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Equivalenza e Riduzione Semplificazione dei …
-categoria: Altro
+categoria: MECCANICA
 tags: 
 data: 2026-11-09
 bozza: si
