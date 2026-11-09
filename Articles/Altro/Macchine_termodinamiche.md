@@ -1,7 +1,7 @@
 ---
 titolo: Macchine termodinamiche
 descrizione: AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard FISICA TECNICA Macchine termodinamiche Introduz…
-categoria: Altro
+categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
 bozza: si
@@ -38,5 +38,3 @@ $$ \oint_{\partial \Sigma} \mathbf{E} \cdot d\mathbf{l} = - \frac{d}{dt} \iint_{
 
 *   [Cicli termodinamici #1](#)
 *   [Trasformazioni termodinamiche](#)
-
-
