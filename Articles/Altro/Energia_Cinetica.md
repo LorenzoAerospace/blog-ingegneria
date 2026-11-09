@@ -1,6 +1,6 @@
 ---
 titolo: Energia Cinetica
-descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard DINAMICA Energia Cinetica Definizione, sistemi di punti e il Teo…
+descrizione: Definizione, sistemi di punti e il Teorema di Koenig
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
@@ -9,7 +9,6 @@ bozza: si
 
 ## Energia Cinetica
 
-Definizione, sistemi di punti e il Teorema di Koenig
 
 In questo paragrafo analizzeremo l'**energia cinetica** \(T\), una grandezza scalare che rappresenta l'energia posseduta da un corpo a causa del suo movimento. Questo argomento è essenziale per comprendere il **Teorema delle Forze Vive** e per analizzare gli scambi energetici nei sistemi meccanici complessi.
 
@@ -49,5 +48,3 @@ Dove:
 
 *   [Teorema delle Forze Vive (Lavoro ed Energia)](#)
 *   [Momenti d'Inerzia nei Corpi Solidi](#)
-
-
