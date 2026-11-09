@@ -1,6 +1,6 @@
 ---
 titolo: Diagramma del corpo libero
-descrizione: AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard Meccanica Diagramma del corpo libero In questo …
+descrizione: Diagramma di corpo libero: approccio all'utilizzo
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
@@ -40,4 +40,3 @@ $$ \oint_{\partial \Sigma} \mathbf{E} \cdot d\mathbf{l} = - \frac{d}{dt} \iint_{
 
 *   [Link ad articolo correlato #1](#)
 *   [Approfondimento matematico #2](#)
-
