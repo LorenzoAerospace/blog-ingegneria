@@ -1,6 +1,6 @@
 ---
 titolo: Introduzione alla Termodinamica
-descrizione: Introduzione alla Termodinamica: concetti di base
+descrizione: Definizioni fondamentali, sistemi e variabili di stato
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
@@ -9,7 +9,7 @@ bozza: si
 
 ## Introduzione alla Termodinamica
 
-Definizioni fondamentali, sistemi e variabili di stato
+
 
 La termodinamica è una branca della scienza nata per bisogni pratici nel corso del XIX secolo, focalizzata sullo studio delle conversioni tra calore e lavoro.
 
