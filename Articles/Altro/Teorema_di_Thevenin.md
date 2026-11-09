@@ -13,9 +13,9 @@ Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.
 
 Il **teorema di Thévenin** è uno dei principali strumenti usati nell'elettrotecnica per semplificare una rete elettrica complessa, trasformandola in un circuito equivalente più semplice visto da due morsetti.
 
-![Diagramma del Teorema di Thévenin: Circuito Originale trasformato in Circuito Equivalente, con i valori di tensione e resistenza specificati e la spiegazione dell'equivalenza ai terminali.](../../Images/Articles/PEE/thevenin.jpg)
+Diagramma del Teorema di Thévenin: Circuito Originale trasformato in Circuito Equivalente, con i valori di tensione e resistenza specificati e la spiegazione dell'equivalenza ai terminali.
 
-Figura 1: Illustrazione del Teorema di Thévenin, che mostra la semplificazione da un circuito a due terminali (M, N) a un circuito equivalente con un generatore di tensione (Vth) e una resistenza (Rth) in serie. Il comportamento ai morsetti M-N rimane lo stesso.
+Illustrazione del Teorema di Thévenin, che mostra la semplificazione da un circuito a due terminali (M, N) a un circuito equivalente con un generatore di tensione (Vth) e una resistenza (Rth) in serie. Il comportamento ai morsetti M-N rimane lo stesso.
 
 ## Sviluppo Teorico
 
