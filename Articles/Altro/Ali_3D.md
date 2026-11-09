@@ -1,6 +1,6 @@
 ---
 titolo: Ali 3D
-descrizione: AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Ali 3D Analisi della resistenza indotta, vortici d'estr…
+descrizione: Ali 3D Analisi della resistenza indotta, vortici d'estr…
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
