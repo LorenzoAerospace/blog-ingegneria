@@ -1,12 +1,11 @@
 ---
 titolo: Meccanica Celeste
 descrizione: AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…
-categoria: Altro
+categoria: MECCANICA CELESTE
 tags: 
 data: 2026-11-09
 bozza: si
 ---
-
 
 ## Meccanica Celeste
 
