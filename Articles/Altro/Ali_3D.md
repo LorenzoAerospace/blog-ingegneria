@@ -1,11 +1,20 @@
 ---
 titolo: Ali 3D
-descrizione: Tratta della ali 3D e delle loro caratteristiche
+descrizione: AEROBLOG Home Contatti ← Torna all'indice AERODINAMICA Ali 3D Analisi della resistenza indotta, vortici d'estr…
 categoria: Altro
 tags: 
 data: 2026-11-09
-bozza: si
 ---
+
+[AEROBLOG](../../index.html)
+
+*   [Home](../../index.html)
+
+[Contatti](mailto:tua@mail.com)
+
+[← Torna all'indice](../../index.html)
+
+AERODINAMICA
 
 # Ali 3D
 
