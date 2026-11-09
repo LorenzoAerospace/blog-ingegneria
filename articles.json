@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Titolo dell'Articolo",
+    "descrizione": "AEROBLOG Home Appunti Progetti Contatti ← Torna alla Dashboard CATEGORIA ESEMPIO Titolo dell'Articolo Sottotit…",
+    "categoria": "Altro",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Titolo_dell_Articolo.md",
+    "path": "Articles/Altro/Titolo_dell_Articolo.md",
+    "bozza": false
+  },
+  {
     "titolo": "Elementi di Aerodinamica",
     "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice AERODINAMICA Elementi di Aerodinamica Fondamenti, equazio…",
     "categoria": "AERODINAMICA",
