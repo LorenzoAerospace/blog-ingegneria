@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Resistenza Aerodinamica",
+    "descrizione": "Resistenza Aerodinamica: cosa rappresenta e come si manifesta",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Resistenza_Aerodinamica.md",
+    "path": "Articles/Altro/Resistenza_Aerodinamica.md",
+    "bozza": true
+  },
+  {
     "titolo": "Forze Sostentatrici",
     "descrizione": "Forze Sostentatrici: come nascono e cosa sono",
     "categoria": "AERODINAMICA",
@@ -197,16 +207,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Principi_di_Conservazione.md",
     "path": "Articles/Altro/Principi_di_Conservazione.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Resistenza Aerodinamica",
-    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna alla Dashboard AERODINAMICA Resistenza Aerodinamica Dallo strato limite…",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Resistenza_Aerodinamica.md",
-    "path": "Articles/Altro/Resistenza_Aerodinamica.md",
     "bozza": true
   },
   {
