@@ -1,22 +1,13 @@
 ---
 titolo: Momenti d'Inerzia
 descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Momenti d'Inerzia La resistenza alla rotazio…
-categoria: Altro
+categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-MECCANICA RAZIONALE
-
-# Momenti d'Inerzia
+## Momenti d'Inerzia
 
 La resistenza alla rotazione e la geometria delle masse
 
@@ -68,4 +59,3 @@ Assumendo un corpo **omogeneo**, la densità \(\rho\) è costante e può essere 
 *   [Energia Cinetica e Teorema di Koenig](Energia_cinetica.html)
 *   [Equazioni Cardinali della Dinamica](Equazioni_cardinali.html)
 
-© 2026 - AeroBlog
