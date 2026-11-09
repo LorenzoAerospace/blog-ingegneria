@@ -4,19 +4,10 @@ descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE
 categoria: Altro
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-MECCANICA RAZIONALE
-
-# Equivalenza e Riduzione
+## Equivalenza e Riduzione
 
 Semplificazione dei sistemi di forze agenti sui corpi rigidi
 
@@ -56,4 +47,3 @@ $$ I = \vec{R} \cdot \vec{M}_O $$
 *   [Equazioni Cardinali della Dinamica](Equazioni_cardinali.html)
 *   [Il Centro delle Forze Parallele](#)
 
-© 2026 - AeroBlog
