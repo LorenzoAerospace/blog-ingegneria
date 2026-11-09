@@ -4,19 +4,10 @@ descrizione: AEROBLOG Home Appunti Contatti ← Torna alla Dashboard AERODINAMIC
 categoria: Altro
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-*   [Appunti](#articoli)
-*   [Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-AERODINAMICA
-
-# Resistenza Aerodinamica
+## Resistenza Aerodinamica
 
 Dallo strato limite di Prandtl alla scomposizione delle forze dissipative
 
@@ -55,4 +46,3 @@ Per minimizzare la resistenza indotta (tipica delle ali di apertura finita), la 
 *   [Lo stallo e la separazione del flusso](#)
 *   [Analisi del Numero di Reynolds](#)
 
-© 2026 - AeroBlog
