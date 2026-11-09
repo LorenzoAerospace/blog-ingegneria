@@ -1,6 +1,6 @@
 ---
 titolo: Elementi di Aerodinamica
-descrizione: Elementi di Aerodinamica Fondamenti ed equazioni fondamentali
+descrizione: Fondamenti, equazioni di base e applicazioni nel settore aerospaziale
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
@@ -9,7 +9,6 @@ bozza: si
 
 ## Elementi di Aerodinamica
 
-Fondamenti, equazioni di base e applicazioni nel settore aerospaziale
 
 In questo paragrafo vedremo i fondamenti di aerodinamica. Partendo dalla definizione della disciplina, analizzeremo alcune delle equazioni base per finire con alcune applicazioni pratiche nel mondo del volo.
 
