@@ -1,21 +1,13 @@
 ---
 titolo: Cinematica del Corpo Rigido
 descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Cinematica del Corpo Rigido Studio del moto:…
-categoria: Altro
+categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
-[AEROBLOG](../../index.html)
-
-*   [Home](../../index.html)
-[Contatti](mailto:tua@mail.com)
-
-[← Torna alla Dashboard](../../index.html)
-
-MECCANICA RAZIONALE
-
-# Cinematica del Corpo Rigido
+## Cinematica del Corpo Rigido
 
 Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido
 
@@ -49,4 +41,3 @@ Questa equazione ci dice che l'atto di moto di un corpo rigido può essere sempr
 *   [Centro Istantaneo di Rotazione (CIR)](#)
 *   [Cinematica Relativa: Accelerazione di Coriolis](#)
 
-© 2026 - AeroBlog
