@@ -1,6 +1,6 @@
 ---
 titolo: Introduzione all'Automatica
-descrizione: Introduzione all'Automatica : concetti preliminari
+descrizione: I fondamenti della teoria dei sistemi e il concetto di controllo
 categoria: AUTOMATICA
 tags: 
 data: 2026-11-09
@@ -9,7 +9,6 @@ bozza: si
 
 ## Introduzione all'Automatica
 
-I fondamenti della teoria dei sistemi e il concetto di controllo
 
 L'**automatica** (o teoria dei controlli) è la disciplina che studia le modalità e le tecnologie atte a far funzionare un sistema in modo autonomo, ovvero senza l'intervento diretto dell'uomo per ogni singola operazione.
 
