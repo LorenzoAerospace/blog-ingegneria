@@ -4,6 +4,7 @@ descrizione: Definizione, proprietà e il vincolo di rigidità
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
 ## Il Corpo Rigido
