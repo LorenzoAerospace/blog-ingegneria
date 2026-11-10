@@ -1,15 +1,5 @@
 [
   {
-    "titolo": "Grandezze Termodinamiche",
-    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Grandezze_Termodinamiche.md",
-    "path": "Articles/Altro/Grandezze_Termodinamiche.md",
-    "bozza": true
-  },
-  {
     "titolo": "Ali 3D",
     "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
     "categoria": "AERODINAMICA",
@@ -17,7 +7,7 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
     "path": "Articles/Altro/Ali_3D.md",
-    "bozza": true
+    "bozza": false
   },
   {
     "titolo": "Cinematica del Corpo Rigido",
@@ -97,6 +87,16 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Forze_Sostentatrici.md",
     "path": "Articles/Altro/Forze_Sostentatrici.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Grandezze Termodinamiche",
+    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Grandezze_Termodinamiche.md",
+    "path": "Articles/Altro/Grandezze_Termodinamiche.md",
     "bozza": true
   },
   {
