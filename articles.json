@@ -1,33 +1,13 @@
 [
   {
-    "titolo": "Moti Centrali",
-    "descrizione": "Studio del moto sotto l'azione di forze dirette verso un polo fisso",
-    "categoria": "MECCANICA",
+    "titolo": "Derivate parziali",
+    "descrizione": "prova…",
+    "categoria": "ANALISI E GEOMETRIA 2",
     "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
-    "path": "Articles/MECCANICA/Moti_Centrali.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Momenti d'Inerzia",
-    "descrizione": "La resistenza alla rotazione e la geometria delle masse",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Momenti_d_Inerzia.md",
-    "path": "Articles/MECCANICA/Momenti_d_Inerzia.md",
-    "bozza": false
-  },
-  {
-    "titolo": "I Vincoli",
-    "descrizione": "Limitazioni al moto e condizioni cinematiche nei sistemi rigidi",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/I_Vincoli.md",
-    "path": "Articles/MECCANICA/I_Vincoli.md",
-    "bozza": false
+    "data": "2026-11-10",
+    "link": "articolo.html?p=Articles/ANALISI_E_GEOMETRIA_2/Derivate_parziali.md",
+    "path": "Articles/ANALISI_E_GEOMETRIA_2/Derivate_parziali.md",
+    "bozza": true
   },
   {
     "titolo": "Ali 3D",
@@ -150,6 +130,16 @@
     "bozza": false
   },
   {
+    "titolo": "Cinematica del Corpo Rigido",
+    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "bozza": false
+  },
+  {
     "titolo": "Diagramma del corpo libero",
     "descrizione": "Diagramma di corpo libero: approccio all'utilizzo",
     "categoria": "MECCANICA",
@@ -180,23 +170,13 @@
     "bozza": false
   },
   {
-    "titolo": "Meccanica Celeste",
-    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…",
-    "categoria": "MECCANICA CELESTE",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
-    "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Cinematica del Corpo Rigido",
-    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
+    "titolo": "Equivalenza e Riduzione",
+    "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
     "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "link": "articolo.html?p=Articles/MECCANICA/Equivalenza_e_Riduzione.md",
+    "path": "Articles/MECCANICA/Equivalenza_e_Riduzione.md",
     "bozza": false
   },
   {
@@ -210,13 +190,43 @@
     "bozza": false
   },
   {
-    "titolo": "Equivalenza e Riduzione",
-    "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
+    "titolo": "Meccanica Celeste",
+    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…",
+    "categoria": "MECCANICA CELESTE",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
+    "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
+    "bozza": true
+  },
+  {
+    "titolo": "I Vincoli",
+    "descrizione": "Limitazioni al moto e condizioni cinematiche nei sistemi rigidi",
     "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Equivalenza_e_Riduzione.md",
-    "path": "Articles/MECCANICA/Equivalenza_e_Riduzione.md",
+    "link": "articolo.html?p=Articles/MECCANICA/I_Vincoli.md",
+    "path": "Articles/MECCANICA/I_Vincoli.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Moti Centrali",
+    "descrizione": "Studio del moto sotto l'azione di forze dirette verso un polo fisso",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
+    "path": "Articles/MECCANICA/Moti_Centrali.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Momenti d'Inerzia",
+    "descrizione": "La resistenza alla rotazione e la geometria delle masse",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Momenti_d_Inerzia.md",
+    "path": "Articles/MECCANICA/Momenti_d_Inerzia.md",
     "bozza": false
   }
 ]
