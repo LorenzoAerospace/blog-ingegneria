@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Cinematica del Corpo Rigido",
+    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "bozza": false
+  },
+  {
     "titolo": "Resistenza Aerodinamica",
     "descrizione": "Dallo strato limite di Prandtl alla scomposizione delle forze dissipative",
     "categoria": "AERODINAMICA",
@@ -117,16 +127,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
     "path": "Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Cinematica del Corpo Rigido",
-    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
     "bozza": true
   },
   {
