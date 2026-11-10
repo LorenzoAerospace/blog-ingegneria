@@ -4,7 +4,6 @@ descrizione: Fondamenti, equazioni di base e applicazioni nel settore aerospazia
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Elementi di Aerodinamica
