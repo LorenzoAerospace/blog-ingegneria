@@ -4,7 +4,6 @@ descrizione: Definizione, sistemi di punti e il Teorema di Koenig
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Energia Cinetica
