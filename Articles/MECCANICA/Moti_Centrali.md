@@ -1,6 +1,6 @@
 ---
 titolo: Moti Centrali
-descrizione: AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE Moti Centrali Studio del moto sotto l'az…
+descrizione: Studio del moto sotto l'azione di forze dirette verso un polo fisso
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
@@ -8,7 +8,7 @@ data: 2026-11-09
 
 ## Moti Centrali
 
-Studio del moto sotto l'azione di forze dirette verso un polo fisso
+
 
 In questo articolo parleremo dei **moti centrali**. Un moto si definisce centrale quando la forza agente sul punto materiale \(P\) è sempre diretta verso (o proviene da) un punto fisso \(O\), detto centro della forza. Matematicamente, questo significa che la forza è parallela al vettore posizione \(\vec{r} = (P-O)\):
 
