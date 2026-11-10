@@ -1,6 +1,6 @@
 ---
 titolo: Momenti d'Inerzia
-descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Momenti d'Inerzia La resistenza alla rotazio…
+descrizione: La resistenza alla rotazione e la geometria delle masse
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
@@ -8,7 +8,7 @@ data: 2026-11-09
 
 ## Momenti d'Inerzia
 
-La resistenza alla rotazione e la geometria delle masse
+
 
 I **momenti d'inerzia** definiscono la resistenza che un corpo oppone al cambiamento del suo stato di moto rotatorio. Se la massa misura l'inerzia alla traslazione, il momento d'inerzia misura l'inerzia alla rotazione.
 
