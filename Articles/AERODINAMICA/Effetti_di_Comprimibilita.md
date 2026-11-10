@@ -4,7 +4,6 @@ descrizione: Analisi dei regimi di moto, velocità del suono e numero di Mach
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Effetti di Comprimibilità
