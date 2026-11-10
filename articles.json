@@ -10,46 +10,6 @@
     "bozza": false
   },
   {
-    "titolo": "Forze Sostentatrici",
-    "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
-    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Effetti di Comprimibilità",
-    "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Elementi di Aerodinamica",
-    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
-    "path": "Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Ali 3D",
-    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
-    "path": "Articles/AERODINAMICA/Ali_3D.md",
-    "bozza": false
-  },
-  {
     "titolo": "Introduzione all'Automatica",
     "descrizione": "I fondamenti della teoria dei sistemi e il concetto di controllo",
     "categoria": "AUTOMATICA",
@@ -57,46 +17,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "path": "Articles/AUTOMATICA/Introduzione_all_Automatica.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Principi di Conservazione",
-    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Grandezze Termodinamiche",
-    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Teorema di Thévenin",
-    "descrizione": "Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.",
-    "categoria": "ELETTROTECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
     "bozza": true
   },
   {
@@ -110,6 +30,26 @@
     "bozza": true
   },
   {
+    "titolo": "Teorema di Thévenin",
+    "descrizione": "Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.",
+    "categoria": "ELETTROTECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
+    "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Grandezze Termodinamiche",
+    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
+    "bozza": true
+  },
+  {
     "titolo": "Introduzione alla Termodinamica",
     "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
     "categoria": "FISICA TECNICA",
@@ -117,6 +57,26 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
     "path": "Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Principi di Conservazione",
+    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
     "bozza": true
   },
   {
@@ -150,13 +110,13 @@
     "bozza": true
   },
   {
-    "titolo": "I Vincoli",
-    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…",
+    "titolo": "Equazioni Cardinali",
+    "descrizione": "Le leggi fondamentali del moto per sistemi materiali complessi",
     "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/I_Vincoli.md",
-    "path": "Articles/MECCANICA/I_Vincoli.md",
+    "link": "articolo.html?p=Articles/MECCANICA/Equazioni_Cardinali.md",
+    "path": "Articles/MECCANICA/Equazioni_Cardinali.md",
     "bozza": true
   },
   {
@@ -170,13 +130,13 @@
     "bozza": true
   },
   {
-    "titolo": "Equazioni Cardinali",
-    "descrizione": "Le leggi fondamentali del moto per sistemi materiali complessi",
+    "titolo": "I Vincoli",
+    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…",
     "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Equazioni_Cardinali.md",
-    "path": "Articles/MECCANICA/Equazioni_Cardinali.md",
+    "link": "articolo.html?p=Articles/MECCANICA/I_Vincoli.md",
+    "path": "Articles/MECCANICA/I_Vincoli.md",
     "bozza": true
   },
   {
@@ -190,16 +150,6 @@
     "bozza": true
   },
   {
-    "titolo": "Moti Centrali",
-    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE Moti Centrali Studio del moto sotto l'az…",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
-    "path": "Articles/MECCANICA/Moti_Centrali.md",
-    "bozza": true
-  },
-  {
     "titolo": "Momenti d'Inerzia",
     "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Momenti d'Inerzia La resistenza alla rotazio…",
     "categoria": "MECCANICA",
@@ -207,6 +157,16 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/MECCANICA/Momenti_d_Inerzia.md",
     "path": "Articles/MECCANICA/Momenti_d_Inerzia.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Moti Centrali",
+    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE Moti Centrali Studio del moto sotto l'az…",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
+    "path": "Articles/MECCANICA/Moti_Centrali.md",
     "bozza": true
   },
   {
@@ -218,5 +178,45 @@
     "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "bozza": true
+  },
+  {
+    "titolo": "Elementi di Aerodinamica",
+    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
+    "path": "Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Forze Sostentatrici",
+    "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
+    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Effetti di Comprimibilità",
+    "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Ali 3D",
+    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
+    "path": "Articles/AERODINAMICA/Ali_3D.md",
+    "bozza": false
   }
 ]
