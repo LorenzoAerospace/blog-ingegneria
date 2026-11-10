@@ -10,56 +10,6 @@
     "bozza": true
   },
   {
-    "titolo": "Introduzione alla Termodinamica",
-    "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Introduzione_alla_Termodinamica.md",
-    "path": "Articles/Altro/Introduzione_alla_Termodinamica.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Macchine_termodinamiche.md",
-    "path": "Articles/Altro/Macchine_termodinamiche.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Principi di Conservazione",
-    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Principi_di_Conservazione.md",
-    "path": "Articles/Altro/Principi_di_Conservazione.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Teorema di Thévenin",
-    "descrizione": "Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.",
-    "categoria": "ELETTROTECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Teorema_di_Thevenin.md",
-    "path": "Articles/Altro/Teorema_di_Thevenin.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Introduzione all'Automatica",
-    "descrizione": "I fondamenti della teoria dei sistemi e il concetto di controllo",
-    "categoria": "AUTOMATICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Introduzione_all_Automatica.md",
-    "path": "Articles/Altro/Introduzione_all_Automatica.md",
-    "bozza": true
-  },
-  {
     "titolo": "Ali 3D",
     "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
     "categoria": "AERODINAMICA",
@@ -67,56 +17,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Ali_3D.md",
     "path": "Articles/Altro/Ali_3D.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Effetti di Comprimibilità",
-    "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Effetti_di_Comprimibilita.md",
-    "path": "Articles/Altro/Effetti_di_Comprimibilita.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Elementi di Aerodinamica",
-    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Elementi_di_Aerodinamica.md",
-    "path": "Articles/Altro/Elementi_di_Aerodinamica.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Forze Sostentatrici",
-    "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Forze_Sostentatrici.md",
-    "path": "Articles/Altro/Forze_Sostentatrici.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Resistenza Aerodinamica",
-    "descrizione": "Dallo strato limite di Prandtl alla scomposizione delle forze dissipative",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Resistenza_Aerodinamica.md",
-    "path": "Articles/Altro/Resistenza_Aerodinamica.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Equivalenza e Riduzione",
-    "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Equivalenza_e_Riduzione.md",
-    "path": "Articles/Altro/Equivalenza_e_Riduzione.md",
     "bozza": true
   },
   {
@@ -140,6 +40,26 @@
     "bozza": true
   },
   {
+    "titolo": "Effetti di Comprimibilità",
+    "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Effetti_di_Comprimibilita.md",
+    "path": "Articles/Altro/Effetti_di_Comprimibilita.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Elementi di Aerodinamica",
+    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Elementi_di_Aerodinamica.md",
+    "path": "Articles/Altro/Elementi_di_Aerodinamica.md",
+    "bozza": true
+  },
+  {
     "titolo": "Energia Cinetica",
     "descrizione": "Definizione, sistemi di punti e il Teorema di Koenig",
     "categoria": "MECCANICA",
@@ -160,23 +80,23 @@
     "bozza": true
   },
   {
-    "titolo": "Il Corpo Rigido",
-    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
+    "titolo": "Equivalenza e Riduzione",
+    "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
     "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Il_Corpo_Rigido.md",
-    "path": "Articles/Altro/Il_Corpo_Rigido.md",
+    "link": "articolo.html?p=Articles/Altro/Equivalenza_e_Riduzione.md",
+    "path": "Articles/Altro/Equivalenza_e_Riduzione.md",
     "bozza": true
   },
   {
-    "titolo": "Sali poco solubili",
-    "descrizione": "La solubilità: cosa rappresenta e come si calcola",
-    "categoria": "CHIMICA",
+    "titolo": "Forze Sostentatrici",
+    "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
+    "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/Altro/Sali_poco_solubili.md",
-    "path": "Articles/Altro/Sali_poco_solubili.md",
+    "link": "articolo.html?p=Articles/Altro/Forze_Sostentatrici.md",
+    "path": "Articles/Altro/Forze_Sostentatrici.md",
     "bozza": true
   },
   {
@@ -187,6 +107,46 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/I_Vincoli.md",
     "path": "Articles/Altro/I_Vincoli.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Il Corpo Rigido",
+    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Il_Corpo_Rigido.md",
+    "path": "Articles/Altro/Il_Corpo_Rigido.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Introduzione all'Automatica",
+    "descrizione": "I fondamenti della teoria dei sistemi e il concetto di controllo",
+    "categoria": "AUTOMATICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Introduzione_all_Automatica.md",
+    "path": "Articles/Altro/Introduzione_all_Automatica.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Introduzione alla Termodinamica",
+    "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Introduzione_alla_Termodinamica.md",
+    "path": "Articles/Altro/Introduzione_alla_Termodinamica.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Macchine_termodinamiche.md",
+    "path": "Articles/Altro/Macchine_termodinamiche.md",
     "bozza": true
   },
   {
@@ -217,6 +177,46 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/Altro/Moti_Centrali.md",
     "path": "Articles/Altro/Moti_Centrali.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Principi di Conservazione",
+    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Principi_di_Conservazione.md",
+    "path": "Articles/Altro/Principi_di_Conservazione.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Resistenza Aerodinamica",
+    "descrizione": "Dallo strato limite di Prandtl alla scomposizione delle forze dissipative",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Resistenza_Aerodinamica.md",
+    "path": "Articles/Altro/Resistenza_Aerodinamica.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Sali poco solubili",
+    "descrizione": "La solubilità: cosa rappresenta e come si calcola",
+    "categoria": "CHIMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Sali_poco_solubili.md",
+    "path": "Articles/Altro/Sali_poco_solubili.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Teorema di Thévenin",
+    "descrizione": "Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.",
+    "categoria": "ELETTROTECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/Altro/Teorema_di_Thevenin.md",
+    "path": "Articles/Altro/Teorema_di_Thevenin.md",
     "bozza": true
   }
 ]
