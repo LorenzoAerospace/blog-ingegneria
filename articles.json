@@ -1,42 +1,52 @@
 [
   {
-    "titolo": "Principi di Conservazione",
-    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
-    "categoria": "FISICA TECNICA",
+    "titolo": "Cinematica del Corpo Rigido",
+    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
+    "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
     "bozza": false
   },
   {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
-    "categoria": "FISICA TECNICA",
+    "titolo": "Ali 3D",
+    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
+    "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
+    "path": "Articles/AERODINAMICA/Ali_3D.md",
     "bozza": false
   },
   {
-    "titolo": "Introduzione alla Termodinamica",
-    "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
-    "categoria": "FISICA TECNICA",
+    "titolo": "Effetti di Comprimibilità",
+    "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
+    "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
-    "path": "Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
     "bozza": false
   },
   {
-    "titolo": "Grandezze Termodinamiche",
-    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
-    "categoria": "FISICA TECNICA",
+    "titolo": "Elementi di Aerodinamica",
+    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
+    "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
+    "path": "Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Forze Sostentatrici",
+    "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
+    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
     "bozza": false
   },
   {
@@ -77,16 +87,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
     "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Cinematica del Corpo Rigido",
-    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
     "bozza": true
   },
   {
@@ -180,43 +180,43 @@
     "bozza": true
   },
   {
-    "titolo": "Elementi di Aerodinamica",
-    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
-    "categoria": "AERODINAMICA",
+    "titolo": "Introduzione alla Termodinamica",
+    "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
+    "categoria": "FISICA TECNICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
-    "path": "Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
+    "path": "Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
     "bozza": false
   },
   {
-    "titolo": "Forze Sostentatrici",
-    "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
-    "categoria": "AERODINAMICA",
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
+    "categoria": "FISICA TECNICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
-    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
     "bozza": false
   },
   {
-    "titolo": "Effetti di Comprimibilità",
-    "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
-    "categoria": "AERODINAMICA",
+    "titolo": "Grandezze Termodinamiche",
+    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
+    "categoria": "FISICA TECNICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
     "bozza": false
   },
   {
-    "titolo": "Ali 3D",
-    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
-    "categoria": "AERODINAMICA",
+    "titolo": "Principi di Conservazione",
+    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
+    "categoria": "FISICA TECNICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
-    "path": "Articles/AERODINAMICA/Ali_3D.md",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
     "bozza": false
   }
 ]
