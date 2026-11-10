@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Energia Cinetica",
+    "descrizione": "Definizione, sistemi di punti e il Teorema di Koenig",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Energia_Cinetica.md",
+    "path": "Articles/MECCANICA/Energia_Cinetica.md",
+    "bozza": false
+  },
+  {
     "titolo": "Diagramma del corpo libero",
     "descrizione": "Diagramma di corpo libero: approccio all'utilizzo",
     "categoria": "MECCANICA",
@@ -97,16 +107,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
     "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Energia Cinetica",
-    "descrizione": "Definizione, sistemi di punti e il Teorema di Koenig",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Energia_Cinetica.md",
-    "path": "Articles/MECCANICA/Energia_Cinetica.md",
     "bozza": true
   },
   {
