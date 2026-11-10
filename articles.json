@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Moti Centrali",
+    "descrizione": "Studio del moto sotto l'azione di forze dirette verso un polo fisso",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
+    "path": "Articles/MECCANICA/Moti_Centrali.md",
+    "bozza": false
+  },
+  {
     "titolo": "Momenti d'Inerzia",
     "descrizione": "La resistenza alla rotazione e la geometria delle masse",
     "categoria": "MECCANICA",
@@ -207,16 +217,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/MECCANICA/Equivalenza_e_Riduzione.md",
     "path": "Articles/MECCANICA/Equivalenza_e_Riduzione.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Moti Centrali",
-    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE Moti Centrali Studio del moto sotto l'az…",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
-    "path": "Articles/MECCANICA/Moti_Centrali.md",
     "bozza": false
   }
 ]
