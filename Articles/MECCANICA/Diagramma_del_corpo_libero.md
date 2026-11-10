@@ -4,7 +4,6 @@ descrizione: Diagramma di corpo libero: approccio all'utilizzo
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Diagramma del corpo libero
