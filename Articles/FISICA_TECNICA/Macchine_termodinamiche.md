@@ -4,7 +4,6 @@ descrizione: Introduzione delle macchine termodinamiche e delle varie tipologie,
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Macchine termodinamiche
