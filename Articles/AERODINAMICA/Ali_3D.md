@@ -4,6 +4,7 @@ descrizione: Analisi della resistenza indotta, vortici d'estremità e winglets
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
 ## Ali 3D
@@ -43,7 +44,7 @@ Esistono tre vie principali per diminuire la componente di resistenza indotta, a
 
 ## Fonti Consultate
 
-*   **Anderson, J. D.** (2021). _Introduction to Flight_. (9th ed.). McGraw-Hill Education. Capitolo 7. per comprednere ali 3D.
+*   **Anderson, J. D.** (2021). _Introduction to Flight_. (9th ed.). McGraw-Hill Education. Capitolo 7. per comprendere ali 3D.
 
 ### Argomenti correlati
 
