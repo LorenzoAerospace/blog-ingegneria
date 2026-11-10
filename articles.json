@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Effetti di Comprimibilità",
+    "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "bozza": false
+  },
+  {
     "titolo": "Elementi di Aerodinamica",
     "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
     "categoria": "AERODINAMICA",
@@ -18,16 +28,6 @@
     "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
     "path": "Articles/AERODINAMICA/Ali_3D.md",
     "bozza": false
-  },
-  {
-    "titolo": "Effetti di Comprimibilità",
-    "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "bozza": true
   },
   {
     "titolo": "Introduzione all'Automatica",
