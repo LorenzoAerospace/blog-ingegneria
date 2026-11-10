@@ -4,7 +4,6 @@ descrizione: L'origine della portanza: dal vento asintotico alla circolazione
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Forze Sostentatrici
