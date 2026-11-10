@@ -4,6 +4,7 @@ descrizione: Le leggi fondamentali del moto per sistemi materiali complessi
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
 ## Equazioni Cardinali
