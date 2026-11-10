@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Momenti d'Inerzia",
+    "descrizione": "La resistenza alla rotazione e la geometria delle masse",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Momenti_d_Inerzia.md",
+    "path": "Articles/MECCANICA/Momenti_d_Inerzia.md",
+    "bozza": false
+  },
+  {
     "titolo": "I Vincoli",
     "descrizione": "Limitazioni al moto e condizioni cinematiche nei sistemi rigidi",
     "categoria": "MECCANICA",
@@ -197,16 +207,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/MECCANICA/Equivalenza_e_Riduzione.md",
     "path": "Articles/MECCANICA/Equivalenza_e_Riduzione.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Momenti d'Inerzia",
-    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Momenti d'Inerzia La resistenza alla rotazio…",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Momenti_d_Inerzia.md",
-    "path": "Articles/MECCANICA/Momenti_d_Inerzia.md",
     "bozza": false
   },
   {
