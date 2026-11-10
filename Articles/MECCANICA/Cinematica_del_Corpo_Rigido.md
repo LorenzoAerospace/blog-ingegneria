@@ -4,6 +4,7 @@ descrizione: Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
 ## Cinematica del Corpo Rigido
