@@ -9,8 +9,6 @@ bozza: si
 
 ## Grandezze Termodinamiche
 
-
-
 In questo paragrafo andremo a introdurre le principali grandezze analizzate nel corso di termodinamica. Mentre il **lavoro** ($W$) e il **calore** ($Q$) sono energie in transito, esistono proprietà intrinseche del sistema definite funzioni di stato.
 
 ## Il Primo Principio e l'Energia Interna
