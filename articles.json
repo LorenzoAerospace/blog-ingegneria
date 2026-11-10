@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "I Vincoli",
+    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/I_Vincoli.md",
+    "path": "Articles/MECCANICA/I_Vincoli.md",
+    "bozza": false
+  },
+  {
     "titolo": "Equivalenza e Riduzione",
     "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
     "categoria": "MECCANICA",
@@ -127,16 +137,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
     "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "bozza": true
-  },
-  {
-    "titolo": "I Vincoli",
-    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/I_Vincoli.md",
-    "path": "Articles/MECCANICA/I_Vincoli.md",
     "bozza": true
   },
   {
