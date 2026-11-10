@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "bozza": false
+  },
+  {
     "titolo": "Introduzione alla Termodinamica",
     "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
     "categoria": "FISICA TECNICA",
@@ -57,16 +67,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
     "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
     "bozza": true
   },
   {
