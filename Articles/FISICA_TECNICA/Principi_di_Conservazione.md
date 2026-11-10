@@ -4,7 +4,6 @@ descrizione: Analisi del Primo e Secondo Principio della Termodinamica
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Principi di Conservazione
