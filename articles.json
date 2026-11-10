@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Il Corpo Rigido",
+    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Il_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Il_Corpo_Rigido.md",
+    "bozza": true
+  },
+  {
     "titolo": "Momenti d'Inerzia",
     "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Momenti d'Inerzia La resistenza alla rotazio…",
     "categoria": "MECCANICA",
@@ -198,16 +208,6 @@
     "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "bozza": true
-  },
-  {
-    "titolo": "Il Corpo Rigido",
-    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Il_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Il_Corpo_Rigido.md",
-    "bozza": false
   },
   {
     "titolo": "Moti Centrali",
