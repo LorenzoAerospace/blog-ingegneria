@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Ali 3D",
+    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
+    "path": "Articles/AERODINAMICA/Ali_3D.md",
+    "bozza": false
+  },
+  {
     "titolo": "Cinematica del Corpo Rigido",
     "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
     "categoria": "MECCANICA",
@@ -208,15 +218,5 @@
     "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
     "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
     "bozza": true
-  },
-  {
-    "titolo": "Ali 3D",
-    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
-    "path": "Articles/AERODINAMICA/Ali_3D.md",
-    "bozza": false
   }
 ]
