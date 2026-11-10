@@ -4,6 +4,7 @@ descrizione: AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIO
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
 ## I Vincoli
