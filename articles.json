@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Equivalenza e Riduzione",
+    "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Equivalenza_e_Riduzione.md",
+    "path": "Articles/MECCANICA/Equivalenza_e_Riduzione.md",
+    "bozza": true
+  },
+  {
     "titolo": "Energia Cinetica",
     "descrizione": "Definizione, sistemi di punti e il Teorema di Koenig",
     "categoria": "MECCANICA",
@@ -178,16 +188,6 @@
     "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "bozza": true
-  },
-  {
-    "titolo": "Equivalenza e Riduzione",
-    "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Equivalenza_e_Riduzione.md",
-    "path": "Articles/MECCANICA/Equivalenza_e_Riduzione.md",
-    "bozza": false
   },
   {
     "titolo": "Momenti d'Inerzia",
