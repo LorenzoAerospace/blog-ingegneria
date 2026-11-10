@@ -4,7 +4,6 @@ descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Momenti d'Inerzia
@@ -58,4 +57,3 @@ Assumendo un corpo **omogeneo**, la densità \(\rho\) è costante e può essere 
 
 *   [Energia Cinetica e Teorema di Koenig](Energia_cinetica.html)
 *   [Equazioni Cardinali della Dinamica](Equazioni_cardinali.html)
-
