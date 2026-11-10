@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Elementi di Aerodinamica",
+    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
+    "path": "Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
+    "bozza": false
+  },
+  {
     "titolo": "Ali 3D",
     "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
     "categoria": "AERODINAMICA",
@@ -8,16 +18,6 @@
     "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
     "path": "Articles/AERODINAMICA/Ali_3D.md",
     "bozza": false
-  },
-  {
-    "titolo": "Elementi di Aerodinamica",
-    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
-    "path": "Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
-    "bozza": true
   },
   {
     "titolo": "Effetti di Comprimibilità",
