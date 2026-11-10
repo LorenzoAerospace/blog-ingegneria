@@ -1,0 +1,19 @@
+/* Home a sezioni per categoria. Funziona con style.css o site.css (variabili con valori di riserva). */
+.sezioni{display:flex;flex-direction:column;gap:14px;margin-top:20px}
+.sez{border:1px solid var(--border,#30363d);border-radius:12px;background:var(--surface,var(--card-bg,#161b22));padding:0 16px}
+.sez>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px;padding:14px 0;font-family:'Orbitron',sans-serif;font-size:1rem}
+.sez>summary::-webkit-details-marker{display:none}
+.sez>summary::after{content:"▸";margin-left:auto;color:var(--accent,#00d4ff);transition:transform .2s}
+.sez[open]>summary::after{transform:rotate(90deg)}
+.sez>summary:hover .sez-t{color:var(--accent,#00d4ff)}
+.sez-ic{font-size:1.3rem}
+.sez-n{font-size:.75rem;color:var(--muted,var(--text-secondary,#8b949e));border:1px solid var(--border,#30363d);border-radius:20px;padding:1px 9px;font-family:'Inter',sans-serif}
+.sez-d{margin:0 0 14px;color:var(--muted,var(--text-secondary,#8b949e));font-size:.95rem}
+.sez .article-grid{padding-bottom:16px;margin-top:0}
+.vuoto{text-align:center;padding:40px;color:var(--muted,var(--text-secondary,#8b949e))}
+
+/* Appunti PDF */
+.pdf-lista{display:flex;flex-direction:column;gap:8px;padding-bottom:16px}
+.pdf{display:flex;flex-direction:column;gap:2px;padding:10px 14px;border:1px solid var(--border,#30363d);border-radius:10px;text-decoration:none;color:inherit}
+.pdf:hover{border-color:var(--accent,#00d4ff)}
+.pdf b{color:var(--accent,#00d4ff)}.pdf span{font-size:.92rem;color:var(--muted,var(--text-secondary,#8b949e))}.pdf small{font-size:.75rem;color:var(--muted,var(--text-secondary,#8b949e))}

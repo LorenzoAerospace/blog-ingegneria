@@ -559,3 +559,6 @@ hr {
     color: var(--accent);
     margin-bottom: 5px;
 }
+
+/* data nelle card generate da main.js */
+.card-date { display: block; margin-top: 8px; font-size: .7rem; color: var(--text-secondary); }

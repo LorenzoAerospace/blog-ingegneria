@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="dark"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex"><meta name="theme-color" content="#0b0d12">
+<title>Pagina non trovata | AeroBlog</title>
+<script>
+  // Una pagina 404 viene servita da URL qualsiasi, quindi i percorsi relativi si rompono.
+  // <base> li riporta alla radice del sito. Su un sito di progetto (utente.github.io/repo/) la radice è /repo/.
+  // Se usi un dominio personalizzato o utente.github.io senza repo, imposta FORZA_BASE = '/'.
+  (function () {
+    var FORZA_BASE = null;
+    var s = location.pathname.split('/')[1];
+    var b = FORZA_BASE || (location.hostname.endsWith('github.io') && s && s.indexOf('.') < 0 ? '/' + s + '/' : '/');
+    document.write('<base href="' + b + '">');
+  })();
+</script>
+<link rel="stylesheet" href="site.css"><script src="theme.js"></script></head>
+<body><main class="wrap" style="text-align:center;padding:120px 24px">
+  <span class="eyebrow">Errore 404</span>
+  <h1 style="font-size:2.4rem;margin:12px 0">Questa pagina è fuori rotta</h1>
+  <p class="muted">Il contenuto che cerchi non esiste o è stato spostato.</p>
+  <a class="btn btn-primary" href="index.html">Torna alla home</a>
+</main></body></html>

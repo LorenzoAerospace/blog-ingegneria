@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="dark">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AeroBlog</title>
+<meta name="description" content="">
+<meta name="theme-color" content="#0b0d12">
+<meta property="og:title" content=""><meta property="og:description" content=""><meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2338bdf8'/%3E%3Cpath d='M16 6l5 14-5-3-5 3z' fill='%2304202e'/%3E%3C/svg%3E">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+<link rel="stylesheet" href="site.css"><script src="theme.js"></script>
+</head>
+<body>
+<div id="progress"></div>
+<header class="nav"><div class="wrap nav-in">
+  <a class="brand" href="index.html"><span class="mark"></span><span id="nav-logo">AERO<b>BLOG</b></span></a>
+  <nav class="links" id="menu"></nav>
+  <div class="nav-r"><button id="tt" class="icon" aria-label="Cambia tema">◐</button><a href="#" class="btn btn-primary" id="contatti">Contatti</a></div>
+</div></header>
+<main class="wrap art-wrap">
+  <article class="art">
+    <div class="crumbs"><a href="index.html">Home</a> / <a id="cat" href="index.html"></a></div>
+    <h1 id="titolo"></h1>
+    <p class="lead" id="lead"></p>
+    <div class="meta-row" id="meta"></div>
+    <div class="tags-row" id="tags"></div>
+    <div class="prose" id="contenuto"></div>
+    <div class="pn" id="pn"></div>
+    <section id="rel-wrap" style="display:none;margin-top:48px"><h2 style="font-size:1.3rem">Continua a leggere</h2><div class="grid" id="rel"></div></section>
+  </article>
+  <aside class="toc-side" id="toc"></aside>
+</main>
+<footer class="foot"><div class="wrap"><span>© 2026 AeroBlog · Progetto di uno studente di Ingegneria Aerospaziale</span><a href="index.html">← Tutti gli articoli</a></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script src="md.js"></script><script src="common.js"></script><script src="nav.js"></script>
+<script>
+(async () => {
+  const $ = id => document.getElementById(id), el = $('contenuto');
+  // testo "pulito": toglie la versione MathML di KaTeX che duplicherebbe le formule
+  const plain = n => { const c = n.cloneNode(true); c.querySelectorAll('.katex-mathml').forEach(x => x.remove()); return c.textContent; };
+  const p = new URLSearchParams(location.search).get('p');
+  const nf = () => { $('titolo').textContent = 'Articolo non trovato'; $('lead').innerHTML = '<a href="index.html">Torna alla home</a>'; };
+  if (!p || !p.startsWith('Articles/') || p.includes('..')) return nf();
+  const r = await fetch(p); if (!r.ok) return nf();
+  const txt = await r.text(), fm = parseFrontMatter(txt).fm;
+
+  document.title = (fm.titolo || 'Articolo') + ' | AeroBlog';
+  document.querySelector('meta[name=description]').content = fm.descrizione || '';
+  document.querySelector('meta[property="og:title"]').content = fm.titolo || '';
+  document.querySelector('meta[property="og:description"]').content = fm.descrizione || '';
+  $('titolo').textContent = fm.titolo || ''; $('lead').textContent = fm.descrizione || '';
+  $('cat').textContent = fm.categoria || ''; $('cat').href = 'index.html?cat=' + encodeURIComponent(fm.categoria || '') + '#articoli';
+
+  el.innerHTML = renderMarkdown(txt);
+  const dir = p.slice(0, p.lastIndexOf('/') + 1);
+  el.querySelectorAll('img').forEach(i => { const s = i.getAttribute('src') || ''; if (!/^(https?:|data:|\/)/.test(s)) i.src = dir + s; });
+
+  const min = Math.max(1, Math.round(plain(el).split(/\s+/).length / 200));
+  const tags = (fm.tags || '').split(',').map(t => t.trim()).filter(Boolean);
+  $('meta').innerHTML = `<span>${fmtData(fm.data)}</span><span>${min} min di lettura</span><a href="#" id="cp">🔗 Copia link</a><a href="#" onclick="print();return false">🖨 Stampa</a>` +
+    (JSON.parse(localStorage.ab_cfg || '{}').token ? `<a href="admin.html?edit=${encodeURIComponent(p)}">✏️ Modifica</a>` : '');
+  $('cp').onclick = e => { e.preventDefault(); navigator.clipboard.writeText(location.href); e.target.textContent = '✔ Copiato'; };
+  $('tags').innerHTML = tags.map(t => `<a href="index.html?q=${encodeURIComponent(t)}#articoli">${esc(t)}</a>`).join('');
+
+  const hs = [...el.querySelectorAll('h2,h3')]; hs.forEach((h, i) => h.id = 's' + i);
+  if (hs.length > 1) {
+    $('toc').innerHTML = '<p class="toc-h">In questa pagina</p>' + hs.map(h => `<a class="${h.tagName.toLowerCase()}" href="#${h.id}">${esc(plain(h))}</a>`).join('');
+    const links = [...$('toc').querySelectorAll('a')];
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) links.forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id)); }), { rootMargin: '-80px 0px -70% 0px' });
+    hs.forEach(h => io.observe(h));
+  }
+  addEventListener('scroll', () => { $('progress').style.width = (scrollY / Math.max(1, document.body.scrollHeight - innerHeight) * 100) + '%'; });
+
+  try {
+    const all = (await (await fetch('articles.json')).json()).filter(a => !a.bozza);
+    const same = all.filter(a => a.categoria === fm.categoria), i = same.findIndex(a => a.path === p);
+    const box = (a, l) => a ? `<a href="${esc(a.link)}"><small>${l}</small>${esc(a.titolo)}</a>` : '';
+    $('pn').innerHTML = box(same[i + 1], '← Precedente') + box(same[i - 1], 'Successivo →');
+    const rel = all.filter(a => a.path !== p && (a.categoria === fm.categoria || (a.tags || []).some(t => tags.includes(t)))).slice(0, 3);
+    if (rel.length) { $('rel').innerHTML = rel.map(card).join(''); $('rel-wrap').style.display = ''; }
+  } catch (e) {}
+})();
+</script>
+</body>
+</html>

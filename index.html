@@ -1,77 +1,163 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AeroBlog | Ingegneria Aerospaziale</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<!--
+  ============================================================
+  AEROBLOG · index.html  (home page)
+  ============================================================
+  COME FUNZIONA IL SITO
+  1. Scrivi gli articoli in Articles/<cartella>/nome.md (front-matter: titolo, descrizione, categoria, tags, data, bozza).
+  2. Al push, GitHub Actions (.github/workflows/build-index.yml) esegue scripts/build-index.js,
+     che genera articles.json, sitemap.xml, feed.xml e robots.txt.
+  3. Questa pagina carica articles.json (main.js) e disegna: ultimi articoli, filtri per categoria, ricerca.
+  4. Cliccando un articolo si apre articolo.html?p=Articles/... che renderizza il Markdown.
+
+  COSA MODIFICARE QUI
+  - Solo il blocco "CONFIGURAZIONE" in fondo alla pagina (email, link utili).
+  - Per attivare canonical e immagine di anteprima social, decommenta le righe indicate nel <head>.
+
+  FILE USATI (nella stessa cartella)
+  site.css · theme.js · common.js · main.js · appunti.js · progetti.js · articles.json (generato) · appunti.json e progetti.json (creati da admin.html)
+  ============================================================
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AeroBlog | Appunti di Ingegneria Aerospaziale</title>
+<meta name="description" content="Appunti, modelli e progetti di ingegneria aerospaziale: aerodinamica, meccanica, termodinamica, automatica e meccanica orbitale.">
+<meta name="theme-color" content="#0b0d12">
+
+<!-- SEO / social: decommenta e sostituisci con l'URL reale del sito -->
+<!-- <link rel="canonical" href="https://TUO-UTENTE.github.io/TUO-REPO/"> -->
+<!-- <meta property="og:image" content="https://TUO-UTENTE.github.io/TUO-REPO/anteprima.png"> -->
+<meta property="og:site_name" content="AeroBlog">
+<meta property="og:title" content="AeroBlog | Ingegneria Aerospaziale">
+<meta property="og:description" content="Appunti, modelli e progetti di ingegneria aerospaziale.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2338bdf8'/%3E%3Cpath d='M16 6l5 14-5-3-5 3z' fill='%2304202e'/%3E%3C/svg%3E">
+<link rel="alternate" type="application/rss+xml" title="AeroBlog" href="feed.xml">
+
+<!-- Font: preconnect accelera il caricamento; display=swap evita il testo invisibile -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
+
+<!-- Correzioni locali a questa pagina: menu su mobile, "salta al contenuto", focus visibile -->
+<style>
+  .skip{position:absolute;left:-999px;top:8px;z-index:200;padding:8px 14px;border-radius:8px;background:var(--accent);color:var(--accent-ink)}
+  .skip:focus{left:8px}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  /* Su schermi piccoli site.css nasconde il menu: qui diventa una riga scorrevole */
+  @media(max-width:760px){
+    .nav-in{flex-wrap:wrap;height:auto;padding:10px 0;gap:8px 12px}
+    .links{display:flex;order:3;width:100%;margin:0;overflow-x:auto;white-space:nowrap}
+  }
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}.card:hover{transform:none}}
+</style>
+
+<!-- theme.js resta sincrono (niente defer): applica il tema prima del rendering ed evita il lampo di colore -->
+<script src="theme.js"></script>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">AERO<span>BLOG</span></a>
-            <div class="nav-content">
-                <div class="search-box">
-                    <input type="text" id="searchInput" placeholder="Cerca appunti...">
-                    <span class="search-icon">🔍</span>
-                </div>
+<a class="skip" href="#contenuto-principale">Vai al contenuto</a>
 
-                
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#articoli" onclick="filtraCategoria('Tutti')">Appunti</a></li>
-                    <li><a href="#articoli" onclick="filtraCategoria('Progetti')">Progetti</a></li>
-                </ul>
-                <a href="mailto:tua@mail.com" class="nav-btn">Contatti</a>
-            </div>
-        </div>
-    </nav>
+<header class="nav"><div class="wrap nav-in">
+  <a class="brand" href="index.html" aria-label="AeroBlog, home"><span class="mark" aria-hidden="true"></span>AERO<b>BLOG</b></a>
+  <nav class="links" aria-label="Principale">
+    <a href="index.html">Home</a>
+    <a href="#articoli">Articoli</a>
+    <a href="#progetti">Progetti</a>
+    <a href="#appunti" id="nav-appunti">Appunti</a>
+    <a href="#chi-sono">Chi sono</a>
+  </nav>
+  <div class="nav-r">
+    <button id="tt" class="icon" type="button" aria-label="Cambia tema">◐</button>
+    <a class="btn btn-primary" data-mail href="#">Contatti</a>
+  </div>
+</div></header>
 
-    <header>
-        <div class="logo">AERO<span>BLOG</span></div>
-        <p class="subtitle">Appunti di Fisica, Matematica e Meccanica Orbitale</p>
-    </header>
+<section class="hero"><div class="wrap">
+  <span class="eyebrow">Ingegneria Aerospaziale</span>
+  <h1>Appunti, modelli e progetti per capire come si vola</h1>
+  <p class="lead">Fisica, matematica e meccanica orbitale: l'archivio aperto del mio percorso di studio.</p>
+  <form class="search" role="search" onsubmit="return false">
+    <input type="search" id="searchInput" placeholder="Cerca per titolo, argomento o tag…" aria-label="Cerca negli articoli" autocomplete="off">
+  </form>
+  <div class="stats" id="stats" aria-live="polite"></div>
+</div></section>
 
-    <main>
-        <section class="intro">
-            <p>Benvenuto. Sono uno studente di <strong>Ingegneria Aerospaziale</strong>. In questo spazio raccolgo analisi tecniche e studi approfonditi sul volo e l'universo.</p>
-        </section>
+<main class="wrap" id="contenuto-principale">
+  <section class="blk" aria-labelledby="h-ultimi">
+    <div class="sec-h"><h2 id="h-ultimi">Ultimi articoli</h2></div>
+    <div class="grid" id="latest-container"></div>
+  </section>
 
-        <section class="recent-section">
-            <h2><span class="icon">✨</span> Ultimi Articoli</h2>
-            <div id="latest-container" class="article-grid"></div>
-        </section>
+  <section class="blk" id="articoli" aria-labelledby="h-tutti">
+    <div class="sec-h"><h2 id="h-tutti">Tutti gli articoli</h2><span class="muted" id="count" aria-live="polite"></span></div>
+    <div class="pills" id="filter-bar" role="group" aria-label="Filtra per categoria"></div>
+    <div class="grid" id="article-grid"><p class="muted">Caricamento…</p></div>
+    <p style="text-align:center;margin-top:24px"><button class="btn" id="more" type="button" style="display:none">Mostra altri</button></p>
+    <noscript><p class="muted" style="text-align:center">Per vedere gli articoli serve JavaScript.</p></noscript>
+  </section>
 
-        <div class="filter-bar">
-            <button class="filter-btn active" data-cat="Tutti" onclick="filtraCategoria('Tutti')">Tutti</button>
-            <button class="filter-btn" data-cat="Aerodinamica" onclick="filtraCategoria('Aerodinamica')">Aerodinamica</button>
-            <button class="filter-btn" data-cat="Meccanica" onclick="filtraCategoria('Meccanica')">Meccanica</button>
-            <button class="filter-btn" data-cat="Spazio" onclick="filtraCategoria('Spazio')">Spazio</button>
-            <button class="filter-btn" data-cat="Chimica" onclick="filtraCategoria('Chimica')">Chimica</button>
-            <button class="filter-btn" data-cat="Fondamenti di automatica" onclick="filtraCategoria('Fondamenti di automatica')">Fondamenti di automatica</button>
-            <button class="filter-btn" data-cat="Progetti" onclick="filtraCategoria('Progetti')">🛠️ Progetti</button>
-        </div>
+  <!-- Progetti (programmazione e CAD): sempre visibile; senza progetti in progetti.json mostra un messaggio -->
+  <section class="blk" id="progetti" aria-labelledby="h-progetti">
+    <div class="sec-h"><h2 id="h-progetti">Progetti</h2><span class="muted" id="prj-count" aria-live="polite"></span></div>
+    <div class="pills" id="prj-filter" role="group" aria-label="Filtra per tipo"></div>
+    <div class="grid" id="prj-grid"><p class="muted" style="grid-column:1/-1">Nessun progetto pubblicato per ora.</p></div>
+  </section>
 
-        <section class="index-section" id="articoli">
-            <h2><span class="icon">🚀</span> Indice degli Articoli</h2>
-            <div id="article-grid" class="article-grid">
-                </div>
-        </section>
+  <!-- Appunti dei corsi: sempre visibile; senza PDF in appunti.json mostra un messaggio -->
+  <section class="blk" id="appunti" aria-labelledby="h-appunti">
+    <div class="sec-h"><h2 id="h-appunti">Appunti dei corsi</h2><span class="muted" id="app-count" aria-live="polite"></span></div>
+    <div class="pills" id="app-filter" role="group" aria-label="Filtra per corso"></div>
+    <div class="grid" id="app-grid"><p class="muted" style="grid-column:1/-1">Nessun appunto pubblicato per ora.</p></div>
+  </section>
 
-        <section class="blogroll">
-            <h3>🔗 Radar Aerospaziale (Blog Consigliati)</h3>
-            <ul class="blog-links">
-                <li><a href="https://www.esa.int/" target="_blank">ESA - European Space Agency</a></li>
-                <li><a href="https://www.nasa.gov/" target="_blank">NASA Official</a></li>
-            </ul>
-        </section>
-    </main>
+  <section class="blk about" id="chi-sono" aria-labelledby="h-chi">
+    <div>
+      <h2 id="h-chi">Chi sono</h2>
+      <p class="muted" style="font-size:1rem">Sono uno studente di <strong style="color:var(--text)">Ingegneria Aerospaziale</strong> appassionato di fisica, modellazione e tecnologie digitali. Ho creato questo spazio per documentare il mio percorso di studio: un archivio aperto dove rielaboro quello che studio.</p>
+    </div>
+    <div class="res">
+      <h2 style="font-size:1.1rem">Radar aerospaziale</h2>
+      <!-- I link si modificano nella CONFIGURAZIONE in fondo alla pagina -->
+      <div id="res-links"></div>
+    </div>
+  </section>
+</main>
 
-    <footer>
-        <p>&copy; 2026 - Progetto Studente Ingegneria Aerospaziale</p>
-    </footer>
+<footer class="foot"><div class="wrap">
+  <span>© <span id="anno">2026</span> AeroBlog · Progetto di uno studente di Ingegneria Aerospaziale</span>
+  <span><a href="feed.xml">RSS</a> · <a data-mail href="#">Contatti</a></span>
+</div></footer>
 
-    <script src="main.js"></script>
+<!-- ============================================================
+     CONFIGURAZIONE  ←  l'unico blocco da modificare
+     ============================================================ -->
+<script>
+const SITE = {
+  email: 'tua@mail.com',            // sostituisci con la tua email reale
+  risorse: [                        // link nel box "Radar aerospaziale": { nome, url }
+    { nome: 'ESA · European Space Agency', url: 'https://www.esa.int/' },
+    { nome: 'NASA', url: 'https://www.nasa.gov/' }
+  ]
+};
+
+/* Da qui in giù non serve toccare nulla: applica la configurazione alla pagina */
+document.querySelectorAll('[data-mail]').forEach(a => a.href = 'mailto:' + SITE.email);
+document.getElementById('res-links').innerHTML = SITE.risorse
+  .map(r => `<a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.nome} ↗</a>`).join('');
+document.getElementById('anno').textContent = new Date().getFullYear();
+</script>
+
+<!-- defer: scaricano in parallelo ed eseguono in ordine dopo il parsing (common.js prima di main.js) -->
+<script src="common.js" defer></script>
+<script src="main.js" defer></script>
+<script src="appunti.js" defer></script>
+<script src="progetti.js" defer></script>
 </body>
 </html>

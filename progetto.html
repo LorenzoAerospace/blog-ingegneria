@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<!--
+  progetto.html?p=<nome>  ·  pagina di un progetto (stesso impianto di articolo.html).
+  Legge progetti.json e, in base al campo "demo", mostra:
+    web / iframe → l'app in un riquadro isolato (sandbox)
+    python       → editor con Esegui: Python gira nel browser (Pyodide)
+    modello      → visualizzatore 3D (STL, OBJ, GLB/glTF) con three.js
+    (nessuno)    → descrizione, codice consultabile e file da scaricare
+-->
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Progetto | AeroBlog</title>
+<meta name="theme-color" content="#0b0d12">
+<link rel="stylesheet" href="site.css"><script src="theme.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+</head>
+<body>
+<header class="nav"><div class="wrap nav-in">
+  <a class="brand" href="index.html"><span class="mark"></span><span id="nav-logo">AERO<b>BLOG</b></span></a>
+  <nav class="links" id="menu"></nav>
+  <div class="nav-r"><button id="tt" class="icon" aria-label="Cambia tema">◐</button><a href="#" class="btn btn-primary" id="contatti">Contatti</a></div>
+</div></header>
+<main class="wrap"><article class="art" style="max-width:860px;margin:0 auto;padding-top:36px">
+  <div class="crumbs"><a href="index.html">Home</a> / <a href="index.html#progetti-sezione">Progetti</a></div>
+  <h1 id="titolo"></h1>
+  <p class="lead" id="lead"></p>
+  <div class="meta-row" id="meta"></div>
+  <div class="tags-row" id="tags"></div>
+
+  <section id="demo"></section>
+  <div id="contenuto" class="prose"></div>
+
+  <section id="filesec" hidden><h2 class="sec-t">File del progetto</h2><div id="files"></div>
+    <div class="src" id="src" hidden><h3 id="src-name" style="font-size:1rem;margin:18px 0 0"></h3><pre><code id="src-code"></code></pre></div>
+  </section>
+</article></main>
+<footer class="foot"><div class="wrap"><span>© 2026 AeroBlog · Progetto di uno studente di Ingegneria Aerospaziale</span><a href="index.html">← Tutti gli articoli</a></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script src="md.js"></script><script src="common.js"></script><script src="nav.js"></script>
+<script>
+(async () => {
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const fmtData = d => { const x = new Date(d); return isNaN(x) ? '' : x.toLocaleDateString('it-IT', { day: 'numeric', month: 'short', year: 'numeric' }); };
+  const slug = new URLSearchParams(location.search).get('p') || '';
+  const nf = () => { $('titolo').textContent = 'Progetto non trovato'; $('lead').innerHTML = '<a href="index.html#progetti">Torna ai progetti</a>'; };
+  if (!/^[a-z0-9_-]+$/i.test(slug)) return nf();
+  let p; try { p = (await (await fetch('progetti.json', { cache: 'no-cache' })).json()).find(x => x.slug === slug); } catch (e) {}
+  if (!p) return nf();
+
+  const base = 'Progetti/' + slug + '/', url = f => encodeURI(base + f);
+  const safe = f => typeof f === 'string' && f && !f.includes('..') && !f.startsWith('/');
+  const mb = n => !n ? '' : n < 1048576 ? Math.max(1, Math.round(n / 1024)) + ' KB' : (n / 1048576).toFixed(1) + ' MB';
+  const load = s => new Promise((ok, ko) => { const x = document.createElement('script'); x.src = s; x.onload = ok; x.onerror = () => ko(new Error('Impossibile caricare ' + s)); document.head.appendChild(x); });
+  const T = { prog: 'Programmazione', cad: 'CAD' }, e = p.entry;
+
+  document.title = p.titolo + ' | AeroBlog';
+  $('titolo').textContent = p.titolo; $('lead').textContent = p.descrizione || '';
+  $('meta').innerHTML = `<span>${fmtData(p.data)}</span> · <span>${esc(T[p.tipo] || 'Progetto')}</span>` +
+    (/^https:\/\//i.test(p.repo || '') ? ` · <a href="${esc(p.repo)}" target="_blank" rel="noopener noreferrer">🔗 Repository ↗</a>` : '') +
+    (/^https:\/\//i.test(p.ext || '') ? ` · <a href="${esc(p.ext)}" target="_blank" rel="noopener noreferrer">⬇ File esterni ↗</a>` : '');
+  $('tags').innerHTML = (p.tags || []).map(t => `<span class="tag-link">${esc(t)}</span>`).join('');
+
+  // ---- 1) App web: riquadro isolato (nessun accesso a cookie/localStorage del sito) ----
+  if ((p.demo === 'web' && safe(e)) || (p.demo === 'iframe' && /^https:\/\//i.test(e || ''))) {
+    $('demo').innerHTML = `<div class="dbar"><button class="pbtn primary" id="go">▶ Avvia</button><button class="pbtn" id="fs" hidden>⛶ Schermo intero</button>${p.demo === 'iframe' ? `<a class="pbtn" href="${esc(e)}" target="_blank" rel="noopener noreferrer">Apri sul sito ↗</a>` : ''}<small class="pmuted">Gira in un riquadro isolato del browser.</small></div><div id="stage"></div>`;
+    $('go').onclick = () => {
+      $('stage').innerHTML = `<iframe class="frame" sandbox="allow-scripts allow-forms allow-pointer-lock allow-popups" src="${esc(p.demo === 'iframe' ? e : url(e))}" title="${esc(p.titolo)}"></iframe>`;
+      $('go').textContent = '↻ Riavvia'; $('fs').hidden = false;
+    };
+    $('fs').onclick = () => $('stage').firstChild?.requestFullscreen?.();
+
+  // ---- 2) Python nel browser (Pyodide) ----
+  } else if (p.demo === 'python' && safe(e)) {
+    let src = ''; try { src = await (await fetch(url(e))).text(); } catch (x) {}
+    $('demo').innerHTML = `<div class="dbar"><button class="pbtn primary" id="run">▶ Esegui</button><button class="pbtn" id="rst">Ripristina codice</button><small class="pmuted" id="pst">Il primo avvio scarica l'interprete (circa 10 MB). Puoi modificare il codice.</small></div><textarea id="code" class="pcode" spellcheck="false" rows="14"></textarea><pre class="out" id="out" hidden></pre><div id="figs"></div>`;
+    $('code').value = src; $('rst').onclick = () => $('code').value = src;
+    const FIGS = "import sys, io, base64, json\n_o = []\nif 'matplotlib.pyplot' in sys.modules:\n    import matplotlib.pyplot as _p\n    for _n in _p.get_fignums():\n        _b = io.BytesIO(); _p.figure(_n).savefig(_b, format='png', dpi=110, bbox_inches='tight'); _o.append(base64.b64encode(_b.getvalue()).decode())\n    _p.close('all')\njson.dumps(_o)";
+    let py;
+    $('run').onclick = async () => {
+      const b = $('run'), out = $('out'), st = $('pst'), add = t => { out.textContent += t + '\n'; };
+      b.disabled = true; out.hidden = false; out.textContent = ''; $('figs').innerHTML = '';
+      try {
+        if (!py) { st.textContent = 'Carico l\'interprete…'; await load('https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js'); py = await loadPyodide(); py.runPython("import os; os.environ['MPLBACKEND']='AGG'"); }
+        py.setStdout({ batched: add }); py.setStderr({ batched: add });
+        const code = $('code').value;
+        st.textContent = 'Carico i pacchetti…'; await py.loadPackagesFromImports(code);
+        st.textContent = 'In esecuzione…'; await py.runPythonAsync(code);
+        JSON.parse(py.runPython(FIGS)).forEach(d => { const i = new Image(); i.src = 'data:image/png;base64,' + d; i.alt = 'Grafico generato'; $('figs').appendChild(i); });
+        if (!out.textContent) out.hidden = true;
+      } catch (x) { add(String(x.message || x)); }
+      b.disabled = false; st.textContent = 'Fatto. Nota: input() non è supportato.';
+    };
+
+  // ---- 3) Modello 3D (CAD) con three.js ----
+  } else if (p.demo === 'modello' && safe(e)) {
+    $('demo').innerHTML = `<div class="dbar"><button class="pbtn" id="v-reset">⟲ Vista</button><button class="pbtn" id="v-wire">▦ Wireframe</button><button class="pbtn" id="v-grid">⌗ Griglia</button><small class="pmuted" id="v-info">Carico il modello…</small></div><div class="viewer" id="viewer"></div>`;
+    try {
+      const J = 'https://cdn.jsdelivr.net/npm/three@0.128.0/', ext = e.split('.').pop().toLowerCase();
+      const LD = { stl: 'STLLoader', obj: 'OBJLoader', glb: 'GLTFLoader', gltf: 'GLTFLoader' }[ext];
+      await load(J + 'build/three.min.js'); await load(J + 'examples/js/controls/OrbitControls.js'); await load(J + 'examples/js/loaders/' + LD + '.js');
+      const box = $('viewer'), W = () => box.clientWidth || 600, H = () => box.clientHeight || 400;
+      const scene = new THREE.Scene(), cam = new THREE.PerspectiveCamera(40, W() / H(), .1, 1e5);
+      const ren = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      ren.setPixelRatio(Math.min(devicePixelRatio, 2)); ren.setSize(W(), H()); box.appendChild(ren.domElement);
+      scene.add(new THREE.HemisphereLight(0xffffff, 0x445566, .95));
+      const dl = new THREE.DirectionalLight(0xffffff, .8); dl.position.set(1, 2, 3); scene.add(dl);
+      const ctl = new THREE.OrbitControls(cam, ren.domElement), render = () => ren.render(scene, cam);
+      ctl.addEventListener('change', render);
+
+      const grey = () => new THREE.MeshStandardMaterial({ color: 0x9fb3c8, metalness: .3, roughness: .55 });
+      const obj = await new Promise((ok, ko) => {
+        const l = new THREE[LD](), u = url(e);
+        l.load(u, r => ok(ext === 'stl' ? (r.attributes.normal || r.computeVertexNormals(), new THREE.Mesh(r, grey())) : ext.startsWith('gl') ? r.scene : r), undefined, () => ko(new Error('Modello non leggibile')));
+      });
+      if (ext === 'obj') obj.traverse(o => { if (o.isMesh) o.material = grey(); });
+      const zUp = ext === 'stl' || ext === 'obj';          // i CAD usano l'asse Z verso l'alto, three.js l'asse Y
+      if (zUp) obj.rotation.x = -Math.PI / 2;
+      const g = new THREE.Group(); g.add(obj); scene.add(g);
+      const b3 = new THREE.Box3().setFromObject(g), c = b3.getCenter(new THREE.Vector3()), s = b3.getSize(new THREE.Vector3());
+      g.position.sub(c);
+      const m = Math.max(s.x, s.y, s.z) || 1, dist = m / (2 * Math.tan(THREE.MathUtils.degToRad(20))) * 1.7;
+      const grid = new THREE.GridHelper(m * 2, 20); grid.position.y = -s.y / 2; grid.visible = false; scene.add(grid);
+      const home = () => { cam.position.set(dist * .8, dist * .6, dist); cam.near = dist / 1000; cam.far = dist * 100; cam.updateProjectionMatrix(); ctl.target.set(0, 0, 0); ctl.update(); render(); };
+      home();
+      const d = zUp ? [s.x, s.z, s.y] : [s.x, s.y, s.z];
+      $('v-info').textContent = 'Dimensioni X × Y × Z: ' + d.map(v => v.toFixed(1)).join(' × ') + ' (unità del file, di solito mm)';
+      let wire = false;
+      $('v-reset').onclick = home;
+      $('v-wire').onclick = () => { wire = !wire; g.traverse(o => { if (o.isMesh) [].concat(o.material).forEach(mt => mt.wireframe = wire); }); render(); };
+      $('v-grid').onclick = () => { grid.visible = !grid.visible; render(); };
+      new ResizeObserver(() => { ren.setSize(W(), H()); cam.aspect = W() / H(); cam.updateProjectionMatrix(); render(); }).observe(box);
+    } catch (x) { $('v-info').textContent = 'Errore: ' + (x.message || x); }
+  }
+
+  // ---- Descrizione estesa (Markdown + formule) ----
+  if (p.readme) {
+    try {
+      const r = await fetch(url('README.md'), { cache: 'no-cache' });
+      if (r.ok) {
+        const el = $('contenuto'); el.innerHTML = '<h2 class="sec-t" style="font-size:1.5rem">Descrizione</h2>' + renderMarkdown(await r.text());
+        el.querySelectorAll('img').forEach(i => { const s = i.getAttribute('src') || ''; if (!/^(https?:|data:|\/)/.test(s)) i.src = base + s; });
+      }
+    } catch (x) {}
+  }
+
+  // ---- File del progetto: scarica o consulta il codice ----
+  const files = (p.files || []).filter(f => f && safe(f.path));
+  if (files.length) {
+    const TXT = /\.(py|js|ts|c|h|cpp|hpp|m|ino|java|json|txt|md|csv|html|css|tex|sh|cfg|yml|yaml|f90|jl|r|dxf)$/i;
+    $('filesec').hidden = false;
+    $('files').innerHTML = files.map((f, i) => `<div class="frow"><span class="fn">${esc(f.path)}</span><small class="pmuted">${mb(f.dim)}</small>${TXT.test(f.path) && f.dim < 200000 ? `<button class="pbtn" data-v="${i}">👁 Vedi</button>` : ''}<a class="pbtn" href="${esc(url(f.path))}" download>⬇ Scarica</a></div>`).join('');
+    $('files').onclick = async ev => {
+      const b = ev.target.closest('[data-v]'); if (!b) return; const f = files[b.dataset.v];
+      try { $('src-code').textContent = await (await fetch(url(f.path))).text(); } catch (x) { $('src-code').textContent = 'Impossibile leggere il file.'; }
+      $('src-name').textContent = f.path; $('src').hidden = false; $('src').scrollIntoView({ behavior: 'smooth' });
+    };
+  }
+})();
+</script>
+</body>
+</html>

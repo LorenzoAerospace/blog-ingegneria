@@ -1,0 +1,86 @@
+{
+  "sito": {
+    "titolo": "AeroBlog",
+    "sottotitolo": "Appunti di Fisica, Matematica e Meccanica Orbitale",
+    "intro": "Sono uno studente di **Ingegneria Aerospaziale** appassionato di fisica, modellazione e tecnologie digitali. Ho creato questo spazio per documentare il mio percorso di studio: un archivio aperto dove rielaboro quello che studio.",
+    "email": "tua@mail.com",
+    "footer": "© 2026 - Progetto Studente Ingegneria Aerospaziale"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "url": "index.html"
+    },
+    {
+      "label": "Appunti",
+      "categoria": "Tutti"
+    },
+    {
+      "label": "Progetti",
+      "url": "#progetti-sezione"
+    },
+    {
+      "label": "Dispense PDF",
+      "url": "#appunti-sezione"
+    }
+  ],
+  "categorie": [
+    {
+      "nome": "Aerodinamica",
+      "icona": "✈️",
+      "descrizione": "Portanza, resistenza, ali finite e compressibilità.",
+      "nascosta": false
+    },
+    {
+      "nome": "Meccanica",
+      "icona": "⚙️",
+      "descrizione": "Statica, dinamica, corpo rigido e momenti d'inerzia.",
+      "nascosta": false
+    },
+    {
+      "nome": "Termodinamica",
+      "icona": "🔥",
+      "descrizione": "Energia, calore ed entropia.",
+      "nascosta": false
+    },
+    {
+      "nome": "Spazio",
+      "icona": "🛰️",
+      "descrizione": "Orbite e meccanica celeste.",
+      "nascosta": false
+    },
+    {
+      "nome": "Fondamenti di automatica",
+      "icona": "🎛️",
+      "descrizione": "",
+      "nascosta": false
+    },
+    {
+      "nome": "Progetti",
+      "icona": "🚀",
+      "descrizione": "Simulatori e strumenti interattivi.",
+      "nascosta": false
+    }
+  ],
+  "link": [
+    {
+      "titolo": "ESA - European Space Agency",
+      "url": "https://www.esa.int/"
+    },
+    {
+      "titolo": "NASA Official",
+      "url": "https://www.nasa.gov/"
+    }
+  ],
+  "vista": "sezioni",
+  "ultimi": 3,
+  "aperte": false,
+  "appunti": {
+    "mostra": true,
+    "titolo": "Appunti dei corsi"
+  },
+  "progetti": {
+    "mostra": true,
+    "titolo": "Progetti"
+  }
+}
