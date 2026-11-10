@@ -4,7 +4,6 @@ descrizione: Semplificazione dei sistemi di forze agenti sui corpi rigidi
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Equivalenza e Riduzione
