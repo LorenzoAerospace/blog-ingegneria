@@ -1,102 +1,22 @@
 [
   {
-    "titolo": "Moti Centrali",
-    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE Moti Centrali Studio del moto sotto l'az…",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
-    "path": "Articles/MECCANICA/Moti_Centrali.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Momenti d'Inerzia",
-    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Momenti d'Inerzia La resistenza alla rotazio…",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Momenti_d_Inerzia.md",
-    "path": "Articles/MECCANICA/Momenti_d_Inerzia.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Il Corpo Rigido",
-    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Il_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Il_Corpo_Rigido.md",
-    "bozza": false
-  },
-  {
-    "titolo": "I Vincoli",
-    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/I_Vincoli.md",
-    "path": "Articles/MECCANICA/I_Vincoli.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Equivalenza e Riduzione",
-    "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Equivalenza_e_Riduzione.md",
-    "path": "Articles/MECCANICA/Equivalenza_e_Riduzione.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Equazioni Cardinali",
-    "descrizione": "Le leggi fondamentali del moto per sistemi materiali complessi",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Equazioni_Cardinali.md",
-    "path": "Articles/MECCANICA/Equazioni_Cardinali.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Energia Cinetica",
-    "descrizione": "Definizione, sistemi di punti e il Teorema di Koenig",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Energia_Cinetica.md",
-    "path": "Articles/MECCANICA/Energia_Cinetica.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Diagramma del corpo libero",
-    "descrizione": "Diagramma di corpo libero: approccio all'utilizzo",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Diagramma_del_corpo_libero.md",
-    "path": "Articles/MECCANICA/Diagramma_del_corpo_libero.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Cinematica del Corpo Rigido",
-    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Ali 3D",
-    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
+    "titolo": "Resistenza Aerodinamica",
+    "descrizione": "Dallo strato limite di Prandtl alla scomposizione delle forze dissipative",
     "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
-    "path": "Articles/AERODINAMICA/Ali_3D.md",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
+    "path": "Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Forze Sostentatrici",
+    "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
+    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
     "bozza": false
   },
   {
@@ -120,23 +40,13 @@
     "bozza": false
   },
   {
-    "titolo": "Forze Sostentatrici",
-    "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
+    "titolo": "Ali 3D",
+    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
     "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
-    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Resistenza Aerodinamica",
-    "descrizione": "Dallo strato limite di Prandtl alla scomposizione delle forze dissipative",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
-    "path": "Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
+    "path": "Articles/AERODINAMICA/Ali_3D.md",
     "bozza": false
   },
   {
@@ -150,13 +60,23 @@
     "bozza": true
   },
   {
-    "titolo": "Sali poco solubili",
-    "descrizione": "La solubilità: cosa rappresenta e come si calcola",
-    "categoria": "CHIMICA",
+    "titolo": "Principi di Conservazione",
+    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
+    "categoria": "FISICA TECNICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/CHIMICA/Sali_poco_solubili.md",
-    "path": "Articles/CHIMICA/Sali_poco_solubili.md",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Grandezze Termodinamiche",
+    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
     "bozza": true
   },
   {
@@ -170,13 +90,23 @@
     "bozza": true
   },
   {
-    "titolo": "Meccanica Celeste",
-    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…",
-    "categoria": "MECCANICA CELESTE",
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
+    "categoria": "FISICA TECNICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
-    "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Sali poco solubili",
+    "descrizione": "La solubilità: cosa rappresenta e come si calcola",
+    "categoria": "CHIMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/CHIMICA/Sali_poco_solubili.md",
+    "path": "Articles/CHIMICA/Sali_poco_solubili.md",
     "bozza": true
   },
   {
@@ -187,36 +117,106 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
     "path": "Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
-    "bozza": false
+    "bozza": true
   },
   {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
-    "categoria": "FISICA TECNICA",
+    "titolo": "Cinematica del Corpo Rigido",
+    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
+    "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
-    "bozza": false
+    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "bozza": true
   },
   {
-    "titolo": "Grandezze Termodinamiche",
-    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
-    "categoria": "FISICA TECNICA",
+    "titolo": "Diagramma del corpo libero",
+    "descrizione": "Diagramma di corpo libero: approccio all'utilizzo",
+    "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
-    "bozza": false
+    "link": "articolo.html?p=Articles/MECCANICA/Diagramma_del_corpo_libero.md",
+    "path": "Articles/MECCANICA/Diagramma_del_corpo_libero.md",
+    "bozza": true
   },
   {
-    "titolo": "Principi di Conservazione",
-    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
-    "categoria": "FISICA TECNICA",
+    "titolo": "Energia Cinetica",
+    "descrizione": "Definizione, sistemi di punti e il Teorema di Koenig",
+    "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "bozza": false
+    "link": "articolo.html?p=Articles/MECCANICA/Energia_Cinetica.md",
+    "path": "Articles/MECCANICA/Energia_Cinetica.md",
+    "bozza": true
+  },
+  {
+    "titolo": "I Vincoli",
+    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/I_Vincoli.md",
+    "path": "Articles/MECCANICA/I_Vincoli.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Equivalenza e Riduzione",
+    "descrizione": "Semplificazione dei sistemi di forze agenti sui corpi rigidi",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Equivalenza_e_Riduzione.md",
+    "path": "Articles/MECCANICA/Equivalenza_e_Riduzione.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Equazioni Cardinali",
+    "descrizione": "Le leggi fondamentali del moto per sistemi materiali complessi",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Equazioni_Cardinali.md",
+    "path": "Articles/MECCANICA/Equazioni_Cardinali.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Il Corpo Rigido",
+    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Il_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Il_Corpo_Rigido.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Moti Centrali",
+    "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE Moti Centrali Studio del moto sotto l'az…",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
+    "path": "Articles/MECCANICA/Moti_Centrali.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Momenti d'Inerzia",
+    "descrizione": "AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE Momenti d'Inerzia La resistenza alla rotazio…",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Momenti_d_Inerzia.md",
+    "path": "Articles/MECCANICA/Momenti_d_Inerzia.md",
+    "bozza": true
+  },
+  {
+    "titolo": "Meccanica Celeste",
+    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…",
+    "categoria": "MECCANICA CELESTE",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
+    "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
+    "bozza": true
   }
 ]
