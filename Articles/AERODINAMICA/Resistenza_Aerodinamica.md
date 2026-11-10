@@ -4,7 +4,6 @@ descrizione: Dallo strato limite di Prandtl alla scomposizione delle forze dissi
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Resistenza Aerodinamica
