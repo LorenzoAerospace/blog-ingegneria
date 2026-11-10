@@ -1,6 +1,6 @@
 ---
 titolo: I Vincoli
-descrizione: AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…
+descrizione: Limitazioni al moto e condizioni cinematiche nei sistemi rigidi
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
@@ -8,7 +8,6 @@ data: 2026-11-09
 
 ## I Vincoli
 
-Limitazioni al moto e condizioni cinematiche nei sistemi rigidi
 
 I **vincoli** sono condizioni fisiche che limitano i movimenti del sistema che stiamo considerando. Essi riducono i gradi di libertà del corpo, imponendo restrizioni sulle posizioni (vincoli olonomi) o sulle velocità (vincoli anolonomi).
 
