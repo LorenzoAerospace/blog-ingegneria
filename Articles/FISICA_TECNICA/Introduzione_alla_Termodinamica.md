@@ -4,7 +4,6 @@ descrizione: Definizioni fondamentali, sistemi e variabili di stato
 categoria: FISICA TECNICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Introduzione alla Termodinamica
