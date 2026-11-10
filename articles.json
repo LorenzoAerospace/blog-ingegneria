@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "Il Corpo Rigido",
+    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Il_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Il_Corpo_Rigido.md",
+    "bozza": false
+  },
+  {
     "titolo": "I Vincoli",
     "descrizione": "AEROBLOG Home Appunti Contatti ← Torna all'indice MECCANICA RAZIONALE I Vincoli Limitazioni al moto e condizio…",
     "categoria": "MECCANICA",
@@ -137,16 +147,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
     "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Il Corpo Rigido",
-    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Il_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Il_Corpo_Rigido.md",
     "bozza": true
   },
   {
