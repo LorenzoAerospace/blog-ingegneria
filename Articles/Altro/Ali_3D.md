@@ -4,7 +4,6 @@ descrizione: Analisi della resistenza indotta, vortici d'estremità e winglets
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Ali 3D
