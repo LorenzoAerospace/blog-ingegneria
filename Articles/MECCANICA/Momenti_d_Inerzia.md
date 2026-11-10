@@ -4,6 +4,7 @@ descrizione: AEROBLOG Home Contatti ← Torna alla Dashboard MECCANICA RAZIONALE
 categoria: MECCANICA
 tags: 
 data: 2026-11-09
+bozza: si
 ---
 
 ## Momenti d'Inerzia
