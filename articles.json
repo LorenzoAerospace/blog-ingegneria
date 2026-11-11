@@ -10,6 +10,16 @@
     "bozza": true
   },
   {
+    "titolo": "Teorema di Thévenin",
+    "descrizione": "Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.",
+    "categoria": "ELETTROTECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
+    "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
+    "bozza": false
+  },
+  {
     "titolo": "Sali poco solubili",
     "descrizione": "La solubilità: cosa rappresenta e come si calcola",
     "categoria": "CHIMICA",
@@ -90,16 +100,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "path": "Articles/AUTOMATICA/Introduzione_all_Automatica.md",
-    "bozza": true
-  },
-  {
-    "titolo": "Teorema di Thévenin",
-    "descrizione": "Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.",
-    "categoria": "ELETTROTECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
     "bozza": true
   },
   {
