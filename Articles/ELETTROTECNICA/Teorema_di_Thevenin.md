@@ -3,7 +3,7 @@ titolo: Teorema di Thévenin
 descrizione: Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.
 categoria: ELETTROTECNICA
 tags: 
-data: 2026-11-09
+data: 2026-11-10
 ---
 
 ## Teorema di Thévenin
