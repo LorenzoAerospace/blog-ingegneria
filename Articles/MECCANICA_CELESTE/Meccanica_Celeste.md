@@ -1,8 +1,8 @@
 ---
 titolo: Meccanica Celeste
-descrizione: AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…
+descrizione: Introduzione alla meccanica orbitale
 categoria: MECCANICA CELESTE
-tags: 
+tags: #keplero, #orbite
 data: 2026-11-09
 bozza: si
 ---
