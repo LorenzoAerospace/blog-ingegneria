@@ -1,4 +1,4 @@
-/* progetti.js · sezione "Progetti" della home. Legge progetti.json (creato da admin.html). */
+
 (async () => {
   const $ = id => document.getElementById(id);
   if (!$('progetti')) return;
