@@ -33,6 +33,20 @@
     "bozza": true
   },
   {
+    "titolo": "Cinematica del Corpo Rigido",
+    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
+    "categoria": "MECCANICA",
+    "tags": [
+      "#corporigido",
+      "#vincoli",
+      "#attomotorigido"
+    ],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "bozza": false
+  },
+  {
     "titolo": "Meccanica Celeste",
     "descrizione": "Introduzione alla meccanica orbitale",
     "categoria": "MECCANICA CELESTE",
@@ -143,16 +157,6 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
     "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Cinematica del Corpo Rigido",
-    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
     "bozza": false
   },
   {
