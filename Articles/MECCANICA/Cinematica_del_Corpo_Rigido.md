@@ -2,7 +2,7 @@
 titolo: Cinematica del Corpo Rigido
 descrizione: Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido
 categoria: MECCANICA
-tags: 
+tags: #corporigido, #vincoli, #attomotorigido
 data: 2026-11-09
 ---
 
