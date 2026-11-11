@@ -10,6 +10,19 @@
     "bozza": true
   },
   {
+    "titolo": "Meccanica Celeste",
+    "descrizione": "Introduzione alla meccanica orbitale",
+    "categoria": "MECCANICA CELESTE",
+    "tags": [
+      "#keplero",
+      "#orbite"
+    ],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
+    "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
+    "bozza": true
+  },
+  {
     "titolo": "Ali 3D",
     "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
     "categoria": "AERODINAMICA",
@@ -180,26 +193,6 @@
     "bozza": false
   },
   {
-    "titolo": "Il Corpo Rigido",
-    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
-    "categoria": "MECCANICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Il_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Il_Corpo_Rigido.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Meccanica Celeste",
-    "descrizione": "AEROBLOG 🔍 Home Appunti Contatti ← Torna all'indice Meccanica Celeste In questo articolo, si andrà ad analizz…",
-    "categoria": "MECCANICA CELESTE",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
-    "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
-    "bozza": true
-  },
-  {
     "titolo": "I Vincoli",
     "descrizione": "Limitazioni al moto e condizioni cinematiche nei sistemi rigidi",
     "categoria": "MECCANICA",
@@ -210,13 +203,13 @@
     "bozza": false
   },
   {
-    "titolo": "Moti Centrali",
-    "descrizione": "Studio del moto sotto l'azione di forze dirette verso un polo fisso",
+    "titolo": "Il Corpo Rigido",
+    "descrizione": "Definizione, proprietà e il vincolo di rigidità",
     "categoria": "MECCANICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
-    "path": "Articles/MECCANICA/Moti_Centrali.md",
+    "link": "articolo.html?p=Articles/MECCANICA/Il_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Il_Corpo_Rigido.md",
     "bozza": false
   },
   {
@@ -227,6 +220,16 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/MECCANICA/Momenti_d_Inerzia.md",
     "path": "Articles/MECCANICA/Momenti_d_Inerzia.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Moti Centrali",
+    "descrizione": "Studio del moto sotto l'azione di forze dirette verso un polo fisso",
+    "categoria": "MECCANICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Moti_Centrali.md",
+    "path": "Articles/MECCANICA/Moti_Centrali.md",
     "bozza": false
   }
 ]
