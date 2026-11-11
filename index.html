@@ -1,25 +1,7 @@
 <!DOCTYPE html>
 <html lang="it" data-theme="dark">
 <head>
-<!--
-  ============================================================
-  AEROBLOG · index.html  (home page)
-  ============================================================
-  COME FUNZIONA IL SITO
-  1. Scrivi gli articoli in Articles/<cartella>/nome.md (front-matter: titolo, descrizione, categoria, tags, data, bozza).
-  2. Al push, GitHub Actions (.github/workflows/build-index.yml) esegue scripts/build-index.js,
-     che genera articles.json, sitemap.xml, feed.xml e robots.txt.
-  3. Questa pagina carica articles.json (main.js) e disegna: ultimi articoli, filtri per categoria, ricerca.
-  4. Cliccando un articolo si apre articolo.html?p=Articles/... che renderizza il Markdown.
 
-  COSA MODIFICARE QUI
-  - Solo il blocco "CONFIGURAZIONE" in fondo alla pagina (email, link utili).
-  - Per attivare canonical e immagine di anteprima social, decommenta le righe indicate nel <head>.
-
-  FILE USATI (nella stessa cartella)
-  site.css · theme.js · common.js · main.js · appunti.js · progetti.js · articles.json (generato) · appunti.json e progetti.json (creati da admin.html)
-  ============================================================
--->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AeroBlog | Appunti di Ingegneria Aerospaziale</title>
