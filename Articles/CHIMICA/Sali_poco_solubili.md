@@ -2,7 +2,7 @@
 titolo: Sali poco solubili
 descrizione: La solubilità: cosa rappresenta e come si calcola
 categoria: CHIMICA
-tags: 
+tags: #solubilità, #sali
 data: 2026-11-10
 ---
 
