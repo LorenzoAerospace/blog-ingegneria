@@ -2,7 +2,7 @@
 titolo: Grandezze Termodinamiche
 descrizione: Definizione di variabili di stato e funzioni di stato.
 categoria: FISICA TECNICA
-tags: 
+tags: #entropia, #entalpia, #energiainterna, #lavoro, #calore
 data: 2026-11-09
 ---
 
