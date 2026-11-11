@@ -4,7 +4,6 @@ descrizione: Definizione, funzionamento, equivalenze e applicazioni con esempi p
 categoria: ELETTROTECNICA
 tags: 
 data: 2026-11-09
-bozza: si
 ---
 
 ## Teorema di Thévenin
