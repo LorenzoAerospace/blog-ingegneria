@@ -24,5 +24,6 @@ Prima di addentrarci nelle liste è opportuno fare un  introduzione ai puntatori
 
 
 
-Continua a leggere 
+### Argomenti correlati
 
+*   [Puntatori](#)
