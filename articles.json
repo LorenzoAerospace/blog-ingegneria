@@ -3,7 +3,10 @@
     "titolo": "Liste",
     "descrizione": "Liste In questo articolo andremo ad andalizzare le liste cosa sono e come funzionano, andando anche a introdur…",
     "categoria": "LINGUAGGIO C",
-    "tags": [],
+    "tags": [
+      "#liste",
+      "#ordinamento"
+    ],
     "data": "2026-11-11",
     "link": "articolo.html?p=Articles/LINGUAGGIO_C/Liste.md",
     "path": "Articles/LINGUAGGIO_C/Liste.md",
@@ -20,16 +23,6 @@
     "bozza": true
   },
   {
-    "titolo": "Teorema di Thévenin",
-    "descrizione": "Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.",
-    "categoria": "ELETTROTECNICA",
-    "tags": [],
-    "data": "2026-11-10",
-    "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
-    "bozza": false
-  },
-  {
     "titolo": "Sali poco solubili",
     "descrizione": "La solubilità: cosa rappresenta e come si calcola",
     "categoria": "CHIMICA",
@@ -40,6 +33,16 @@
     "data": "2026-11-10",
     "link": "articolo.html?p=Articles/CHIMICA/Sali_poco_solubili.md",
     "path": "Articles/CHIMICA/Sali_poco_solubili.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Teorema di Thévenin",
+    "descrizione": "Definizione, funzionamento, equivalenze e applicazioni con esempi pratici.",
+    "categoria": "ELETTROTECNICA",
+    "tags": [],
+    "data": "2026-11-10",
+    "link": "articolo.html?p=Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
+    "path": "Articles/ELETTROTECNICA/Teorema_di_Thevenin.md",
     "bozza": false
   },
   {
@@ -103,6 +106,22 @@
     "bozza": true
   },
   {
+    "titolo": "Grandezze Termodinamiche",
+    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
+    "categoria": "FISICA TECNICA",
+    "tags": [
+      "#entropia",
+      "#entalpia",
+      "#energiainterna",
+      "#lavoro",
+      "#calore"
+    ],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
+    "bozza": false
+  },
+  {
     "titolo": "Introduzione alla Termodinamica",
     "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
     "categoria": "FISICA TECNICA",
@@ -130,6 +149,20 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
     "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Cinematica del Corpo Rigido",
+    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
+    "categoria": "MECCANICA",
+    "tags": [
+      "#corporigido",
+      "#vincoli",
+      "#attomotorigido"
+    ],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
+    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
     "bozza": false
   },
   {
@@ -224,35 +257,5 @@
     "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "bozza": true
-  },
-  {
-    "titolo": "Cinematica del Corpo Rigido",
-    "descrizione": "Studio del moto: traiettoria, velocità e l'Atto di Moto Rigido",
-    "categoria": "MECCANICA",
-    "tags": [
-      "#corporigido",
-      "#vincoli",
-      "#attomotorigido"
-    ],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
-    "path": "Articles/MECCANICA/Cinematica_del_Corpo_Rigido.md",
-    "bozza": false
-  },
-  {
-    "titolo": "Grandezze Termodinamiche",
-    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
-    "categoria": "FISICA TECNICA",
-    "tags": [
-      "#entropia",
-      "#entalpia",
-      "#energiainterna",
-      "#lavoro",
-      "#calore"
-    ],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
-    "bozza": false
   }
 ]
