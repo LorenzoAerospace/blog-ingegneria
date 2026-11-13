@@ -17,7 +17,10 @@
     "titolo": "Derivate parziali",
     "descrizione": "prova…",
     "categoria": "ANALISI E GEOMETRIA 2",
-    "tags": [],
+    "tags": [
+      "#derivateparziali",
+      "#analisi2"
+    ],
     "data": "2026-11-10",
     "link": "articolo.html?p=Articles/ANALISI_E_GEOMETRIA_2/Derivate_parziali.md",
     "path": "Articles/ANALISI_E_GEOMETRIA_2/Derivate_parziali.md",
