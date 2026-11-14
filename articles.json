@@ -1,5 +1,18 @@
 [
   {
+    "titolo": "La soluzione esatta non esiste (o non sappiamo trovarla): il ruolo dell'analisi numerica",
+    "descrizione": "La soluzione esatta non esiste o non sappiamo trovarla: il ruolo dell'analisi numerica Vi siete mai chiesti qu…",
+    "categoria": "CALCOLO NUMERICO",
+    "tags": [
+      "#analsinumerica",
+      "#imprecisione"
+    ],
+    "data": "2026-11-14",
+    "link": "articolo.html?p=Articles/CALCOLO_NUMERICO/La_soluzione_esatta_non_esiste_o_non_sappiamo_trovarla_il_ruolo_dell_analisi_numerica.md",
+    "path": "Articles/CALCOLO_NUMERICO/La_soluzione_esatta_non_esiste_o_non_sappiamo_trovarla_il_ruolo_dell_analisi_numerica.md",
+    "bozza": true
+  },
+  {
     "titolo": "Liste",
     "descrizione": "Liste In questo articolo andremo ad andalizzare le liste cosa sono e come funzionano, andando anche a introdur…",
     "categoria": "LINGUAGGIO C",
