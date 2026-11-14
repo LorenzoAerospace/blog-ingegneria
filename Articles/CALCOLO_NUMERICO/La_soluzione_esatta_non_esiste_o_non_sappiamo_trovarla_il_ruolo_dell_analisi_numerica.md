@@ -18,18 +18,3 @@ Dietro questi risultati ci sono modelli matematici, misurazioni e algoritmi di c
 È proprio in questo contesto che entra in gioco **l'analisi numerica**: una disciplina matematica che studia i metodi per ottenere soluzioni approssimate a problemi che, in molti casi, non possono essere risolti esattamente con metodi analitici o la cui soluzione esatta è troppo difficile da calcolare.
 
 
-
-
-
-
-Perché abbiamo bisogno di approssimare? Perché alcuni problemi non hanno una soluzione analitica facilmente ottenibile e i calcolatori lavorano con precisione finita.
-
-Come si ottiene una soluzione approssimata? Introducendo un esempio semplice, come il metodo di bisezione o quello di Newton.
-
-Come sappiamo se il risultato è affidabile? Parlando di errore assoluto, errore relativo e convergenza.
-
-
-
-
-
-
