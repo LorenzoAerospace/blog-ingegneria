@@ -1,5 +1,18 @@
 [
   {
+    "titolo": "Reazioni vincolari",
+    "descrizione": "Scopri cosa sono le reazioni vincolari e come calcolarle velocemente su strutture isostatiche complesse utilizzando il metodo dello schema ad albero.",
+    "categoria": "FONDAMENTI DI MECCANICA STRUTTURALE",
+    "tags": [
+      "#schemealbero",
+      "#strutture"
+    ],
+    "data": "2026-11-16",
+    "link": "articolo.html?p=Articles/FONDAMENTI_DI_MECCANICA_STRUTTURALE/Reazioni_vincolari.md",
+    "path": "Articles/FONDAMENTI_DI_MECCANICA_STRUTTURALE/Reazioni_vincolari.md",
+    "bozza": true
+  },
+  {
     "titolo": "La soluzione esatta non esiste (o non sappiamo trovarla): il ruolo dell'analisi numerica",
     "descrizione": "La soluzione esatta non esiste o non sappiamo trovarla: il ruolo dell'analisi numerica Vi siete mai chiesti qu…",
     "categoria": "CALCOLO NUMERICO",
