@@ -6,7 +6,6 @@ tags: #schemealbero, #strutture
 data: 2026-11-16
 ---
 
-
 ### Reazioni vincolari e metodo dello schema ad albero
 
 Le reazioni vincolari sono le forze (o coppie) che si generano in risposta all'azione dei vincoli, in accordo con il terzo principio della dinamica (azione e reazione): ogni volta che un vincolo impedisce un grado di libertà, nasce una reazione corrispondente al movimento bloccato.
@@ -17,3 +16,5 @@ Per il calcolo delle reazioni su strutture isostatiche complesse, il **metodo de
 4. **Calcolo finale e verifica:** una volta ricavate le reazioni, si rimuove anche l'ultimo vincolo esterno rimasto (o si applicano le equazioni cardinali della statica all'intera struttura) per determinarne il valore e verificare che l'equilibrio globale sia soddisfatto.
 
 In conclusione, lo schema ad albero  supportato dal disegno dei corpi rigidi equivalenti  si rivela un metodo estremamente efficace per disaccoppiare le equazioni, semplificare l'analisi visiva e ridurre al minimo il rischio di errori di calcolo.
+![Struttura isostatica con applicazione dello schema ad albero](1794868029011_schema_albero.svg)
+
