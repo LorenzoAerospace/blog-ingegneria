@@ -17,4 +17,5 @@ Per il calcolo delle reazioni su strutture isostatiche complesse, il **metodo de
 
 In conclusione, lo schema ad albero  supportato dal disegno dei corpi rigidi equivalenti  si rivela un metodo estremamente efficace per disaccoppiare le equazioni, semplificare l'analisi visiva e ridurre al minimo il rischio di errori di calcolo.
 ![Struttura isostatica con applicazione dello schema ad albero](1794868029011_schema_albero.svg)
+Questa rappresenta una struttura isostatica con schema ad albero
 
