@@ -4,6 +4,7 @@ descrizione: Scopri cosa sono le reazioni vincolari e come calcolarle velocement
 categoria: FONDAMENTI DI MECCANICA STRUTTURALE
 tags: #schemealbero, #strutture
 data: 2026-11-16
+bozza: si
 ---
 
 ### Reazioni vincolari e metodo dello schema ad albero
