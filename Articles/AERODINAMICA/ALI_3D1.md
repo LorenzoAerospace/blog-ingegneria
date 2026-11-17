@@ -4,7 +4,6 @@ descrizione: Ali 3D Le ali sono l'elemento essenziale del veicolo per la generaz
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-17
-bozza: si
 ---
 
 ## Ali 3D
