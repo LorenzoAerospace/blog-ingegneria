@@ -1,5 +1,15 @@
 [
   {
+    "titolo": "ALI 3D1",
+    "descrizione": "Ali 3D Le ali sono l'elemento essenziale del veicolo per la generazione della portanza. Per definire correttam…",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-17",
+    "link": "articolo.html?p=Articles/AERODINAMICA/ALI_3D1.md",
+    "path": "Articles/AERODINAMICA/ALI_3D1.md",
+    "bozza": true
+  },
+  {
     "titolo": "Reazioni vincolari",
     "descrizione": "Scopri cosa sono le reazioni vincolari e come calcolarle velocemente su strutture isostatiche complesse utilizzando il metodo dello schema ad albero.",
     "categoria": "FONDAMENTI DI MECCANICA STRUTTURALE",
