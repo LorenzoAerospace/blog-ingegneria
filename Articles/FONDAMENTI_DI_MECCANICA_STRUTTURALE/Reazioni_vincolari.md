@@ -4,6 +4,7 @@ descrizione: Scopri cosa sono le reazioni vincolari e come calcolarle velocement
 categoria: FONDAMENTI DI MECCANICA STRUTTURALE
 tags: #schemealbero, #strutture
 data: 2026-11-16
+copertina: Articles/FONDAMENTI_DI_MECCANICA_STRUTTURALE/copertina_1794911725777.svg
 ---
 
 ### Reazioni vincolari e metodo dello schema ad albero
@@ -18,4 +19,3 @@ Per il calcolo delle reazioni su strutture isostatiche complesse, il **metodo de
 In conclusione, lo schema ad albero  supportato dal disegno dei corpi rigidi equivalenti  si rivela un metodo estremamente efficace per disaccoppiare le equazioni, semplificare l'analisi visiva e ridurre al minimo il rischio di errori di calcolo.
 ![Struttura isostatica con applicazione dello schema ad albero](1794868029011_schema_albero.svg)
 Questa rappresenta una struttura isostatica con schema ad albero
-
