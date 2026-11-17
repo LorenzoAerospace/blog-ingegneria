@@ -4,6 +4,7 @@ descrizione: La soluzione esatta non esiste o non sappiamo trovarla: il ruolo de
 categoria: CALCOLO NUMERICO
 tags: #analsinumerica, #imprecisione
 data: 2026-11-14
+bozza: si
 ---
 
 ## La soluzione esatta non esiste (o non sappiamo trovarla): il ruolo dell'analisi numerica
