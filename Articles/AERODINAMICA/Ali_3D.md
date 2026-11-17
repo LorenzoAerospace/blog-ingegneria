@@ -50,3 +50,5 @@ Esistono tre vie principali per diminuire la componente di resistenza indotta, a
 *   [Teoria della linea portante di Prandtl](#)
 *   [Distribuzione di portanza ellittica](#)
 *   [Effetto suolo e resistenza indotta](#)
+![Copertina](1794937931818_ali_3d.svg)
+
