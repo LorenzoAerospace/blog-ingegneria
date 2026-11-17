@@ -4,6 +4,7 @@ descrizione: Ali 3D Le ali sono l'elemento essenziale del veicolo per la generaz
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-17
+bozza: si
 ---
 
 ## Ali 3D
@@ -50,4 +51,4 @@ Esistono tre vie principali per diminuire la componente di resistenza indotta, a
 *   [Teoria della linea portante di Prandtl](#)
 *   [Distribuzione di portanza ellittica](#)
 *   [Effetto suolo e resistenza indotta](#)
-![Copertina](1794937931818_ali_3d.svg)
+
