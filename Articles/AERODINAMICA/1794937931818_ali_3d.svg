@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="Inter, Arial, sans-serif">
+  <defs>
+    <linearGradient id="qg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2a5e"/>
+      <stop offset="1" stop-color="#071a3d"/>
+    </linearGradient>
+    <pattern id="qp" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#8fc1ff" stroke-opacity=".13"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#qg)"/>
+  <rect width="1200" height="630" fill="url(#qp)"/>
+  
+  <!-- Elemento grafico a strati che richiama la stampa 3D e il profilo alare -->
+  <g transform="translate(750, 315)">
+    <path d="M-150,100 C-50,80 50,20 150,-40 C100,-20 0,40 -150,100 Z" fill="#8fc1ff" fill-opacity="0.2"/>
+    <path d="M-140,70 C-40,55 40,10 120,-30 C80,-15 0,25 -140,70 Z" fill="#8fc1ff" fill-opacity="0.4"/>
+    <path d="M-130,40 C-30,30 30,0 90,-20 C60,-10 0,15 -130,40 Z" fill="#8fc1ff" fill-opacity="0.7"/>
+    <path d="M-120,10 C-20,5 20,-10 60,-10 C40,-5 0,5 -120,10 Z" fill="#fbbf24"/>
+  </g>
+
+  <rect x="72" y="204.94" width="46" height="5" fill="#fbbf24"/>
+  <text x="72" y="238.94" font-size="28" font-weight="700" fill="#fbbf24" letter-spacing="3">AERODINAMICA</text>
+  <text x="72" y="321.94" font-size="67" font-weight="800" fill="#ffffff">Ali 3D</text>
+
+  <text x="72" y="592.2" font-size="24" font-weight="700" fill="#ffffff" fill-opacity=".6" letter-spacing="4">AEROBLOG</text>
+</svg>
