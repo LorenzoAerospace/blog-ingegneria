@@ -1,5 +1,5 @@
 ---
-titolo: ALI 3D1
+titolo: ALI 3D
 descrizione: Ali 3D Le ali sono l'elemento essenziale del veicolo per la generazione della portanza. Per definire correttam…
 categoria: AERODINAMICA
 tags: 
@@ -52,4 +52,3 @@ Esistono tre vie principali per diminuire la componente di resistenza indotta, a
 *   [Distribuzione di portanza ellittica](#)
 *   [Effetto suolo e resistenza indotta](#)
 ![Copertina](1794937931818_ali_3d.svg)
-
