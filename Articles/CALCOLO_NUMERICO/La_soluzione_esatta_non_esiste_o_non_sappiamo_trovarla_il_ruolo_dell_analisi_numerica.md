@@ -4,7 +4,6 @@ descrizione: La soluzione esatta non esiste o non sappiamo trovarla: il ruolo de
 categoria: CALCOLO NUMERICO
 tags: #analsinumerica, #imprecisione
 data: 2026-11-14
-bozza: si
 ---
 
 ## La soluzione esatta non esiste (o non sappiamo trovarla): il ruolo dell'analisi numerica
@@ -16,5 +15,3 @@ Immaginiamo di voler raggiungere una località di vacanza senza conoscere la str
 Dietro questi risultati ci sono modelli matematici, misurazioni e algoritmi di calcolo. Ognuno di questi elementi può introdurre un certo errore. Il risultato ottenuto, quindi, non è necessariamente il valore esatto, ma una sua stima, più o meno accurata.
 
 È proprio in questo contesto che entra in gioco **l'analisi numerica**: una disciplina matematica che studia i metodi per ottenere soluzioni approssimate a problemi che, in molti casi, non possono essere risolti esattamente con metodi analitici o la cui soluzione esatta è troppo difficile da calcolare.
-
-
