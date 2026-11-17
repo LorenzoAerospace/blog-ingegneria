@@ -86,16 +86,6 @@
     "bozza": false
   },
   {
-    "titolo": "Ali 3D",
-    "descrizione": "Analisi della resistenza indotta, vortici d'estremità e winglets",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Ali_3D.md",
-    "path": "Articles/AERODINAMICA/Ali_3D.md",
-    "bozza": false
-  },
-  {
     "titolo": "Effetti di Comprimibilità",
     "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
     "categoria": "AERODINAMICA",
