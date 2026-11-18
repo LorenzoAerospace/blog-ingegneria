@@ -96,21 +96,11 @@
     "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "copertina": "Articles/AERODINAMICA/1795045811440_copertina.webp",
-    "scheda": "copertina",
-    "bozza": false
-  },
-  {
-    "titolo": "Elementi di Aerodinamica",
-    "descrizione": "Fondamenti, equazioni di base e applicazioni nel settore aerospaziale",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
     "link": "articolo.html?p=Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
     "path": "Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
-    "bozza": false
+    "copertina": "Articles/AERODINAMICA/1795046023006_copertina.webp",
+    "scheda": "copertina",
+    "bozza": true
   },
   {
     "titolo": "Forze Sostentatrici",
@@ -294,5 +284,17 @@
     "link": "articolo.html?p=Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "path": "Articles/MECCANICA_CELESTE/Meccanica_Celeste.md",
     "bozza": true
+  },
+  {
+    "titolo": "",
+    "descrizione": "",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "copertina": "Articles/AERODINAMICA/1795045811440_copertina.webp",
+    "scheda": "copertina",
+    "bozza": false
   }
 ]
