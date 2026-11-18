@@ -96,20 +96,22 @@
     "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
+    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
+    "copertina": "Articles/AERODINAMICA/1795046314823_copertina.svg",
+    "scheda": "copertina",
+    "bozza": true
+  },
+  {
+    "titolo": "",
+    "descrizione": "",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
     "link": "articolo.html?p=Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
     "path": "Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
     "copertina": "Articles/AERODINAMICA/1795046023006_copertina.webp",
     "scheda": "copertina",
-    "bozza": false
-  },
-  {
-    "titolo": "Forze Sostentatrici",
-    "descrizione": "L'origine della portanza: dal vento asintotico alla circolazione",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
-    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
     "bozza": false
   },
   {
