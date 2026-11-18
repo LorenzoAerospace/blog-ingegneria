@@ -58,6 +58,13 @@
   const dir = p.slice(0, p.lastIndexOf('/') + 1);
   el.querySelectorAll('img').forEach(i => { const s = i.getAttribute('src') || ''; if (!/^(https?:|data:|\/)/.test(s)) i.src = dir + s; });
 
+  // la copertina compare solo sulle schede: tolgo dal testo l'eventuale immagine «Copertina» (inserita dal generatore di figure)
+  el.querySelectorAll('img').forEach(i => {
+    if (!(/^copertina$/i.test((i.alt || '').trim()) || /copertina\.\w+$/i.test(i.getAttribute('src') || ''))) return;
+    const pr = i.parentElement; i.remove();
+    if (pr && pr !== el && !pr.textContent.trim() && !pr.querySelector('img,svg,table')) pr.remove();
+  });
+
   if (fm.copertina) {   // la copertina compare solo sulle schede; qui serve soltanto come anteprima quando si condivide il link
     const c = fm.copertina, src = /^(https?:|data:|\/|Articles\/)/.test(c) ? c : dir + c;
     const og = document.createElement('meta'); og.setAttribute('property', 'og:image'); og.content = new URL(src, location.href).href; document.head.appendChild(og);
