@@ -88,6 +88,17 @@
     "bozza": false
   },
   {
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "copertina": "",
+    "bozza": false
+  },
+  {
     "titolo": "Introduzione alla Termodinamica",
     "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
     "categoria": "FISICA TECNICA",
@@ -164,16 +175,6 @@
     "link": "articolo.html?p=Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "path": "Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "bozza": true
-  },
-  {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
-    "bozza": false
   },
   {
     "titolo": "Principi di Conservazione",
