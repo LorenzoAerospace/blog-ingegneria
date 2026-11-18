@@ -1,9 +1,12 @@
 ---
-titolo: Effetti di Comprimibilità
-descrizione: Analisi dei regimi di moto, velocità del suono e numero di Mach
+titolo: 
+descrizione: 
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
+copertina: Articles/AERODINAMICA/1795045811440_copertina.webp
+nome: Effetti di Comprimibilità
+scheda: copertina
 bozza: si
 ---
 
