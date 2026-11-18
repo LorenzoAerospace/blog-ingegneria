@@ -98,7 +98,8 @@
     "data": "2026-11-09",
     "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
     "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "bozza": false
+    "copertina": "",
+    "bozza": true
   },
   {
     "titolo": "Elementi di Aerodinamica",
