@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="Inter, Arial, sans-serif"><defs><linearGradient id="edg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a2a5e"/><stop offset="1" stop-color="#071a3d"/></linearGradient><pattern id="edp" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#8fc1ff" stroke-opacity=".13"/></pattern></defs><rect width="1200" height="630" fill="url(#edg)"/><rect width="1200" height="630" fill="url(#edp)"/><defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a2a5e"/>
+    <stop offset="1" stop-color="#06152f"/>
+  </linearGradient>
+
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#041226"/>
+    <stop offset="1" stop-color="#103568"/>
+  </linearGradient>
+
+  <linearGradient id="wing" x1="0" y1="0" x2="0.5" y2="1">
+    <stop offset="0" stop-color="#c5eaff"/>
+    <stop offset=".5" stop-color="#388bc7"/>
+    <stop offset="1" stop-color="#123c72"/>
+  </linearGradient>
+
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+    <path d="M48 0H0V48" fill="none" stroke="#8fc1ff" stroke-opacity=".12"/>
+  </pattern>
+
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+
+  <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+    <path d="M0 0L6 3L0 6" fill="#8fc1ff"/>
+  </marker>
+
+  <marker id="arrowGold" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+    <path d="M0 0L7 3L0 6" fill="#fbbf24"/>
+  </marker>
+</defs><rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#grid)"/><g fill="none" stroke="#39a9ed" stroke-linecap="round">
+
+  <path d="M620 190 C760 180 810 85 990 100 S1100 135 1170 145" stroke-width="2.5" opacity=".65"/>
+
+  <path d="M620 230 C770 220 815 130 990 145 S1100 175 1170 185" stroke-width="2" opacity=".65"/>
+
+  <path d="M620 280 C760 280 820 205 990 215 S1100 235 1170 245" stroke-width="2" opacity=".55"/>
+
+  <path d="M620 330 C770 350 840 300 990 315 S1100 330 1170 340" stroke-width="2" opacity=".5"/>
+
+  <path d="M620 380 C770 400 850 365 990 380 S1100 390 1170 405" stroke-width="2" opacity=".45"/>
+
+  <path d="M620 420 C780 455 850 425 990 440 S1100 450 1170 465" stroke-width="2" opacity=".4"/>
+</g><g>
+  <path d="M690 270            C770 220 870 215 950 240            C1030 265 1090 300 1150 320            C1030 310 900 290 790 290            C745 288 710 282 690 270Z" fill="#8fc1ff" opacity=".2" filter="url(#glow)"/>
+
+  <path d="M690 270            C770 220 870 215 950 240            C1030 265 1090 300 1150 320            C1030 310 900 290 790 290            C745 288 710 282 690 270Z" fill="url(#wing)" stroke="#d7f0ff" stroke-width="2.5"/>
+
+  <path d="M690 270 Q900 270 1150 320" fill="none" stroke="#ffffff" stroke-width="1" opacity=".5"/>
+</g><g fill="none" stroke-width="4" stroke-linecap="round">
+
+  <!-- Portanza -->
+  <path d="M920 250 V110" stroke="#fbbf24" marker-end="url(#arrowGold)"/>
+
+  <!-- Resistenza -->
+  <path d="M930 285 H1090" stroke="#fbbf24" marker-end="url(#arrowGold)"/>
+
+  <!-- Vento asintotico -->
+  <path d="M570 270 H660" stroke="#ffffff" marker-end="url(#arrowBlue)"/>
+</g><g font-family="Georgia, serif" font-style="italic">
+  <text x="936" y="115" fill="#fbbf24" font-size="30">L</text>
+  <text x="1100" y="285" fill="#fbbf24" font-size="30">D</text>
+  <text x="570" y="245" fill="#ffffff" font-size="25">V∞</text>
+</g><rect x="72" y="95" width="48" height="5" rx="2" fill="#fbbf24"/><text x="72" y="132" fill="#fbbf24" font-size="21" font-weight="700" letter-spacing="4">
+  AERODINAMICA
+</text><g fill="#ffffff" font-size="58" font-weight="800" letter-spacing="1">
+  <text x="72" y="225">FORZE</text>
+  <text x="72" y="290">SOSTENTATRICI</text>
+</g><text x="75" y="325" fill="#8fc1ff" font-size="17" font-weight="600" letter-spacing="1.5">
+  PORTANZA, RESISTENZA E CIRCOLAZIONE
+</text><g transform="translate(72 355)">
+
+  <rect width="490" height="150" rx="12" fill="url(#panel)" stroke="#8fc1ff" stroke-opacity=".4" stroke-width="1.5"/>
+
+  <rect width="5" height="150" rx="2" fill="#fbbf24"/>
+
+  <text x="28" y="32" fill="#fbbf24" font-size="13" font-weight="700" letter-spacing="1.5">
+    EQUAZIONI FONDAMENTALI
+  </text>
+
+  <text x="28" y="76" fill="#ffffff" font-family="Georgia, serif" font-size="28" font-style="italic">
+    L′ = ρ V∞ Γ
+  </text>
+
+  <text x="270" y="76" fill="#ffffff" font-family="Georgia, serif" font-size="25" font-style="italic">
+    Re = ρvL / μ
+  </text>
+
+  <path d="M28 94H462" stroke="#8fc1ff" stroke-opacity=".25"/>
+
+  <text x="28" y="126" fill="#8fc1ff" font-size="14" font-weight="600" letter-spacing="1">
+    PORTANZA E NUMERO DI REYNOLDS
+  </text>
+</g><path d="M72 545H1128" stroke="#8fc1ff" stroke-opacity=".25"/><text x="72" y="585" fill="#ffffff" fill-opacity=".65" font-size="23" font-weight="700" letter-spacing="5">
+  AEROBLOG
+</text><text x="1128" y="583" fill="#8fc1ff" fill-opacity=".65" font-size="12" text-anchor="end" letter-spacing="2">
+  SCIENZA · INGEGNERIA · VOLO
+</text></svg>
