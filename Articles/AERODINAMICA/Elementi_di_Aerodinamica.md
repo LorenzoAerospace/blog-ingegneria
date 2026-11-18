@@ -1,9 +1,13 @@
 ---
-titolo: Elementi di Aerodinamica
-descrizione: Fondamenti, equazioni di base e applicazioni nel settore aerospaziale
+titolo: 
+descrizione: 
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
+copertina: Articles/AERODINAMICA/1795046023006_copertina.webp
+nome: Elementi di Aerodinamica
+scheda: copertina
+bozza: si
 ---
 
 ## Elementi di Aerodinamica
