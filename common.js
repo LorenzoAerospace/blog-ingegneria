@@ -4,7 +4,7 @@ const fmtData = d => { const x = new Date(d); return isNaN(x) ? '' : x.toLocaleD
 const copertinaHtml = a => a && /^(https?:\/\/|Articles\/|Progetti\/|Appunti\/)/.test(a.copertina || '') ? `<img class="cv-card" src="${esc(encodeURI(a.copertina))}" alt="" loading="lazy" decoding="async" onerror="this.remove()">` : '';
 const card = a => {
   const cov = copertinaHtml(a);
-  if (cov && (a.scheda === 'copertina' || (!a.titolo && !a.descrizione))) return `<a class="card card-solo" href="${esc(a.link)}" aria-label="${esc(a.titolo || a.categoria || 'Apri')}">${cov}</a>`;   // solo copertina
+  if (cov && (a.scheda === 'copertina' || (!a.titolo && !a.descrizione))) return `<a class="card card-solo" style="align-self:start" href="${esc(a.link)}" aria-label="${esc(a.titolo || a.categoria || 'Apri')}">${cov}</a>`;   // solo copertina
   return `<a class="card" href="${esc(a.link)}">${cov}${a.categoria ? `<span class="badge">${esc(a.categoria)}</span>` : ''}${a.titolo ? `<h3>${esc(a.titolo)}</h3>` : ''}${a.descrizione ? `<p>${esc(a.descrizione)}</p>` : ''}<div class="meta"><span>${fmtData(a.data)}</span><span>${esc((a.tags || []).slice(0, 2).join(' '))}</span></div></a>`;
 };
 
