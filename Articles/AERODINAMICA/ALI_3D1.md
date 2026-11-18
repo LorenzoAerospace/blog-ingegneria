@@ -5,7 +5,6 @@ categoria: AERODINAMICA
 tags: 
 data: 2026-11-17
 copertina: Articles/AERODINAMICA/1794992794416_copertina.svg
-bozza: si
 ---
 
 ## Ali 3D
