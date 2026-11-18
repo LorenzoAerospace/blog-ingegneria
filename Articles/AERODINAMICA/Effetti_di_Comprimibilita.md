@@ -7,7 +7,6 @@ data: 2026-11-09
 copertina: Articles/AERODINAMICA/1795045811440_copertina.webp
 nome: Effetti di Comprimibilità
 scheda: copertina
-bozza: si
 ---
 
 ## Effetti di Comprimibilità
