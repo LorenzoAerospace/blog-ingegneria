@@ -1,6 +1,6 @@
 [
   {
-    "titolo": "ALI 3D",
+    "titolo": "",
     "descrizione": "Ali 3D Le ali sono l'elemento essenziale del veicolo per la generazione della portanza. Per definire correttam…",
     "categoria": "AERODINAMICA",
     "tags": [],
@@ -8,7 +8,7 @@
     "link": "articolo.html?p=Articles/AERODINAMICA/ALI_3D1.md",
     "path": "Articles/AERODINAMICA/ALI_3D1.md",
     "copertina": "Articles/AERODINAMICA/1794992794416_copertina.svg",
-    "bozza": false
+    "bozza": true
   },
   {
     "titolo": "Reazioni vincolari",
@@ -88,56 +88,6 @@
     "bozza": false
   },
   {
-    "titolo": "Principi di Conservazione",
-    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "copertina": "",
-    "bozza": false
-  },
-  {
-    "titolo": "Macchine termodinamiche",
-    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
-    "copertina": "",
-    "bozza": false
-  },
-  {
-    "titolo": "Introduzione alla Termodinamica",
-    "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
-    "path": "Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
-    "copertina": "",
-    "bozza": false
-  },
-  {
-    "titolo": "Grandezze Termodinamiche",
-    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
-    "categoria": "FISICA TECNICA",
-    "tags": [
-      "#entropia",
-      "#entalpia",
-      "#energiainterna",
-      "#lavoro",
-      "#calore"
-    ],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
-    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
-    "copertina": "",
-    "bozza": false
-  },
-  {
     "titolo": "Effetti di Comprimibilità",
     "descrizione": "Analisi dei regimi di moto, velocità del suono e numero di Mach",
     "categoria": "AERODINAMICA",
@@ -186,6 +136,52 @@
     "link": "articolo.html?p=Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "path": "Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "bozza": true
+  },
+  {
+    "titolo": "Grandezze Termodinamiche",
+    "descrizione": "Definizione di variabili di stato e funzioni di stato.",
+    "categoria": "FISICA TECNICA",
+    "tags": [
+      "#entropia",
+      "#entalpia",
+      "#energiainterna",
+      "#lavoro",
+      "#calore"
+    ],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Grandezze_Termodinamiche.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Introduzione alla Termodinamica",
+    "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
+    "path": "Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Macchine termodinamiche",
+    "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "path": "Articles/FISICA_TECNICA/Macchine_termodinamiche.md",
+    "bozza": false
+  },
+  {
+    "titolo": "Principi di Conservazione",
+    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "bozza": false
   },
   {
     "titolo": "Cinematica del Corpo Rigido",
