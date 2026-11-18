@@ -17,13 +17,15 @@ function leggi(p) {
   const unq = v => { const q = v.match(/^(["'])(.*)\1$/); return q ? q[2] : v.replace(/^\[(.*)\]$/, '$1'); };
   if (m) m[1].split('\n').forEach(r => { const i = r.indexOf(':'); if (i > 0) fm[r.slice(0, i).trim()] = unq(r.slice(i + 1).trim()); });
   const rel = p.split(path.sep).join('/');
+  const solo = /^(si|sì|true|yes)$/i.test(fm.soloCopertina || '');   // scheda con la sola copertina
   return {
-    titolo: fm.titolo || path.basename(p, '.md'), descrizione: fm.descrizione || '',
+    titolo: solo ? '' : (fm.titolo || path.basename(p, '.md')), descrizione: fm.descrizione || '',
     categoria: fm.categoria || 'Altro',
     tags: (fm.tags || '').split(',').map(t => t.trim()).filter(Boolean),
     data: fm.data || new Date().toISOString().slice(0, 10),
     link: 'articolo.html?p=' + encodeURI(rel), path: rel,
     ...(fm.copertina ? { copertina: fm.copertina } : {}),   // anteprima dell'articolo (percorso dalla radice del sito)
+    ...(solo ? { soloCopertina: true } : {}),
     bozza: /^(si|sì|true|yes)$/i.test(fm.bozza || '')
   };
 }
