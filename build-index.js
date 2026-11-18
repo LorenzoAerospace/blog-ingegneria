@@ -24,7 +24,8 @@ function leggi(p) {
     tags: (fm.tags || '').split(',').map(t => t.trim()).filter(Boolean),
     data: fm.data || new Date().toISOString().slice(0, 10),
     link: 'articolo.html?p=' + encodeURI(rel), path: rel,
-    ...(fm.copertina ? { copertina: fm.copertina } : {}),   // anteprima dell'articolo (percorso dalla radice del sito)
+    ...(fm.copertina ? { copertina: fm.copertina } : {}),
+    ...(fm.scheda ? { scheda: fm.scheda } : {}),   // scheda: copertina = nell'elenco si vede solo l'immagine   // anteprima dell'articolo (percorso dalla radice del sito)
     bozza: /^(si|sì|true|yes)$/i.test(fm.bozza || '')
   };
 }
