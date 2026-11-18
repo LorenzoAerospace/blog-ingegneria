@@ -28,6 +28,7 @@
   <p class="lead" id="lead"></p>
   <div class="meta-row" id="meta"></div>
   <div class="tags-row" id="tags"></div>
+  <figure class="cover" id="cover" hidden></figure>
 
   <section id="demo"></section>
   <div id="contenuto" class="prose"></div>
@@ -63,6 +64,11 @@
     (/^https:\/\//i.test(p.repo || '') ? ` · <a href="${esc(p.repo)}" target="_blank" rel="noopener noreferrer">🔗 Repository ↗</a>` : '') +
     (/^https:\/\//i.test(p.ext || '') ? ` · <a href="${esc(p.ext)}" target="_blank" rel="noopener noreferrer">⬇ File esterni ↗</a>` : '');
   $('tags').innerHTML = (p.tags || []).map(t => `<span class="tag-link">${esc(t)}</span>`).join('');
+  if (/^(https?:\/\/|Progetti\/)/.test(p.copertina || '')) {   // copertina del progetto
+    const im = new Image(); im.alt = ''; im.fetchPriority = 'high'; im.onerror = () => { $('cover').hidden = true; }; im.src = encodeURI(p.copertina);
+    $('cover').appendChild(im); $('cover').hidden = false;
+    const og = document.createElement('meta'); og.setAttribute('property', 'og:image'); og.content = new URL(im.src, location.href).href; document.head.appendChild(og);
+  }
 
   // ---- 1) App web: riquadro isolato (nessun accesso a cookie/localStorage del sito) ----
   if ((p.demo === 'web' && safe(e)) || (p.demo === 'iframe' && /^https:\/\//i.test(e || ''))) {

@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="it" data-theme="dark">
 <head>
+<!--
+  ============================================================
+  AEROBLOG · index.html  (home page)
+  ============================================================
+  COME FUNZIONA IL SITO
+  1. Scrivi gli articoli in Articles/<cartella>/nome.md (front-matter: titolo, descrizione, categoria, tags, data, bozza).
+  2. Al push, GitHub Actions (.github/workflows/build-index.yml) esegue scripts/build-index.js,
+     che genera articles.json, sitemap.xml, feed.xml e robots.txt.
+  3. Questa pagina carica articles.json (main.js) e disegna: ultimi articoli, filtri per categoria, ricerca.
+  4. Cliccando un articolo si apre articolo.html?p=Articles/... che renderizza il Markdown.
 
+  COSA MODIFICARE QUI
+  - Solo il blocco "CONFIGURAZIONE" in fondo alla pagina (email, link utili).
+  - Per attivare canonical e immagine di anteprima social, decommenta le righe indicate nel <head>.
+
+  FILE USATI (nella stessa cartella)
+  site.css · theme.js · common.js · main.js · appunti.js · progetti.js · articles.json (generato) · appunti.json e progetti.json (creati da admin.html)
+  ============================================================
+-->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AeroBlog | Appunti di Ingegneria Aerospaziale</title>
@@ -38,6 +56,7 @@
     .links{display:flex;order:3;width:100%;margin:0;overflow-x:auto;white-space:nowrap}
   }
   @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}.card:hover{transform:none}}
+  .cv-card{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:10px;margin:0 0 12px;background:rgba(127,127,127,.14)}
 </style>
 
 <!-- theme.js resta sincrono (niente defer): applica il tema prima del rendering ed evita il lampo di colore -->
@@ -115,7 +134,7 @@
 <footer class="foot"><div class="wrap">
   <span>© <span id="anno">2026</span> AeroBlog · Progetto di uno studente di Ingegneria Aerospaziale</span>
   <span><a href="feed.xml">RSS</a> · <a data-mail href="#">Contatti</a></span>
-</div></footer>
+</div><div class="wrap" style="display:block;text-align:center;font-size:.8rem;margin-top:10px"><span class="credito muted">✦ Design e interfaccia ideati con <a href="https://www.anthropic.com/claude" target="_blank" rel="noopener" style="text-decoration:underline">Claude</a>, l'assistente AI di Anthropic</span></div></footer>
 
 <!-- ============================================================
      CONFIGURAZIONE  ←  l'unico blocco da modificare

@@ -15,7 +15,7 @@
   const corsi = [...new Set(db.map(a => a.corso))];
   let sel = 'Tutti';
 
-  const k = a => { const u = esc(encodeURI(a.path)); return `<div class="card"><span class="badge">${esc(a.corso)}</span><h3>${esc(a.titolo)}</h3>${a.descrizione ? `<p>${esc(a.descrizione)}</p>` : ''}<div class="meta"><span>${fmtData(a.data)}</span><span>PDF${mb(a.dim) ? ' · ' + mb(a.dim) : ''}</span></div><div style="display:flex;gap:8px;margin-top:6px"><a class="btn btn-primary" href="${u}" target="_blank" rel="noopener">Apri</a><a class="btn" href="${u}" download>Scarica</a></div></div>`; };
+  const k = a => { const u = esc(encodeURI(a.path)); return `<div class="card">${copertinaHtml(a)}<span class="badge">${esc(a.corso)}</span><h3>${esc(a.titolo)}</h3>${a.descrizione ? `<p>${esc(a.descrizione)}</p>` : ''}<div class="meta"><span>${fmtData(a.data)}</span><span>PDF${mb(a.dim) ? ' · ' + mb(a.dim) : ''}</span></div><div style="display:flex;gap:8px;margin-top:6px"><a class="btn btn-primary" href="${u}" target="_blank" rel="noopener">Apri</a><a class="btn" href="${u}" download>Scarica</a></div></div>`; };
   const draw = () => {
     const l = db.filter(a => sel === 'Tutti' || a.corso === sel);
     $('app-grid').innerHTML = l.map(k).join('');
