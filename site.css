@@ -134,5 +134,5 @@ a{color:var(--accent)}
 .cover{margin:0 0 28px}
 .cover img{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:14px;border:1px solid var(--border)}
 @media print{.cover img{break-inside:avoid}}
-.card.card-solo{padding:0;gap:0;overflow:hidden}
+.card.card-solo{padding:0;gap:0;overflow:hidden;align-self:start}   /* la scheda è alta quanto l'immagine, senza vuoto sotto anche se le vicine sono più alte */
 .card.card-solo .cv-card{width:100%;margin:0;border-radius:0}
