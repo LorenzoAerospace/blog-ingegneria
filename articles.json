@@ -88,6 +88,17 @@
     "bozza": false
   },
   {
+    "titolo": "Introduzione alla Termodinamica",
+    "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
+    "path": "Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
+    "copertina": "",
+    "bozza": false
+  },
+  {
     "titolo": "Grandezze Termodinamiche",
     "descrizione": "Definizione di variabili di stato e funzioni di stato.",
     "categoria": "FISICA TECNICA",
@@ -153,16 +164,6 @@
     "link": "articolo.html?p=Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "path": "Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "bozza": true
-  },
-  {
-    "titolo": "Introduzione alla Termodinamica",
-    "descrizione": "Definizioni fondamentali, sistemi e variabili di stato",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
-    "path": "Articles/FISICA_TECNICA/Introduzione_alla_Termodinamica.md",
-    "bozza": false
   },
   {
     "titolo": "Macchine termodinamiche",
