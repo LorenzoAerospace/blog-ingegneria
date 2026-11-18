@@ -7,7 +7,6 @@ data: 2026-11-09
 copertina: Articles/AERODINAMICA/1795046314823_copertina.svg
 nome: Forze Sostentatrici
 scheda: copertina
-bozza: si
 ---
 
 ## Forze Sostentatrici
