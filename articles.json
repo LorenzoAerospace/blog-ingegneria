@@ -88,6 +88,17 @@
     "bozza": false
   },
   {
+    "titolo": "Principi di Conservazione",
+    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
+    "categoria": "FISICA TECNICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
+    "copertina": "",
+    "bozza": false
+  },
+  {
     "titolo": "Macchine termodinamiche",
     "descrizione": "Introduzione delle macchine termodinamiche e delle varie tipologie, con le relative relazioni",
     "categoria": "FISICA TECNICA",
@@ -175,16 +186,6 @@
     "link": "articolo.html?p=Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "path": "Articles/AUTOMATICA/Introduzione_all_Automatica.md",
     "bozza": true
-  },
-  {
-    "titolo": "Principi di Conservazione",
-    "descrizione": "Analisi del Primo e Secondo Principio della Termodinamica",
-    "categoria": "FISICA TECNICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "path": "Articles/FISICA_TECNICA/Principi_di_Conservazione.md",
-    "bozza": false
   },
   {
     "titolo": "Cinematica del Corpo Rigido",
