@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
 <link rel="stylesheet" href="site.css"><script src="theme.js"></script>
-<style>.cover{margin:0 0 28px}.cover img{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:14px;border:1px solid var(--border)}@media print{.cover img{break-inside:avoid}}.cv-card{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:10px;margin:0 0 12px;background:rgba(127,127,127,.14)}</style>
+<style>.cv-card{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:10px;margin:0 0 12px;background:rgba(127,127,127,.14)}</style>
 </head>
 <body>
 <div id="progress"></div>
@@ -26,7 +26,6 @@
     <p class="lead" id="lead"></p>
     <div class="meta-row" id="meta"></div>
     <div class="tags-row" id="tags"></div>
-    <figure class="cover" id="cover" hidden></figure>
     <div class="prose" id="contenuto"></div>
     <div class="pn" id="pn"></div>
     <section id="rel-wrap" style="display:none;margin-top:48px"><h2 style="font-size:1.3rem">Continua a leggere</h2><div class="grid" id="rel"></div></section>
@@ -59,10 +58,8 @@
   const dir = p.slice(0, p.lastIndexOf('/') + 1);
   el.querySelectorAll('img').forEach(i => { const s = i.getAttribute('src') || ''; if (!/^(https?:|data:|\/)/.test(s)) i.src = dir + s; });
 
-  if (fm.copertina) {   // copertina: percorso dalla radice del sito (Articles/…) oppure relativo alla cartella dell'articolo
-    const c = fm.copertina, src = /^(https?:|data:|\/|Articles\/)/.test(c) ? c : dir + c, im = new Image();
-    im.alt = ''; im.fetchPriority = 'high'; im.onerror = () => { $('cover').hidden = true; }; im.src = src;
-    $('cover').appendChild(im); $('cover').hidden = false;
+  if (fm.copertina) {   // la copertina compare solo sulle schede; qui serve soltanto come anteprima quando si condivide il link
+    const c = fm.copertina, src = /^(https?:|data:|\/|Articles\/)/.test(c) ? c : dir + c;
     const og = document.createElement('meta'); og.setAttribute('property', 'og:image'); og.content = new URL(src, location.href).href; document.head.appendChild(og);
   }
 
