@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
 <link rel="stylesheet" href="site.css"><script src="theme.js"></script>
-<style>.cv-card{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:10px;margin:0 0 12px;background:rgba(127,127,127,.14)}</style>
+<style>.cover{margin:0 0 28px}.cover img{display:block;width:100%;height:auto;border-radius:14px;border:1px solid var(--border)}.cv-card{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:10px;margin:0 0 12px;background:rgba(127,127,127,.14)}</style>
 </head>
 <body>
 <div id="progress"></div>
@@ -52,8 +52,6 @@
   document.querySelector('meta[property="og:title"]').content = fm.titolo || '';
   document.querySelector('meta[property="og:description"]').content = fm.descrizione || '';
   $('titolo').textContent = fm.titolo || ''; $('lead').textContent = fm.descrizione || '';
-  const solo = /^(si|sì|true|yes)$/i.test(fm.soloCopertina || '');
-  if (solo) { $('titolo').hidden = true; $('lead').hidden = true; document.title = 'AeroBlog'; }
   $('cat').textContent = fm.categoria || ''; $('cat').href = 'index.html?cat=' + encodeURIComponent(fm.categoria || '') + '#articoli';
 
   el.innerHTML = renderMarkdown(txt);
@@ -61,15 +59,15 @@
   el.querySelectorAll('img').forEach(i => { const s = i.getAttribute('src') || ''; if (!/^(https?:|data:|\/)/.test(s)) i.src = dir + s; });
 
   // la copertina compare solo sulle schede: tolgo dal testo l'eventuale immagine «Copertina» (inserita dal generatore di figure)
-  if (!solo) el.querySelectorAll('img').forEach(i => {
+  el.querySelectorAll('img').forEach(i => {
     if (!(/^copertina$/i.test((i.alt || '').trim()) || /copertina\.\w+$/i.test(i.getAttribute('src') || ''))) return;
     const pr = i.parentElement; i.remove();
     if (pr && pr !== el && !pr.textContent.trim() && !pr.querySelector('img,svg,table')) pr.remove();
   });
 
-  if (solo && fm.copertina) {   // modalità «solo copertina»: l'immagine è il contenuto della pagina
-    const c = fm.copertina, im = new Image(); im.className = 'cv-card'; im.alt = ''; im.src = /^(https?:|data:|\/|Articles\/)/.test(c) ? c : dir + c;
-    el.prepend(im);
+  if (fm.copertina && !el.textContent.trim() && !el.querySelector('img,svg,table')) {   // articolo senza testo: la pagina mostra la copertina
+    const c = fm.copertina, src = /^(https?:|data:|\/|Articles\/)/.test(c) ? c : dir + c;
+    el.innerHTML = `<figure class="cover"><img src="${esc(src)}" alt="${esc(fm.titolo || 'Copertina')}"></figure>`;
   }
   if (fm.copertina) {   // la copertina compare solo sulle schede; qui serve soltanto come anteprima quando si condivide il link
     const c = fm.copertina, src = /^(https?:|data:|\/|Articles\/)/.test(c) ? c : dir + c;
@@ -96,7 +94,7 @@
   try {
     const all = (await (await fetch('articles.json')).json()).filter(a => !a.bozza);
     const same = all.filter(a => a.categoria === fm.categoria), i = same.findIndex(a => a.path === p);
-    const box = (a, l) => a ? `<a href="${esc(a.link)}"><small>${l}</small>${esc(a.titolo) || 'Copertina'}</a>` : '';
+    const box = (a, l) => a ? `<a href="${esc(a.link)}"><small>${l}</small>${esc(a.titolo)}</a>` : '';
     $('pn').innerHTML = box(same[i + 1], '← Precedente') + box(same[i - 1], 'Successivo →');
     const rel = all.filter(a => a.path !== p && (a.categoria === fm.categoria || (a.tags || []).some(t => tags.includes(t)))).slice(0, 3);
     if (rel.length) { $('rel').innerHTML = rel.map(card).join(''); $('rel-wrap').style.display = ''; }
