@@ -2,7 +2,7 @@
 titolo: 
 descrizione: Ali 3D Le ali sono l'elemento essenziale del veicolo per la generazione della portanza. Per definire correttam…
 categoria: AERODINAMICA
-tags: 
+tags: #ali, #resistenza
 data: 2026-11-17
 copertina: Articles/AERODINAMICA/1794992794416_copertina.svg
 ---
