@@ -6,6 +6,7 @@ tags: #ali, #resistenza
 data: 2026-11-17
 copertina: Articles/AERODINAMICA/1794992794416_copertina.svg
 nome: ALI 3D
+bozza: si
 ---
 
 ## Ali 3D
