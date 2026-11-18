@@ -1,9 +1,13 @@
 ---
-titolo: Forze Sostentatrici
-descrizione: L'origine della portanza: dal vento asintotico alla circolazione
+titolo: 
+descrizione: 
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
+copertina: Articles/AERODINAMICA/1795046314823_copertina.svg
+nome: Forze Sostentatrici
+scheda: copertina
+bozza: si
 ---
 
 ## Forze Sostentatrici
