@@ -130,7 +130,7 @@ a{color:var(--accent)}
 @media(max-width:760px){.nav-in{flex-wrap:wrap;height:auto;padding:8px 0;gap:10px}.links{display:flex!important;order:3;width:100%;margin-left:0;overflow-x:auto;white-space:nowrap}.nav-r{margin-left:auto}}
 
 /* ===== Copertine ===== */
-.cv-card{display:block;width:calc(100% + 40px);max-width:none;aspect-ratio:16/9;object-fit:cover;margin:-20px -20px 6px;border-radius:calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0;background:var(--surface2)}
+.cv-card{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:10px;margin:0 0 12px;background:var(--surface2)}
 .cover{margin:0 0 28px}
-.cover img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:14px;border:1px solid var(--border)}
+.cover img{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover;border-radius:14px;border:1px solid var(--border)}
 @media print{.cover img{break-inside:avoid}}
