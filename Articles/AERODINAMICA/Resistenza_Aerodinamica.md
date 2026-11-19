@@ -1,9 +1,13 @@
 ---
-titolo: Resistenza Aerodinamica
-descrizione: Dallo strato limite di Prandtl alla scomposizione delle forze dissipative
+titolo: 
+descrizione: 
 categoria: AERODINAMICA
 tags: 
 data: 2026-11-09
+copertina: Articles/AERODINAMICA/1795046582810_copertina.svg
+nome: Resistenza Aerodinamica
+scheda: copertina
+bozza: si
 ---
 
 ## Resistenza Aerodinamica
