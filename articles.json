@@ -26,7 +26,7 @@
     "path": "Articles/FONDAMENTI_DI_MECCANICA_STRUTTURALE/Reazioni_vincolari.md",
     "copertina": "Articles/FONDAMENTI_DI_MECCANICA_STRUTTURALE/1794992818295_copertina.webp",
     "scheda": "copertina",
-    "bozza": false
+    "bozza": true
   },
   {
     "titolo": "La soluzione esatta non esiste (o non sappiamo trovarla): il ruolo dell'analisi numerica",
