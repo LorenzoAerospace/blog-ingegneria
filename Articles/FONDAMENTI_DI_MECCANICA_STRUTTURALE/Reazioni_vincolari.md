@@ -1,10 +1,12 @@
 ---
-titolo: Reazioni vincolari
-descrizione: Scopri cosa sono le reazioni vincolari e come calcolarle velocemente su strutture isostatiche complesse utilizzando il metodo dello schema ad albero.
+titolo: 
+descrizione: 
 categoria: FONDAMENTI DI MECCANICA STRUTTURALE
 tags: #schemealbero, #strutture
 data: 2026-11-16
 copertina: Articles/FONDAMENTI_DI_MECCANICA_STRUTTURALE/1794992818295_copertina.webp
+nome: Reazioni vincolari
+scheda: copertina
 ---
 
 ### Reazioni vincolari e metodo dello schema ad albero
