@@ -96,6 +96,18 @@
     "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
+    "path": "Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
+    "copertina": "Articles/AERODINAMICA/1795046582810_copertina.svg",
+    "scheda": "copertina",
+    "bozza": true
+  },
+  {
+    "titolo": "",
+    "descrizione": "",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
     "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
     "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
     "copertina": "Articles/AERODINAMICA/1795046314823_copertina.svg",
@@ -112,16 +124,6 @@
     "path": "Articles/AERODINAMICA/Elementi_di_Aerodinamica.md",
     "copertina": "Articles/AERODINAMICA/1795046023006_copertina.webp",
     "scheda": "copertina",
-    "bozza": false
-  },
-  {
-    "titolo": "Resistenza Aerodinamica",
-    "descrizione": "Dallo strato limite di Prandtl alla scomposizione delle forze dissipative",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
-    "path": "Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
     "bozza": false
   },
   {
