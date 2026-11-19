@@ -7,7 +7,6 @@ data: 2026-11-09
 copertina: Articles/AERODINAMICA/1795046582810_copertina.svg
 nome: Resistenza Aerodinamica
 scheda: copertina
-bozza: si
 ---
 
 ## Resistenza Aerodinamica
