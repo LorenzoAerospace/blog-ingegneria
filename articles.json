@@ -14,8 +14,8 @@
     "bozza": false
   },
   {
-    "titolo": "Reazioni vincolari",
-    "descrizione": "Scopri cosa sono le reazioni vincolari e come calcolarle velocemente su strutture isostatiche complesse utilizzando il metodo dello schema ad albero.",
+    "titolo": "",
+    "descrizione": "",
     "categoria": "FONDAMENTI DI MECCANICA STRUTTURALE",
     "tags": [
       "#schemealbero",
@@ -25,6 +25,7 @@
     "link": "articolo.html?p=Articles/FONDAMENTI_DI_MECCANICA_STRUTTURALE/Reazioni_vincolari.md",
     "path": "Articles/FONDAMENTI_DI_MECCANICA_STRUTTURALE/Reazioni_vincolari.md",
     "copertina": "Articles/FONDAMENTI_DI_MECCANICA_STRUTTURALE/1794992818295_copertina.webp",
+    "scheda": "copertina",
     "bozza": false
   },
   {
@@ -96,21 +97,9 @@
     "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
-    "path": "Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
-    "copertina": "Articles/AERODINAMICA/1795046582810_copertina.svg",
-    "scheda": "copertina",
-    "bozza": false
-  },
-  {
-    "titolo": "",
-    "descrizione": "",
-    "categoria": "AERODINAMICA",
-    "tags": [],
-    "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
-    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
-    "copertina": "Articles/AERODINAMICA/1795046314823_copertina.svg",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
+    "copertina": "Articles/AERODINAMICA/1795045811440_copertina.webp",
     "scheda": "copertina",
     "bozza": false
   },
@@ -295,9 +284,21 @@
     "categoria": "AERODINAMICA",
     "tags": [],
     "data": "2026-11-09",
-    "link": "articolo.html?p=Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "path": "Articles/AERODINAMICA/Effetti_di_Comprimibilita.md",
-    "copertina": "Articles/AERODINAMICA/1795045811440_copertina.webp",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
+    "path": "Articles/AERODINAMICA/Resistenza_Aerodinamica.md",
+    "copertina": "Articles/AERODINAMICA/1795046582810_copertina.svg",
+    "scheda": "copertina",
+    "bozza": false
+  },
+  {
+    "titolo": "",
+    "descrizione": "",
+    "categoria": "AERODINAMICA",
+    "tags": [],
+    "data": "2026-11-09",
+    "link": "articolo.html?p=Articles/AERODINAMICA/Forze_Sostentatrici.md",
+    "path": "Articles/AERODINAMICA/Forze_Sostentatrici.md",
+    "copertina": "Articles/AERODINAMICA/1795046314823_copertina.svg",
     "scheda": "copertina",
     "bozza": false
   }
